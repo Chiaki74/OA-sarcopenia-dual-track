@@ -1,0 +1,12 @@
+# 数据与结果不入库（体积与 GEO 再分发条款）
+data/
+processed/
+results/
+*.rds
+*.RDS
+*.RData
+*.Rhistory
+
+# 系统文件
+.DS_Store
+Thumbs.db
