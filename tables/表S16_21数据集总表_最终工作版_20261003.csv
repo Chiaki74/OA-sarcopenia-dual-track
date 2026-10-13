@@ -1,0 +1,22 @@
+﻿GSE编号,标题,组织,平台,样本量与分组（GEO实测）,分组变量,表型属性,计划角色（v1.3）,与计划书差异/核实备注,处理建议,可下载
+GSE114007,TFs dysregulated networks in OA cartilage,膝软骨,RNA-seq (GPL11154+GPL18573双批次),18正常/20 OA,oa grade,OA,训练集（主）,一致；两平台批次效应需校正,limma/DESeq2时纳入批次协变量,✓
+GSE55235,RA/OA transcriptome rule set,滑膜,芯片 GPL96 U133A,10正常/10 OA（另10 RA）,disease state,OA,训练集,一致；另含10例RA,仅取正常+OA样本,✓
+GSE55457,同上[Jena分中心],滑膜,芯片 GPL96 U133A,10正常/10 OA（另13 RA）,clinical status,OA,训练集,一致但漏记13 RA；与GSE55235同研究,与GSE55235经RRA整合而非合并矩阵,✓
+GSE12021,Variance in RA synovial membrane,滑膜,芯片 GPL96+GPL97双平台,9正常/10 OA（GPL96口径）,标题前缀+characteristics,OA,训练集（修正：不可作独立验证集）,原'约10/10'不准确；同批患者双平台重复检测；与GSE55457供体重叠（Eisenberg队列）,仅纳入训练侧RRA；去重双平台样本,✓
+GSE51588,Subchondral bone in OA,软骨下骨（胫骨平台LT/MT）,芯片 Agilent GPL13497,5供体正常/20供体OA（每供体LT+MT双部位=10/40样本）,disease state + tissue,OA,训练集（多组织卖点）,独立供体实为5/20；同供体双部位非独立,按供体处理或仅取单侧；敏感性分析说明,✓
+GSE169077,Dysregulated OA cartilage,膝软骨,芯片 GPL96 U133A,5正常/6 OA,disease state,OA,验证集,一致；但为5个体/池的混合样本，无个体级重复,仅作表达方向验证，不作统计检验主力,✓
+GSE168505,14-3-3ε/TNFR2 protects against OA,软骨,RNA-seq GPL16791,3正常/4 OA,disease state,OA,验证集,一致；样本量小,降级预案③对象（维持）,✓
+GSE57218,Gene expression joint-matched intact & OA cartilage (RAAK),膝/髋软骨（含同关节配对保留区）,芯片 GPL6947 HumanHT-12 V3.0,7健康/33 OA受累/33 OA保留（共73）,cartilage type (healthy/OA affected/OA preserved),OA,验证集（v1.4a新增，替换GSE129147）,GEO页面+原始论文PMC4108379+多篇二手文献核实；PMID 25054223/25261579；RAAK队列，主分析用7健康vs33 OA受累,主分析取健康vs受累非配对比较；33例配对保留软骨作方向一致性/敏感性补充,✓
+GSE206848,Dysregulated OA/RA synovium,膝滑膜,芯片 GPL570 U133 Plus2,7正常/7 OA（另2 RA）,tissue描述,OA,验证集,一致但漏记2 RA；与GSE169077同团队,仅取正常+OA样本,✓
+GSE48556,PBMC of OA vs controls (GARP),外周血PBMC（确认非全血）,芯片 GPL6947 HumanHT-12 v3,33对照/106 OA,disease state,OA,验证集（血液卖点，关键）,修正：组织为PBMC；样本性别构成为129女/10男，并非全女性；存在同胞对家系相关,统计分析考虑家系相关性；论文中准确表述为PBMC、106 OA/33对照、129女/10男,✓
+GSE1428,Skeletal muscle sarcopenia,股外侧肌,芯片 GPL96 U133A,10年轻/12老年（全男性）,年龄分组,衰老+轻度肌少症,训练集,GEO标题即sarcopenia，老年组为轻度肌少症,表型标注为'衰老+轻度肌少症',✓
+GSE25941,Effects of age on muscle transcriptome,股外侧肌,芯片 GPL570 U133 Plus2,15年轻/21老年,年龄分组,纯衰老（健康人）,训练集,GEO页面不支持肌少症标签（二手文献常误标）,论文中声明为衰老代理表型,✓
+GSE111016,Singapore Sarcopenia Study,骨骼肌,RNA-seq GPL16791,20肌少症/20对照,组别,确诊肌少症（表型锚点）,训练集,一致；GSE111017子系列,表型锚点数据集,✓
+GSE111010,Jamaica Sarcopenia Study,骨骼肌,RNA-seq GPL16791,14健康/9肌少/5低肌量/11低肌力,组别+亚组,确诊肌少症+亚组,训练/验证,GSE111017子系列；肌少症仅9例,与GSE111016同系列注意批次,✓
+GSE111006,Hertfordshire Sarcopenia Study,骨骼肌,RNA-seq GPL16791,28健康/4肌少/5低肌量/3低肌力,组别+亚组,确诊肌少症+亚组,训练/验证,肌少症仅4例，统计效力弱,降级预案③对象（维持）,✓
+GSE136344,Aging & metabolic syndrome in men,股外侧肌,芯片 GPL5175 Exon 1.0 ST,年轻/健康老年/老年+代谢综合征三组（全男性）,组别,衰老±代谢综合征,验证集,修正：无运动干预亚组（原计划书有误；运动干预在GSE117525）,更新计划书描述,✓
+GSE117525,Protocadherin gamma & muscle weakness,股外侧肌,芯片 GPL20880 Gene 1.1 ST,53年轻/73健康老年/61虚弱+随访41+31（总259）,组别+时间点,虚弱frailty（Fried标准）+运动干预,验证集,表型为frailty非肌少症；含抗阻训练随访,基线样本作主分析,✓
+GSE144304,Fit vs (pre-)frail muscle,股外侧肌,RNA-seq GPL18573,30健康老年/24(前期)虚弱+26年轻（总80）,性别+年龄组+虚弱状态,虚弱frailty（Fried标准）,验证集,另含26例年轻人（原计划书未提及）,降级预案③对象（维持）,✓
+GSE152805,Synovial-cartilage cross-talk in OA,OA软骨（内侧/外侧）+配对滑膜,scRNA-seq 10x (GPL20301),"3 OA供体/36,832细胞（9样本）",组织×病变程度,OA,单细胞定位（OA侧主）,一致,—,✓
+GSE169454,14-3-3ε/TNFR2 in OA [scRNA-seq],软骨细胞,scRNA-seq GPL16791,3正常/4 OA（7样本）,disease state,OA,单细胞验证,一致,—,✓
+GSE167186,Single-nuclei aged skeletal muscle,股外侧肌,bulk+snRNA-seq (GPL20301+GPL24676),bulk 72（19年轻/29非肌少老年/24肌少老年）+ snRNA-seq 17例；最终合计89例,年龄组+肌少症状态,衰老+肌少症,单核定位（肌肉侧主）,GEO列93条样本记录；按最终纳入口径剔除4例UNCLASSIFIED后为89例（bulk 72 + snRNA-seq 17）,按最终89例口径归档；单核侧仅作Old与Young的aging proxy定位,✓

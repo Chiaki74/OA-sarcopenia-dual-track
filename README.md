@@ -6,7 +6,7 @@ Integrative multi-omics analysis of shared molecular programs between **osteoart
 
 This repository accompanies the manuscript:
 
-> *Integrative multi-omics and genetic analysis reveals shared molecular axes and inter-tissue mirror dysregulation between osteoarthritis and sarcopenia* (submission in preparation)
+> *Integrated multi-omics and genetic analyses reveal a shared molecular axis and cross-tissue mirror dysregulation between osteoarthritis and sarcopenia: development and external validation of an osteoarthritis diagnostic biomarker panel* (submitted to *Clinical Rheumatology*; Online Resource 1 archived under `docs/`)
 
 **Key design features**
 
@@ -20,15 +20,28 @@ This repository accompanies the manuscript:
 .
 ├── README.md
 ├── LICENSE
-├── scripts/            # analysis pipeline, numbered in execution order
-│   ├── 00–11 ...      # environment setup, GEO download/QC, modules A–H
-│                      # (to be added from the analysis workstation before archiving)
-│   ├── 12_moduleI_nomogram_单基因AUC_分类器稳健性_20260913.R
-│   ├── 13_moduleJ_TFmiRNA调控网络_20260914.R
-│   ├── 13b_moduleJ_补丁_TF库重试与TRRUST兜底_20260914.R
-│   ├── 14c_moduleK_CellChat_分组标签与presto修正_20260914.R
-│   └── 15_sessionInfo_S10工具版本表_20260915.R
-└── docs/              # supplementary checklists (TRIPOD+AI / STROBE-MR)
+├── scripts/            # analysis pipeline, numbered in execution order (final frozen
+│                       #  versions; superseded iterations are kept in the local archive)
+│   ├── setup_R_environment.R, 00–05  # environment, GEO download/QC, modules A–D
+│   │                                 # (preprocessing, dual-track construction, enrichment, ML)
+│   ├── 06–09            # modules E–G (external validation, immune infiltration, single-cell)
+│   ├── 10–13e           # module H (MR, coloc, SuSiE diagnostics and LD-sensitivity stages)
+│   ├── 11–12e           # module I (druggable genome, nomogram, classifier robustness)
+│   ├── 13–14c           # modules J–K (TF–miRNA network, CellChat)
+│   ├── 15/15b           # sessionInfo → supplementary Table S10 (15b = frozen 2026-10-08 run)
+│   ├── 16–21            # ClinRheum-style main figures 1–5 (final via versions)
+│   ├── 22–31            # audit, prediction rebuild, figure-input preparation and panel assembly
+│   ├── 22_sfig1–38      # supplementary figure redraws and composite layout
+│   ├── 23–26_moduleB/I  # LODO robustness, donor-overlap merge correction, coefficient extraction
+│   ├── 39–44            # archive-path audit, Table 1 assembly, GSE168505 prediction rebuild,
+│   │                    # MAF/SuSiE convention audit
+│   └── fix14v4          # CIBERSORTx mixture preparation (Stanford platform validation)
+├── tables/             # frozen supplementary tables (S11, S12, S13-Appendix, S16, S19, S20,
+│                       #  S20-Appendices), module A status, CIBERSORT two-implementation
+│                       #  comparison, group definitions
+├── reference/          # local KEGG snapshot (2026-08-23) used for enrichment reproducibility
+└── docs/               # Online Resource (ESM_1: S-Fig 1–13 legends, Tables S1–S20 notes,
+                        #  TRIPOD+AI 2024 and STROBE-MR 2021 checklists, Appendix D)
 ```
 
 ## Data availability
