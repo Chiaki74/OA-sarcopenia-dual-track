@@ -1,0 +1,510 @@
+[2026-08-26 17:11:05] 模块 H v2.2(fix2) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-26 17:11:05] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-26 17:11:05] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-26 17:11:06] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-26 17:11:06] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-26 17:11:06]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:11:23]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 17:11:23]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 17:11:29]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 17:11:30] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-26 17:11:30]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:11:30]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 17:11:30]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 17:15:20]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-26 17:28:52] 模块 H v2.3(fix3) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-26 17:28:52] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-26 17:28:52] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-26 17:28:52] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-26 17:28:52] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-26 17:28:52]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:29:02]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 17:29:02]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 17:29:11]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 17:29:11] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-26 17:29:11]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:29:11]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 17:29:11]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 17:31:58]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-26 17:31:58]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 17:31:59] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-26 17:31:59]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:58:45] 模块 H v2.4(fix4) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-26 17:58:45] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-26 17:58:45] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-26 17:58:46] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-26 17:58:46] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-26 17:58:46]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:59:24]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 17:59:24]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 17:59:37]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 17:59:37] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-26 17:59:37]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 17:59:37]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 17:59:37]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 18:02:30]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-26 18:02:30]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 18:02:30] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-26 18:02:30]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:11:24] 模块 H v2.5(fix5) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-26 18:11:24] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-26 18:11:24] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-26 18:11:24] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-26 18:11:25] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-26 18:11:25]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:11:48]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 18:11:48]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 18:12:00]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 18:12:00] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-26 18:12:00]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:12:00]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 18:12:00]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 18:14:37]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-26 18:14:37]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 18:14:37] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-26 18:14:37]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:15:03]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 77.59% 
+[2026-08-26 18:15:11]   F统计量：min=30.2 mean=45.5（阈值>10）通过 
+[2026-08-26 18:15:13]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 18:15:14]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 18:22:27] 模块 H v2.6(fix6) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-26 18:22:27] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-26 18:22:27] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-26 18:22:27] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-26 18:22:27] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-26 18:22:27]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:23:16]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 18:23:16]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 18:23:19]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 18:23:19] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-26 18:23:19]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:23:20]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 18:23:20]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 18:25:52]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-26 18:25:52]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 18:25:52] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-26 18:25:52]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 18:26:18]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 77.59% 
+[2026-08-26 18:26:25]   F统计量：min=30.2 mean=45.5（阈值>10）通过 
+[2026-08-26 18:26:26]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 18:26:26]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 19:55:42] 模块 H v2.7(fix7) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-26 19:55:42] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-26 19:55:42] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-26 19:55:42] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-26 19:55:42] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-26 19:55:42]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 19:56:00]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 19:56:00]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 19:56:07]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 19:56:07] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-26 19:56:07]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 19:56:07]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 19:56:07]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 19:59:27]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-26 19:59:27]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 19:59:27] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-26 19:59:27]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 19:59:45]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 77.59% 
+[2026-08-26 19:59:53]   F统计量：min=30.2 mean=45.5（阈值>10）通过 
+[2026-08-26 19:59:53]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-26 19:59:59]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-26 20:00:03]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:07]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:13]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:13]   [放弃] 区域查询 ebi-a-GCST90007526 1:66685200-67685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:00:17]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:21]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:26]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:26]   [放弃] 区域查询 ebi-a-GCST90007526 1:67685200-68685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:00:31]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:37]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:43]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:00:43]   [放弃] 区域查询 ebi-a-GCST90007526 1:68685200-68688334 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:00:46]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:00:58]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-26 20:01:01]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:06]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:13]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:13]   [放弃] 区域查询 ebi-a-GCST90000025 1:66685200-67685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:01:18]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:23]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:29]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:29]   [放弃] 区域查询 ebi-a-GCST90000025 1:67685200-68685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:01:33]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:36]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:44]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:01:44]   [放弃] 区域查询 ebi-a-GCST90000025 1:68685200-68688334 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:01:46]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:01:52]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-26 20:01:56]   [错误，重试 1/3] 区域查询 ukb-b-4711 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:01]   [错误，重试 2/3] 区域查询 ukb-b-4711 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:07]   [错误，重试 3/3] 区域查询 ukb-b-4711 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:07]   [放弃] 区域查询 ukb-b-4711 1:66685200-67685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:02:11]   [错误，重试 1/3] 区域查询 ukb-b-4711 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:16]   [错误，重试 2/3] 区域查询 ukb-b-4711 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:22]   [错误，重试 3/3] 区域查询 ukb-b-4711 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:22]   [放弃] 区域查询 ukb-b-4711 1:67685200-68685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:02:26]   [错误，重试 1/3] 区域查询 ukb-b-4711 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:31]   [错误，重试 2/3] 区域查询 ukb-b-4711 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:38]   [错误，重试 3/3] 区域查询 ukb-b-4711 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:02:38]   [放弃] 区域查询 ukb-b-4711 1:68685200-68688334 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:02:42]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:02:42]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:02:58]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-26 20:03:00]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:04]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:11]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 1:66685200-67685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:11]   [放弃] 区域查询 ebi-a-GCST007090 1:66685200-67685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:03:15]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:20]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:27]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 1:67685200-68685199：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:27]   [放弃] 区域查询 ebi-a-GCST007090 1:67685200-68685199 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:03:31]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:34]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:40]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 1:68685200-68688334：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:03:40]   [放弃] 区域查询 ebi-a-GCST007090 1:68685200-68688334 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:03:42]   提取 GADD45A @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:03:43]   GADD45A 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 20:03:43] ■ FBLN5（track=concordant；OA:up / muscle:up；chr14:91869410-91947694） 
+[2026-08-26 20:03:43]   提取 FBLN5 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:03:49]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 85.64% 
+[2026-08-26 20:03:54]   F统计量：min=35.8 mean=1466.4（阈值>10）通过 
+[2026-08-26 20:03:55]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:04:07]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-26 20:04:09]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:13]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:20]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:20]   [放弃] 区域查询 ebi-a-GCST90007526 14:90869410-91869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:04:24]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:27]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:33]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:33]   [放弃] 区域查询 ebi-a-GCST90007526 14:91869410-92869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:04:39]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:42]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:51]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:04:51]   [放弃] 区域查询 ebi-a-GCST90007526 14:92869410-92947694 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:05:35]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-26 20:05:37]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:05:41]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:05:47]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:05:47]   [放弃] 区域查询 ebi-a-GCST90000025 14:90869410-91869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:05:51]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:05:57]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:03]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:03]   [放弃] 区域查询 ebi-a-GCST90000025 14:91869410-92869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:06:08]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:12]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:20]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:20]   [放弃] 区域查询 ebi-a-GCST90000025 14:92869410-92947694 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:06:47]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-26 20:06:49]   [错误，重试 1/3] 区域查询 ukb-b-4711 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:53]   [错误，重试 2/3] 区域查询 ukb-b-4711 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:59]   [错误，重试 3/3] 区域查询 ukb-b-4711 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:06:59]   [放弃] 区域查询 ukb-b-4711 14:90869410-91869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:07:06]   [错误，重试 1/3] 区域查询 ukb-b-4711 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:07:12]   [错误，重试 2/3] 区域查询 ukb-b-4711 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:07:18]   [错误，重试 3/3] 区域查询 ukb-b-4711 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:07:18]   [放弃] 区域查询 ukb-b-4711 14:91869410-92869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:07:24]   [错误，重试 1/3] 区域查询 ukb-b-4711 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:07:29]   [错误，重试 2/3] 区域查询 ukb-b-4711 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:07:35]   [错误，重试 3/3] 区域查询 ukb-b-4711 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:07:35]   [放弃] 区域查询 ukb-b-4711 14:92869410-92947694 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:07:40]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:07:55]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-26 20:07:58]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:03]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:10]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 14:90869410-91869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:10]   [放弃] 区域查询 ebi-a-GCST007090 14:90869410-91869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:08:14]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:19]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:26]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 14:91869410-92869409：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:26]   [放弃] 区域查询 ebi-a-GCST007090 14:91869410-92869409 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:08:30]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:35]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:42]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 14:92869410-92947694：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:08:42]   [放弃] 区域查询 ebi-a-GCST007090 14:92869410-92947694 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:08:44]   提取 FBLN5 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:08:47]   GTEx rsID 映射：16/16 个位点成功 
+[2026-08-26 20:08:47]   FBLN5 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 20:08:48] ■ HEMK1（track=concordant；OA:up / muscle:up；chr3:50569151-50596166） 
+[2026-08-26 20:08:48]   提取 HEMK1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:08:55]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 75.55% 
+[2026-08-26 20:09:04]   F统计量：min=42.6 mean=146.1（阈值>10）通过 
+[2026-08-26 20:09:05]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:09:16]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-26 20:09:18]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:22]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:27]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:27]   [放弃] 区域查询 ebi-a-GCST90007526 3:49569151-50569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:09:32]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:38]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:46]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:46]   [放弃] 区域查询 ebi-a-GCST90007526 3:50569151-51569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:09:50]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:09:56]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:10:05]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:10:05]   [放弃] 区域查询 ebi-a-GCST90007526 3:51569151-51596166 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:10:24]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-26 20:10:30]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:10:36]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:10:49]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:10:49]   [放弃] 区域查询 ebi-a-GCST90000025 3:49569151-50569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:10:53]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:10:58]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:03]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:03]   [放弃] 区域查询 ebi-a-GCST90000025 3:50569151-51569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:11:09]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:13]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:19]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:19]   [放弃] 区域查询 ebi-a-GCST90000025 3:51569151-51596166 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:11:31]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-26 20:11:33]   [错误，重试 1/3] 区域查询 ukb-b-4711 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:39]   [错误，重试 2/3] 区域查询 ukb-b-4711 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:45]   [错误，重试 3/3] 区域查询 ukb-b-4711 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:45]   [放弃] 区域查询 ukb-b-4711 3:49569151-50569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:11:50]   [错误，重试 1/3] 区域查询 ukb-b-4711 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:11:55]   [错误，重试 2/3] 区域查询 ukb-b-4711 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:03]   [错误，重试 3/3] 区域查询 ukb-b-4711 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:03]   [放弃] 区域查询 ukb-b-4711 3:50569151-51569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:12:07]   [错误，重试 1/3] 区域查询 ukb-b-4711 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:13]   [错误，重试 2/3] 区域查询 ukb-b-4711 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:20]   [错误，重试 3/3] 区域查询 ukb-b-4711 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:20]   [放弃] 区域查询 ukb-b-4711 3:51569151-51596166 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:12:23]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:12:32]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-26 20:12:35]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:39]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:45]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 3:49569151-50569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:45]   [放弃] 区域查询 ebi-a-GCST007090 3:49569151-50569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:12:50]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:54]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:59]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 3:50569151-51569150：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:12:59]   [放弃] 区域查询 ebi-a-GCST007090 3:50569151-51569150 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:13:03]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:13:08]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:13:17]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 3:51569151-51596166：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:13:17]   [放弃] 区域查询 ebi-a-GCST007090 3:51569151-51596166 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:13:19]   提取 HEMK1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:13:23]   GTEx rsID 映射：1179/1179 个位点成功 
+[2026-08-26 20:13:33]   HEMK1 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs13076850） 
+[2026-08-26 20:13:33]   F统计量：min=73.4 mean=73.4（阈值>10）通过 
+[2026-08-26 20:13:33]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:13:33]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:13:35]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:13:35]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:13:36]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:13:36]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:13:36] ■ GDE1（track=mirror_OAup_muscleDown；OA:up / muscle:down；chr16:19501692-19522098） 
+[2026-08-26 20:13:36]   提取 GDE1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:13:50]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 88.73% 
+[2026-08-26 20:13:54]   F统计量：min=30.7 mean=883.8（阈值>10）通过 
+[2026-08-26 20:13:55]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:14:04]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-26 20:14:07]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:13]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:18]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:18]   [放弃] 区域查询 ebi-a-GCST90007526 16:18501692-19501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:14:23]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:27]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:32]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:32]   [放弃] 区域查询 ebi-a-GCST90007526 16:19501692-20501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:14:37]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:42]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:50]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:14:50]   [放弃] 区域查询 ebi-a-GCST90007526 16:20501692-20522098 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:15:02]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-26 20:15:04]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:10]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:17]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:17]   [放弃] 区域查询 ebi-a-GCST90000025 16:18501692-19501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:15:21]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:26]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:34]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:34]   [放弃] 区域查询 ebi-a-GCST90000025 16:19501692-20501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:15:39]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:44]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:54]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:15:54]   [放弃] 区域查询 ebi-a-GCST90000025 16:20501692-20522098 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:16:13]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-26 20:16:18]   [错误，重试 1/3] 区域查询 ukb-b-4711 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:16:23]   [错误，重试 2/3] 区域查询 ukb-b-4711 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:16:31]   [错误，重试 3/3] 区域查询 ukb-b-4711 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:16:31]   [放弃] 区域查询 ukb-b-4711 16:18501692-19501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:16:35]   [错误，重试 1/3] 区域查询 ukb-b-4711 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:16:41]   [错误，重试 2/3] 区域查询 ukb-b-4711 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:16:50]   [错误，重试 3/3] 区域查询 ukb-b-4711 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:16:50]   [放弃] 区域查询 ukb-b-4711 16:19501692-20501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:16:55]   [错误，重试 1/3] 区域查询 ukb-b-4711 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:01]   [错误，重试 2/3] 区域查询 ukb-b-4711 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:10]   [错误，重试 3/3] 区域查询 ukb-b-4711 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:10]   [放弃] 区域查询 ukb-b-4711 16:20501692-20522098 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:17:14]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:17:24]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-26 20:17:27]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:32]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:38]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 16:18501692-19501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:38]   [放弃] 区域查询 ebi-a-GCST007090 16:18501692-19501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:17:41]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:49]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:57]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 16:19501692-20501691：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:17:57]   [放弃] 区域查询 ebi-a-GCST007090 16:19501692-20501691 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:18:01]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:18:06]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:18:12]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 16:20501692-20522098：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:18:12]   [放弃] 区域查询 ebi-a-GCST007090 16:20501692-20522098 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:18:14]   提取 GDE1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:18:16]   GTEx rsID 映射：1/1 个位点成功 
+[2026-08-26 20:18:16]   GDE1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 20:18:16] ■ RNF14（track=mirror_OAup_muscleDown；OA:up / muscle:down；chr5:141966836-141990292） 
+[2026-08-26 20:18:16]   提取 RNF14 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:18:24]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 80.33% 
+[2026-08-26 20:18:28]   F统计量：min=63.3 mean=759.2（阈值>10）通过 
+[2026-08-26 20:18:28]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:18:28]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:18:40]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-26 20:18:44]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:18:47]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:18:56]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:18:56]   [放弃] 区域查询 ebi-a-GCST90007526 5:140966836-141966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:19:03]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:08]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:16]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:16]   [放弃] 区域查询 ebi-a-GCST90007526 5:141966836-142966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:19:19]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:23]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:29]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:29]   [放弃] 区域查询 ebi-a-GCST90007526 5:142966836-142990292 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:19:38]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:19:44]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-26 20:19:48]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:19:51]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:00]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:00]   [放弃] 区域查询 ebi-a-GCST90000025 5:140966836-141966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:20:05]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:09]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:15]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:15]   [放弃] 区域查询 ebi-a-GCST90000025 5:141966836-142966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:20:24]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:29]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:37]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:37]   [放弃] 区域查询 ebi-a-GCST90000025 5:142966836-142990292 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:20:40]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:20:46]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-26 20:20:50]   [错误，重试 1/3] 区域查询 ukb-b-4711 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:20:55]   [错误，重试 2/3] 区域查询 ukb-b-4711 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:02]   [错误，重试 3/3] 区域查询 ukb-b-4711 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:02]   [放弃] 区域查询 ukb-b-4711 5:140966836-141966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:21:09]   [错误，重试 1/3] 区域查询 ukb-b-4711 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:12]   [错误，重试 2/3] 区域查询 ukb-b-4711 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:18]   [错误，重试 3/3] 区域查询 ukb-b-4711 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:18]   [放弃] 区域查询 ukb-b-4711 5:141966836-142966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:21:25]   [错误，重试 1/3] 区域查询 ukb-b-4711 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:28]   [错误，重试 2/3] 区域查询 ukb-b-4711 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:37]   [错误，重试 3/3] 区域查询 ukb-b-4711 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:21:37]   [放弃] 区域查询 ukb-b-4711 5:142966836-142990292 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:21:40]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:21:40]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:21:51]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-26 20:21:55]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:01]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:08]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 5:140966836-141966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:08]   [放弃] 区域查询 ebi-a-GCST007090 5:140966836-141966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:22:13]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:16]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:22]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 5:141966836-142966835：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:22]   [放弃] 区域查询 ebi-a-GCST007090 5:141966836-142966835 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:22:28]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:33]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:38]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 5:142966836-142990292：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:22:38]   [放弃] 区域查询 ebi-a-GCST007090 5:142966836-142990292 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:22:40]   提取 RNF14 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:22:41]   RNF14 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-26 20:22:41] ■ BNIP3（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr10:131967682-131982013） 
+[2026-08-26 20:22:41]   提取 BNIP3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:22:48]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（BNIP3）：AssessedAllele==AlleleB 占 91.43% 
+[2026-08-26 20:22:48]   BNIP3 在 ±1000 kb cis 窗口内无记录 
+[2026-08-26 20:22:48]   提取 BNIP3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:22:51]   GTEx rsID 映射：51/51 个位点成功 
+[2026-08-26 20:22:51]   BNIP3 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 20:22:51] ■ EGFR（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr7:55019016-55211628） 
+[2026-08-26 20:22:51]   提取 EGFR @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:22:51]   EGFR 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-26 20:22:51]   提取 EGFR @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:23:01]   GTEx rsID 映射：55/55 个位点成功 
+[2026-08-26 20:23:01]   EGFR @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-26 20:23:01] ■ CBR3（track=concordant；OA:up / muscle:up；chr21:36135078-36146562） 
+[2026-08-26 20:23:01]   提取 CBR3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-26 20:23:08]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 75.83% 
+[2026-08-26 20:23:16]   F统计量：min=43.8 mean=61.4（阈值>10）通过 
+[2026-08-26 20:23:16]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:23:25]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-26 20:23:30]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:23:35]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:23:41]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:23:41]   [放弃] 区域查询 ebi-a-GCST90007526 21:35135078-36135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:23:46]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:23:51]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:23:57]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:23:57]   [放弃] 区域查询 ebi-a-GCST90007526 21:36135078-37135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:24:03]   [错误，重试 1/3] 区域查询 ebi-a-GCST90007526 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:09]   [错误，重试 2/3] 区域查询 ebi-a-GCST90007526 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:16]   [错误，重试 3/3] 区域查询 ebi-a-GCST90007526 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:16]   [放弃] 区域查询 ebi-a-GCST90007526 21:37135078-37146562 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:24:29]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-26 20:24:31]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:35]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:40]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:40]   [放弃] 区域查询 ebi-a-GCST90000025 21:35135078-36135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:24:45]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:50]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:56]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:24:56]   [放弃] 区域查询 ebi-a-GCST90000025 21:36135078-37135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:25:02]   [错误，重试 1/3] 区域查询 ebi-a-GCST90000025 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:07]   [错误，重试 2/3] 区域查询 ebi-a-GCST90000025 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:14]   [错误，重试 3/3] 区域查询 ebi-a-GCST90000025 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:14]   [放弃] 区域查询 ebi-a-GCST90000025 21:37135078-37146562 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:25:33]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-26 20:25:36]   [错误，重试 1/3] 区域查询 ukb-b-4711 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:41]   [错误，重试 2/3] 区域查询 ukb-b-4711 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:47]   [错误，重试 3/3] 区域查询 ukb-b-4711 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:47]   [放弃] 区域查询 ukb-b-4711 21:35135078-36135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:25:51]   [错误，重试 1/3] 区域查询 ukb-b-4711 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:25:57]   [错误，重试 2/3] 区域查询 ukb-b-4711 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:03]   [错误，重试 3/3] 区域查询 ukb-b-4711 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:03]   [放弃] 区域查询 ukb-b-4711 21:36135078-37135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:26:08]   [错误，重试 1/3] 区域查询 ukb-b-4711 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:12]   [错误，重试 2/3] 区域查询 ukb-b-4711 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:19]   [错误，重试 3/3] 区域查询 ukb-b-4711 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:19]   [放弃] 区域查询 ukb-b-4711 21:37135078-37146562 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:26:23]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:26:32]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-26 20:26:34]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:38]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:44]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 21:35135078-36135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:44]   [放弃] 区域查询 ebi-a-GCST007090 21:35135078-36135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:26:48]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:26:54]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:27:01]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 21:36135078-37135077：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:27:01]   [放弃] 区域查询 ebi-a-GCST007090 21:36135078-37135077 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:27:06]   [错误，重试 1/3] 区域查询 ebi-a-GCST007090 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:27:09]   [错误，重试 2/3] 区域查询 ebi-a-GCST007090 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:27:19]   [错误，重试 3/3] 区域查询 ebi-a-GCST007090 21:37135078-37146562：vcf appears to be a string but doesn't refer to an existing URL or local file 
+[2026-08-26 20:27:19]   [放弃] 区域查询 ebi-a-GCST007090 21:37135078-37146562 连续 3 次失败（最后错误：vcf appears to be a string but doesn't refer to an existing URL or local file），留痕后继续后续分析 
+[2026-08-26 20:27:21]   提取 CBR3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-26 20:27:24]   GTEx rsID 映射：83/83 个位点成功 
+[2026-08-26 20:27:24]   CBR3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs73374920） 
+[2026-08-26 20:27:24]   F统计量：min=31.4 mean=31.4（阈值>10）通过 
+[2026-08-26 20:27:25]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:27:25]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:27:25]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:27:26]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:27:26]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-08-26 20:27:26]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-08-26 20:27:27] 多重校正：检验族 = 基因×结局×eQTL源，共 32 个主方法检验；Bonferroni 显著 0 个，BH-FDR 显著 0 个 
+[2026-08-26 20:27:27] MR 汇总已写出：moduleH_MR_summary.csv（主方法+校正，32 行）；moduleH_MR_all_methods.csv（全方法长表，80 行） 
+[2026-08-26 20:27:27] 无 coloc 结果可汇总（常见原因：eQTLGen 全量文件缺失——见 status/日志） 
+[2026-08-26 20:27:27] 已知因果基因对照已写出：moduleH_known_causal_overlap.csv；双侧同命中基因：无 
+[2026-08-26 20:27:28] 森林图已写出：moduleH_MR_forest_primary.pdf 
+[2026-08-26 20:27:28] 状态留痕已写出：moduleH_status.csv（76 行） 
+[2026-08-26 20:27:28] 模块 H 运行结束。结果解读前请对照备忘录 v1.1 附录 D 红线清单（aging proxy / 人群混杂 / 方向倒置）与 §6.1 判读速查。 

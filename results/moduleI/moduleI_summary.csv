@@ -1,0 +1,2 @@
+"mode","n_markers","n_H_causal_genes","n_input_genes","universe_size","finan_size","dgidb_DG_size","universe_intersect","hits_universe","hits_finan_only","dsigdb_background","dsigdb_terms_tested","n_sig_fdr005","top_drug","note"
+"markers_only",10,0,10,5928,4463,5809,4344,5,5,5163,561,0,"gedunin CTD 00003449","no FDR<0.05 hit; top20 raw p reported (exploratory)"

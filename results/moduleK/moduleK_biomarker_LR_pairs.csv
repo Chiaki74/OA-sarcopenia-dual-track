@@ -1,0 +1,5 @@
+source,target,ligand,receptor,prob,pval,interaction_name,interaction_name_2,pathway_name,annotation,evidence,dataset,group
+Myonuc_IIa,FAPs,EGF,EGFR,0.000354396312265128,0,EGF_EGFR,EGF - EGFR,EGF,Secreted Signaling,KEGG: hsa04012,GSE167186,Young
+Myonuc_IIx,FAPs,EGF,EGFR,0.000359097869515525,0,EGF_EGFR,EGF - EGFR,EGF,Secreted Signaling,KEGG: hsa04012,GSE167186,Young
+Myonuc_IIa,FAPs,EGF,EGFR,0.000166338812192637,0,EGF_EGFR,EGF - EGFR,EGF,Secreted Signaling,KEGG: hsa04012,GSE167186,Old
+Myonuc_IIx,FAPs,EGF,EGFR,0.000148098249285788,0,EGF_EGFR,EGF - EGFR,EGF,Secreted Signaling,KEGG: hsa04012,GSE167186,Old

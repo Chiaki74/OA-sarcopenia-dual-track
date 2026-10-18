@@ -1,0 +1,25 @@
+[00:09:59] 读取三轨：concordant=27 / mirror_OAdown_muscleUp=35 / mirror_OAup_muscleDown=37 
+[00:09:59] 背景宇宙：9960 symbol → 9674 Entrez 
+[00:09:59] 下载 KEGG hsa 通路数据（第 1/5 次）... 
+[00:10:20]   失败：cannot open the connection to 'https://rest.kegg.jp/link/hsa/pathway' 
+[00:10:20]   30 秒后重试 
+[00:10:50] 下载 KEGG hsa 通路数据（第 2/5 次）... 
+[00:11:12]   失败：cannot open the connection to 'https://rest.kegg.jp/link/hsa/pathway' 
+[00:11:12]   60 秒后重试 
+[00:12:12] 下载 KEGG hsa 通路数据（第 3/5 次）... 
+[00:12:33]   失败：cannot open the connection to 'https://rest.kegg.jp/link/hsa/pathway' 
+[00:12:33]   90 秒后重试 
+[00:14:03] 下载 KEGG hsa 通路数据（第 4/5 次）... 
+[00:14:24]   失败：cannot open the connection to 'https://rest.kegg.jp/link/hsa/pathway' 
+[00:14:24]   120 秒后重试 
+[00:16:24] 下载 KEGG hsa 通路数据（第 5/5 次）... 
+[00:16:45]   失败：cannot open the connection to 'https://rest.kegg.jp/link/hsa/pathway' 
+[00:21:59] 读取三轨：concordant=27 / mirror_OAdown_muscleUp=35 / mirror_OAup_muscleDown=37 
+[00:21:59] 背景宇宙：9960 symbol → 9674 Entrez 
+[00:21:59] 使用本地 KEGG TSV（快照日期 2026-08-23，零联网）：372 通路 / 9423 Entrez 基因 
+[00:21:59] KEGG 通路数：372 
+[00:22:00] 轨 concordant：KEGG 显著条目 1 → enrich_KEGG_concordant.csv 
+[00:22:00] 轨 mirror_OAdown_muscleUp：KEGG 显著条目 2 → enrich_KEGG_mirror_OAdown_muscleUp.csv 
+[00:22:00] 轨 mirror_OAup_muscleDown：KEGG 无显著条目（真实阴性，enricher 正常返回） 
+[00:22:00] KEGG 补跑状态总览：concordant=significant(1) / mirror_OAdown_muscleUp=significant(2) / mirror_OAup_muscleDown=true negative 
+[00:22:00] 汇总表已更新（旧 KEGG 行已剔除再并入）：35 行 → enrich_ALL_tracks_significant.csv 

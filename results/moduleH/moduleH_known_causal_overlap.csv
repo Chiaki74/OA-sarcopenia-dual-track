@@ -1,0 +1,11 @@
+"gene","in_sarcopenia_known_list","in_oa_known_list","dual_hit_both_lists","highlight_priority","mr_bonferroni_sig_outcomes","steiger_pass_outcomes","coloc_pph4_gt_0.8_outcomes","coloc_pph4_gt_0.9_outcomes","causal_established_outcomes","causal_established_any"
+"NELL1",FALSE,FALSE,FALSE,"","","","","","",FALSE
+"STEAP1",FALSE,FALSE,FALSE,"","","","","","",FALSE
+"GADD45A",FALSE,FALSE,FALSE,"","","膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速)","","","",FALSE
+"FBLN5",FALSE,FALSE,FALSE,"","","膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速)","","","",FALSE
+"HEMK1",FALSE,FALSE,FALSE,"","","膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速);膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速)","","","",FALSE
+"GDE1",FALSE,FALSE,FALSE,"","","膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速)","","","",FALSE
+"RNF14",FALSE,FALSE,FALSE,"","","膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速)","","","",FALSE
+"BNIP3",FALSE,FALSE,FALSE,"","","","","","",FALSE
+"EGFR",FALSE,FALSE,FALSE,"","","","","","",FALSE
+"CBR3",FALSE,FALSE,FALSE,"","","膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速);膝骨关节炎;四肢瘦体重(ALM);低握力(60+,EWGSOP);步行速度(平常步速)","","","",FALSE

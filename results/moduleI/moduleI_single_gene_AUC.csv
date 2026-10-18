@@ -1,0 +1,11 @@
+gene,train_AUC,case_direction,GSE57218_AUC,GSE57218_CI
+GADD45A,0.79,up_in_case,0.944,0.153-1.000
+EGFR,0.762,up_in_case,0.944,0.127-1.000
+STEAP1,0.833,up_in_case,0.857,0.329-1.000
+HEMK1,0.636,up_in_case,0.848,0.314-1.000
+NELL1,0.85,up_in_case,0.714,0.488-0.940
+GDE1,0.851,up_in_case,0.641,0.360-0.921
+FBLN5,0.827,up_in_case,0.619,0.301-0.937
+CBR3,0.713,up_in_case,0.593,0.315-0.871
+RNF14,0.815,up_in_case,0.58,0.358-0.802
+BNIP3,0.72,up_in_case,0.545,0.279-0.812

@@ -1,0 +1,759 @@
+[2026-10-16 16:46:10] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH\positive_controls 
+[2026-10-16 16:46:10] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-10-16 16:46:10] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-10-16 16:46:10] 【51补丁】轨归属为合成占位（positive_control），19 基因直接进入 MR 主线 
+[2026-10-16 16:46:10] 主循环启动：19 基因 × 2 eQTL源 × 4 结局 
+[2026-10-16 16:46:10] ■ MAPK3（track=positive_control；OA:NA / muscle:NA；chr16:30114104-30123309） 
+[2026-10-16 16:46:10]   提取 MAPK3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 16:46:58]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAPK3）：AssessedAllele==AlleleB 占 73.80% 
+[2026-10-16 16:47:02]   F统计量：min=36.1 mean=603.0（阈值>10）通过 
+[2026-10-16 16:47:03]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:47:32]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:47:40]   提取 MAPK3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 16:52:05]   GTEx rsID 映射：237/237 个位点成功 
+[2026-10-16 16:52:17]   MAPK3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs9931927） 
+[2026-10-16 16:52:17]   F统计量：min=69.5 mean=69.5（阈值>10）通过 
+[2026-10-16 16:52:27]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:52:27]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:32]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:33]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:35]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:52:35]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:35] ■ CSK（track=positive_control；OA:NA / muscle:NA；chr15:74782079-74803198） 
+[2026-10-16 16:52:35]   提取 CSK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 16:52:47]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CSK）：AssessedAllele==AlleleB 占 61.15% 
+[2026-10-16 16:52:52]   F统计量：min=34.8 mean=514.2（阈值>10）通过 
+[2026-10-16 16:52:53]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:52:53]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:54]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:55]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:56]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:52:56]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:52:56]   提取 CSK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 16:53:02]   GTEx rsID 映射：68/68 个位点成功 
+[2026-10-16 16:53:13]   CSK @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs34933034） 
+[2026-10-16 16:53:13]   F统计量：min=53.3 mean=53.3（阈值>10）通过 
+[2026-10-16 16:53:13]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:53:13]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:53:14]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:53:14]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:53:15]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:53:15]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:53:15] ■ IFNGR2（track=positive_control；OA:NA / muscle:NA；chr21:5404-33437521） 
+[2026-10-16 16:53:15]   提取 IFNGR2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 16:53:44]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（IFNGR2）：AssessedAllele==AlleleB 占 76.01% 
+[2026-10-16 16:53:44]   IFNGR2 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 16:53:44]   提取 IFNGR2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 16:53:49]   GTEx rsID 映射：204/204 个位点成功 
+[2026-10-16 16:54:00]   IFNGR2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2284553） 
+[2026-10-16 16:54:00]   F统计量：min=63.4 mean=63.4（阈值>10）通过 
+[2026-10-16 16:54:00]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:54:01]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:54:01]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:54:02]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:54:09]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:54:09]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:54:09] ■ MVD（track=positive_control；OA:NA / muscle:NA；chr16:88651939-88663091） 
+[2026-10-16 16:54:09]   提取 MVD @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 16:54:19]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MVD）：AssessedAllele==AlleleB 占 78.10% 
+[2026-10-16 16:54:26]   F统计量：min=31.1 mean=116.8（阈值>10）通过 
+[2026-10-16 16:54:28]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:55:05]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:55:11]   提取 MVD @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 16:55:17]   GTEx rsID 映射：14/14 个位点成功 
+[2026-10-16 16:55:28]   MVD @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs8064137） 
+[2026-10-16 16:55:28]   F统计量：min=42.9 mean=42.9（阈值>10）通过 
+[2026-10-16 16:55:30]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:55:32]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:55:32]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:55:32] ■ FES（track=positive_control；OA:NA / muscle:NA；chr15:90884503-90895776） 
+[2026-10-16 16:55:32]   提取 FES @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 16:56:24]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FES）：AssessedAllele==AlleleB 占 75.75% 
+[2026-10-16 16:56:28]   F统计量：min=35.5 mean=676.3（阈值>10）通过 
+[2026-10-16 16:56:37]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:57:12]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:57:48]   提取 FES @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 16:57:51]   GTEx rsID 映射：1/1 个位点成功 
+[2026-10-16 16:57:51]   FES @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 16:57:52] ■ ITGA2（track=positive_control；OA:NA / muscle:NA；chr5:52989351-53094779） 
+[2026-10-16 16:57:52]   提取 ITGA2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 16:58:44]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITGA2）：AssessedAllele==AlleleB 占 82.82% 
+[2026-10-16 16:58:49]   F统计量：min=47.0 mean=528.3（阈值>10）通过 
+[2026-10-16 16:58:50]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:58:50]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:58:52]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:59:02]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:59:03]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 16:59:03]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 16:59:03]   提取 ITGA2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 16:59:52]   GTEx rsID 映射：199/199 个位点成功 
+[2026-10-16 17:00:04]   ITGA2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs30164） 
+[2026-10-16 17:00:04]   F统计量：min=43.8 mean=43.8（阈值>10）通过 
+[2026-10-16 17:00:04]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:00:04]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:00:05]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:00:10]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:00:11]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:00:11]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:00:11] ■ GZMK（track=positive_control；OA:NA / muscle:NA；chr5:55024255-55034569） 
+[2026-10-16 17:00:11]   提取 GZMK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:19:13] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH\positive_controls 
+[2026-10-16 17:19:13] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-10-16 17:19:13] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-10-16 17:19:13] 【51补丁】轨归属为合成占位（positive_control），19 基因直接进入 MR 主线 
+[2026-10-16 17:19:13] 主循环启动：19 基因 × 2 eQTL源 × 4 结局 
+[2026-10-16 17:19:13] ■ MAPK3（track=positive_control；OA:NA / muscle:NA；chr16:30114104-30123309） 
+[2026-10-16 17:19:13]   提取 MAPK3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:19:48]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAPK3）：AssessedAllele==AlleleB 占 73.80% 
+[2026-10-16 17:19:52]   F统计量：min=36.1 mean=603.0（阈值>10）通过 
+[2026-10-16 17:19:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:19:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:19:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:19:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:19:52]   提取 MAPK3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:23:00]   GTEx rsID 映射：237/237 个位点成功 
+[2026-10-16 17:23:11]   MAPK3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs9931927） 
+[2026-10-16 17:23:11]   F统计量：min=69.5 mean=69.5（阈值>10）通过 
+[2026-10-16 17:23:11]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:23:11]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:23:11]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:23:11]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:23:11] ■ CSK（track=positive_control；OA:NA / muscle:NA；chr15:74782079-74803198） 
+[2026-10-16 17:23:11]   提取 CSK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:23:21]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CSK）：AssessedAllele==AlleleB 占 61.15% 
+[2026-10-16 17:23:25]   F统计量：min=34.8 mean=514.2（阈值>10）通过 
+[2026-10-16 17:23:25]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:23:25]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:23:25]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:23:25]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:23:25]   提取 CSK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:23:30]   GTEx rsID 映射：68/68 个位点成功 
+[2026-10-16 17:23:46]   CSK @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs34933034） 
+[2026-10-16 17:23:46]   F统计量：min=53.3 mean=53.3（阈值>10）通过 
+[2026-10-16 17:23:46]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:23:46]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:23:46]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:23:46]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:23:47] ■ IFNGR2（track=positive_control；OA:NA / muscle:NA；chr21:5404-33437521） 
+[2026-10-16 17:23:47]   提取 IFNGR2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:24:04]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（IFNGR2）：AssessedAllele==AlleleB 占 76.01% 
+[2026-10-16 17:24:04]   IFNGR2 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 17:24:04]   提取 IFNGR2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:24:07]   GTEx rsID 映射：204/204 个位点成功 
+[2026-10-16 17:24:17]   IFNGR2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2284553） 
+[2026-10-16 17:24:17]   F统计量：min=63.4 mean=63.4（阈值>10）通过 
+[2026-10-16 17:24:17]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:24:17]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:24:17]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:24:17]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:24:17] ■ MVD（track=positive_control；OA:NA / muscle:NA；chr16:88651939-88663091） 
+[2026-10-16 17:24:17]   提取 MVD @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:24:23]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MVD）：AssessedAllele==AlleleB 占 78.10% 
+[2026-10-16 17:24:35]   F统计量：min=31.1 mean=116.8（阈值>10）通过 
+[2026-10-16 17:24:35]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:24:35]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:24:35]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:24:35]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:24:35]   提取 MVD @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:24:43]   GTEx rsID 映射：14/14 个位点成功 
+[2026-10-16 17:24:53]   MVD @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs8064137） 
+[2026-10-16 17:24:53]   F统计量：min=42.9 mean=42.9（阈值>10）通过 
+[2026-10-16 17:24:54]   [断点续跑] 跳过已有 MR：MVD|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:25:12]   [断点续跑] 跳过已有 MR：MVD|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:25:12] ■ FES（track=positive_control；OA:NA / muscle:NA；chr15:90884503-90895776） 
+[2026-10-16 17:25:12]   提取 FES @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:25:18]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FES）：AssessedAllele==AlleleB 占 75.75% 
+[2026-10-16 17:25:22]   F统计量：min=35.5 mean=676.3（阈值>10）通过 
+[2026-10-16 17:25:22]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:25:22]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:25:22]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:25:22]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:25:22]   提取 FES @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:25:23]   GTEx rsID 映射：1/1 个位点成功 
+[2026-10-16 17:25:23]   FES @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 17:25:24] ■ ITGA2（track=positive_control；OA:NA / muscle:NA；chr5:52989351-53094779） 
+[2026-10-16 17:25:24]   提取 ITGA2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:25:35]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITGA2）：AssessedAllele==AlleleB 占 82.82% 
+[2026-10-16 17:25:38]   F统计量：min=47.0 mean=528.3（阈值>10）通过 
+[2026-10-16 17:25:38]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:25:38]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:25:38]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:25:38]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:25:38]   提取 ITGA2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:25:41]   GTEx rsID 映射：199/199 个位点成功 
+[2026-10-16 17:25:51]   ITGA2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs30164） 
+[2026-10-16 17:25:51]   F统计量：min=43.8 mean=43.8（阈值>10）通过 
+[2026-10-16 17:25:51]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:25:51]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:25:51]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:25:51]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:25:52] ■ GZMK（track=positive_control；OA:NA / muscle:NA；chr5:55024255-55034569） 
+[2026-10-16 17:25:52]   提取 GZMK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:25:57]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GZMK）：AssessedAllele==AlleleB 占 75.35% 
+[2026-10-16 17:26:04]   F统计量：min=37.8 mean=188.1（阈值>10）通过 
+[2026-10-16 17:26:05]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:26:05]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:11]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:12]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:13]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:26:13]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:13]   提取 GZMK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:26:19]   GZMK 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 17:26:19] ■ LGALS3（track=positive_control；OA:NA / muscle:NA；chr14:55129251-55145430） 
+[2026-10-16 17:26:19]   提取 LGALS3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:26:25]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（LGALS3）：AssessedAllele==AlleleB 占 100.00% 
+[2026-10-16 17:26:36]   LGALS3 @ eqtlgen_blood 工具变量不足 3 个，启用单 SNP 兜底（rs7141706） 
+[2026-10-16 17:26:36]   F统计量：min=55.2 mean=55.2（阈值>10）通过 
+[2026-10-16 17:26:37]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:26:37]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:38]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:38]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:39]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:26:39]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:26:39]   提取 LGALS3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:26:42]   GTEx rsID 映射：11/11 个位点成功 
+[2026-10-16 17:26:42]   LGALS3 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 17:26:42] ■ ITIH1（track=positive_control；OA:NA / muscle:NA；chr3:52777598-52792068） 
+[2026-10-16 17:26:42]   提取 ITIH1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:26:53]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITIH1）：AssessedAllele==AlleleB 占 100.00% 
+[2026-10-16 17:26:53]   ITIH1 @ eqtlgen_blood 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 17:26:53]   提取 ITIH1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:26:54]   ITIH1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 17:26:55] ■ DNAJB12（track=positive_control；OA:NA / muscle:NA；chr10:72332834-72354919） 
+[2026-10-16 17:26:55]   提取 DNAJB12 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:27:00]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（DNAJB12）：AssessedAllele==AlleleB 占 53.21% 
+[2026-10-16 17:27:00]   DNAJB12 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 17:27:00]   提取 DNAJB12 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:27:03]   GTEx rsID 映射：10/10 个位点成功 
+[2026-10-16 17:27:03]   DNAJB12 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 17:27:03] ■ USP8（track=positive_control；OA:NA / muscle:NA；chr15:50424404-50514421） 
+[2026-10-16 17:27:03]   提取 USP8 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:27:13]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（USP8）：AssessedAllele==AlleleB 占 74.74% 
+[2026-10-16 17:27:20]   F统计量：min=37.3 mean=223.7（阈值>10）通过 
+[2026-10-16 17:27:21]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:27:43]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:27:51]   提取 USP8 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:27:52]   USP8 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 17:27:53] ■ IL12B（track=positive_control；OA:NA / muscle:NA；chr5:159314779-159330487） 
+[2026-10-16 17:27:53]   提取 IL12B @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:27:53]   IL12B 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-10-16 17:27:53]   提取 IL12B @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:27:53]   IL12B 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 17:27:54] ■ RGMB（track=positive_control；OA:NA / muscle:NA；chr5:98768631-98796494） 
+[2026-10-16 17:27:54]   提取 RGMB @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:27:59]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（RGMB）：AssessedAllele==AlleleB 占 69.86% 
+[2026-10-16 17:28:03]   F统计量：min=110.8 mean=622.6（阈值>10）通过 
+[2026-10-16 17:28:14]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:28:14]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:28:14]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:28:15]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:28:20]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:28:20]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:28:20]   提取 RGMB @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:28:23]   GTEx rsID 映射：123/123 个位点成功 
+[2026-10-16 17:28:33]   RGMB @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2547967） 
+[2026-10-16 17:28:33]   F统计量：min=43.7 mean=43.7（阈值>10）通过 
+[2026-10-16 17:28:34]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:28:41]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:28:41] ■ HP（track=positive_control；OA:NA / muscle:NA；chr16:72054504-72061056） 
+[2026-10-16 17:28:41]   提取 HP @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:28:54]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HP）：AssessedAllele==AlleleB 占 84.54% 
+[2026-10-16 17:28:58]   F统计量：min=36.0 mean=572.1（阈值>10）通过 
+[2026-10-16 17:29:06]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:29:29]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:29:38]   提取 HP @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:29:40]   GTEx rsID 映射：109/109 个位点成功 
+[2026-10-16 17:29:40]   HP @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 17:29:41] ■ HLA-DRA（track=positive_control；OA:NA / muscle:NA；chr6:9686-32445046） 
+[2026-10-16 17:29:41]   提取 HLA-DRA @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:29:47]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HLA-DRA）：AssessedAllele==AlleleB 占 82.32% 
+[2026-10-16 17:29:57]   F统计量：min=30.6 mean=66.9（阈值>10）通过 
+[2026-10-16 17:30:03]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:31:29]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:31:34]   提取 HLA-DRA @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:31:37]   GTEx rsID 映射：3022/3022 个位点成功 
+[2026-10-16 17:31:48]   HLA-DRA @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs9469143） 
+[2026-10-16 17:31:48]   F统计量：min=78.1 mean=78.1（阈值>10）通过 
+[2026-10-16 17:32:02]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:32:02]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:32:35]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:32:51]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:33:15]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:33:15]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:33:15] ■ MAP3K3（track=positive_control；OA:NA / muscle:NA；chr17:63622416-63696305） 
+[2026-10-16 17:33:15]   提取 MAP3K3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:33:20]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAP3K3）：AssessedAllele==AlleleB 占 64.80% 
+[2026-10-16 17:33:20]   MAP3K3 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 17:33:20]   提取 MAP3K3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:33:28]   GTEx rsID 映射：305/305 个位点成功 
+[2026-10-16 17:33:38]   MAP3K3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs111422442） 
+[2026-10-16 17:33:38]   F统计量：min=48.2 mean=48.2（阈值>10）通过 
+[2026-10-16 17:33:41]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:33:41]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:33:42]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:33:46]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:33:47]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:33:47]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:33:48] ■ MFGE8（track=positive_control；OA:NA / muscle:NA；chr15:88898682-88913379） 
+[2026-10-16 17:33:48]   提取 MFGE8 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:33:53]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MFGE8）：AssessedAllele==AlleleB 占 69.70% 
+[2026-10-16 17:33:57]   F统计量：min=41.6 mean=778.2（阈值>10）通过 
+[2026-10-16 17:33:59]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:33:59]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:34:18]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:34:27]   提取 MFGE8 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:34:30]   GTEx rsID 映射：225/225 个位点成功 
+[2026-10-16 17:34:40]   MFGE8 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs7168214） 
+[2026-10-16 17:34:40]   F统计量：min=85.4 mean=85.4（阈值>10）通过 
+[2026-10-16 17:34:41]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:34:41]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:34:41]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:34:42]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:34:42]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:34:42]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:34:42] ■ COL15A1（track=positive_control；OA:NA / muscle:NA；chr9:98943906-99070787） 
+[2026-10-16 17:34:42]   提取 COL15A1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:34:48]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（COL15A1）：AssessedAllele==AlleleB 占 29.33% 
+[2026-10-16 17:34:49]   COL15A1 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 17:34:49]   提取 COL15A1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:34:52]   GTEx rsID 映射：218/218 个位点成功 
+[2026-10-16 17:35:05]   COL15A1 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs62564002） 
+[2026-10-16 17:35:05]   F统计量：min=45.5 mean=45.5（阈值>10）通过 
+[2026-10-16 17:35:05]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:35:05]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:06]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:07]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:08]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:35:08]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:08] ■ AURKA（track=positive_control；OA:NA / muscle:NA；chr20:56369388-56392337） 
+[2026-10-16 17:35:08]   提取 AURKA @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:35:18]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（AURKA）：AssessedAllele==AlleleB 占 97.70% 
+[2026-10-16 17:35:19]   AURKA 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 17:35:19]   提取 AURKA @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:35:21]   GTEx rsID 映射：94/94 个位点成功 
+[2026-10-16 17:35:32]   AURKA @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2273535） 
+[2026-10-16 17:35:32]   F统计量：min=110.2 mean=110.2（阈值>10）通过 
+[2026-10-16 17:35:33]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:35:33]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:33]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:34]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:35:35]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 17:35:35]   SNP<4，MR-PRESSO 不适用（留 NA） 
+[2026-10-16 17:55:36] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH\positive_controls 
+[2026-10-16 17:55:36] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-10-16 17:55:36] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-10-16 17:55:36] 【51补丁】轨归属为合成占位（positive_control），19 基因直接进入 MR 主线 
+[2026-10-16 17:55:36] 主循环启动：19 基因 × 2 eQTL源 × 4 结局 
+[2026-10-16 17:55:36] ■ MAPK3（track=positive_control；OA:NA / muscle:NA；chr16:30114104-30123309） 
+[2026-10-16 17:55:36]   提取 MAPK3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:56:06]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAPK3）：AssessedAllele==AlleleB 占 73.80% 
+[2026-10-16 17:56:12]   F统计量：min=36.1 mean=603.0（阈值>10）通过 
+[2026-10-16 17:56:12]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:56:12]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:56:12]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:56:12]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:56:12]   提取 MAPK3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:58:02]   GTEx rsID 映射：237/237 个位点成功 
+[2026-10-16 17:58:13]   MAPK3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs9931927） 
+[2026-10-16 17:58:13]   F统计量：min=69.5 mean=69.5（阈值>10）通过 
+[2026-10-16 17:58:13]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:58:13]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:58:13]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:58:13]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:58:13] ■ CSK（track=positive_control；OA:NA / muscle:NA；chr15:74782079-74803198） 
+[2026-10-16 17:58:13]   提取 CSK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:58:20]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CSK）：AssessedAllele==AlleleB 占 61.15% 
+[2026-10-16 17:58:24]   F统计量：min=34.8 mean=514.2（阈值>10）通过 
+[2026-10-16 17:58:24]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:58:24]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:58:24]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:58:24]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:58:24]   提取 CSK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:58:27]   GTEx rsID 映射：68/68 个位点成功 
+[2026-10-16 17:58:38]   CSK @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs34933034） 
+[2026-10-16 17:58:38]   F统计量：min=53.3 mean=53.3（阈值>10）通过 
+[2026-10-16 17:58:38]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:58:38]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:58:38]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:58:38]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:58:38] ■ IFNGR2（track=positive_control；OA:NA / muscle:NA；chr21:5404-33437521） 
+[2026-10-16 17:58:38]   提取 IFNGR2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:58:49]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（IFNGR2）：AssessedAllele==AlleleB 占 76.01% 
+[2026-10-16 17:58:49]   IFNGR2 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 17:58:49]   提取 IFNGR2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:58:52]   GTEx rsID 映射：204/204 个位点成功 
+[2026-10-16 17:59:02]   IFNGR2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2284553） 
+[2026-10-16 17:59:02]   F统计量：min=63.4 mean=63.4（阈值>10）通过 
+[2026-10-16 17:59:02]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 17:59:02]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:59:02]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ukb-b-4711 
+[2026-10-16 17:59:02]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:59:03] ■ MVD（track=positive_control；OA:NA / muscle:NA；chr16:88651939-88663091） 
+[2026-10-16 17:59:03]   提取 MVD @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:59:13]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MVD）：AssessedAllele==AlleleB 占 78.10% 
+[2026-10-16 17:59:19]   F统计量：min=31.1 mean=116.8（阈值>10）通过 
+[2026-10-16 17:59:19]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:59:19]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:59:19]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:59:19]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:59:19]   提取 MVD @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:59:22]   GTEx rsID 映射：14/14 个位点成功 
+[2026-10-16 17:59:32]   MVD @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs8064137） 
+[2026-10-16 17:59:32]   F统计量：min=42.9 mean=42.9（阈值>10）通过 
+[2026-10-16 17:59:33]   [断点续跑] 跳过已有 MR：MVD|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 17:59:34]   [断点续跑] 跳过已有 MR：MVD|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 17:59:34] ■ FES（track=positive_control；OA:NA / muscle:NA；chr15:90884503-90895776） 
+[2026-10-16 17:59:34]   提取 FES @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:59:45]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FES）：AssessedAllele==AlleleB 占 75.75% 
+[2026-10-16 17:59:49]   F统计量：min=35.5 mean=676.3（阈值>10）通过 
+[2026-10-16 17:59:49]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:59:49]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:59:49]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:59:49]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:59:49]   提取 FES @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 17:59:50]   GTEx rsID 映射：1/1 个位点成功 
+[2026-10-16 17:59:50]   FES @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 17:59:50] ■ ITGA2（track=positive_control；OA:NA / muscle:NA；chr5:52989351-53094779） 
+[2026-10-16 17:59:50]   提取 ITGA2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 17:59:56]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITGA2）：AssessedAllele==AlleleB 占 82.82% 
+[2026-10-16 17:59:59]   F统计量：min=47.0 mean=528.3（阈值>10）通过 
+[2026-10-16 17:59:59]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 17:59:59]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 17:59:59]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 17:59:59]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 17:59:59]   提取 ITGA2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:00:08]   GTEx rsID 映射：199/199 个位点成功 
+[2026-10-16 18:00:18]   ITGA2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs30164） 
+[2026-10-16 18:00:18]   F统计量：min=43.8 mean=43.8（阈值>10）通过 
+[2026-10-16 18:00:18]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:00:18]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:00:18]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:00:18]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:00:18] ■ GZMK（track=positive_control；OA:NA / muscle:NA；chr5:55024255-55034569） 
+[2026-10-16 18:00:18]   提取 GZMK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:00:23]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GZMK）：AssessedAllele==AlleleB 占 75.35% 
+[2026-10-16 18:00:30]   F统计量：min=37.8 mean=188.1（阈值>10）通过 
+[2026-10-16 18:00:30]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:00:30]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:00:30]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:00:30]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:00:30]   提取 GZMK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:00:31]   GZMK 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:00:31] ■ LGALS3（track=positive_control；OA:NA / muscle:NA；chr14:55129251-55145430） 
+[2026-10-16 18:00:31]   提取 LGALS3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:00:48]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（LGALS3）：AssessedAllele==AlleleB 占 100.00% 
+[2026-10-16 18:00:58]   LGALS3 @ eqtlgen_blood 工具变量不足 3 个，启用单 SNP 兜底（rs7141706） 
+[2026-10-16 18:00:58]   F统计量：min=55.2 mean=55.2（阈值>10）通过 
+[2026-10-16 18:00:58]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:00:58]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:00:58]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:00:58]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:00:58]   提取 LGALS3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:01:00]   GTEx rsID 映射：11/11 个位点成功 
+[2026-10-16 18:01:01]   LGALS3 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:01:01] ■ ITIH1（track=positive_control；OA:NA / muscle:NA；chr3:52777598-52792068） 
+[2026-10-16 18:01:01]   提取 ITIH1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:01:06]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITIH1）：AssessedAllele==AlleleB 占 100.00% 
+[2026-10-16 18:01:06]   ITIH1 @ eqtlgen_blood 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:01:06]   提取 ITIH1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:01:07]   ITIH1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:01:07] ■ DNAJB12（track=positive_control；OA:NA / muscle:NA；chr10:72332834-72354919） 
+[2026-10-16 18:01:07]   提取 DNAJB12 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:01:14]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（DNAJB12）：AssessedAllele==AlleleB 占 53.21% 
+[2026-10-16 18:01:14]   DNAJB12 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 18:01:14]   提取 DNAJB12 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:01:17]   GTEx rsID 映射：10/10 个位点成功 
+[2026-10-16 18:01:17]   DNAJB12 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:01:17] ■ USP8（track=positive_control；OA:NA / muscle:NA；chr15:50424404-50514421） 
+[2026-10-16 18:01:17]   提取 USP8 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:01:36]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（USP8）：AssessedAllele==AlleleB 占 74.74% 
+[2026-10-16 18:01:42]   F统计量：min=37.3 mean=223.7（阈值>10）通过 
+[2026-10-16 18:01:42]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:01:42]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:01:42]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:01:42]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:01:42]   提取 USP8 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:01:43]   USP8 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:01:43] ■ IL12B（track=positive_control；OA:NA / muscle:NA；chr5:159314779-159330487） 
+[2026-10-16 18:01:43]   提取 IL12B @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:01:43]   IL12B 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-10-16 18:01:43]   提取 IL12B @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:01:44]   IL12B 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:01:44] ■ RGMB（track=positive_control；OA:NA / muscle:NA；chr5:98768631-98796494） 
+[2026-10-16 18:01:44]   提取 RGMB @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:01:50]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（RGMB）：AssessedAllele==AlleleB 占 69.86% 
+[2026-10-16 18:01:53]   F统计量：min=110.8 mean=622.6（阈值>10）通过 
+[2026-10-16 18:01:53]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:01:53]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:01:53]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:01:53]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:01:53]   提取 RGMB @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:01:56]   GTEx rsID 映射：123/123 个位点成功 
+[2026-10-16 18:02:06]   RGMB @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2547967） 
+[2026-10-16 18:02:06]   F统计量：min=43.7 mean=43.7（阈值>10）通过 
+[2026-10-16 18:02:07]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 18:02:13]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 18:02:14] ■ HP（track=positive_control；OA:NA / muscle:NA；chr16:72054504-72061056） 
+[2026-10-16 18:02:14]   提取 HP @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:02:19]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HP）：AssessedAllele==AlleleB 占 84.54% 
+[2026-10-16 18:02:23]   F统计量：min=36.0 mean=572.1（阈值>10）通过 
+[2026-10-16 18:02:23]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:02:23]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:02:23]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:02:23]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:02:23]   提取 HP @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:02:26]   GTEx rsID 映射：109/109 个位点成功 
+[2026-10-16 18:26:00] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH\positive_controls 
+[2026-10-16 18:26:00] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-10-16 18:26:00] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-10-16 18:26:00] 【51补丁】轨归属为合成占位（positive_control），19 基因直接进入 MR 主线 
+[2026-10-16 18:26:00] 主循环启动：19 基因 × 2 eQTL源 × 4 结局 
+[2026-10-16 18:26:01] ■ MAPK3（track=positive_control；OA:NA / muscle:NA；chr16:30114104-30123309） 
+[2026-10-16 18:26:01]   提取 MAPK3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:26:36]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAPK3）：AssessedAllele==AlleleB 占 73.80% 
+[2026-10-16 18:26:40]   F统计量：min=36.1 mean=603.0（阈值>10）通过 
+[2026-10-16 18:26:40]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:26:40]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:26:40]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:26:40]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:26:40]   提取 MAPK3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:30:14] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH\positive_controls 
+[2026-10-16 18:30:14] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-10-16 18:30:14] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-10-16 18:30:14] 【51补丁】轨归属为合成占位（positive_control），19 基因直接进入 MR 主线 
+[2026-10-16 18:30:15] 主循环启动：19 基因 × 2 eQTL源 × 4 结局 
+[2026-10-16 18:30:15] ■ MAPK3（track=positive_control；OA:NA / muscle:NA；chr16:30114104-30123309） 
+[2026-10-16 18:30:15]   提取 MAPK3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:30:47]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAPK3）：AssessedAllele==AlleleB 占 73.80% 
+[2026-10-16 18:30:52]   F统计量：min=36.1 mean=603.0（阈值>10）通过 
+[2026-10-16 18:30:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:30:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:30:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:30:52]   [断点续跑] 跳过已有 MR：MAPK3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:30:52]   提取 MAPK3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:33:45]   GTEx rsID 映射：237/237 个位点成功 
+[2026-10-16 18:33:55]   MAPK3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs9931927） 
+[2026-10-16 18:33:55]   F统计量：min=69.5 mean=69.5（阈值>10）通过 
+[2026-10-16 18:33:55]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:33:55]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:33:55]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:33:55]   [断点续跑] 跳过已有 MR：MAPK3|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:33:55] ■ CSK（track=positive_control；OA:NA / muscle:NA；chr15:74782079-74803198） 
+[2026-10-16 18:33:55]   提取 CSK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:34:01]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CSK）：AssessedAllele==AlleleB 占 61.15% 
+[2026-10-16 18:34:04]   F统计量：min=34.8 mean=514.2（阈值>10）通过 
+[2026-10-16 18:34:04]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:34:04]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:34:04]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:34:04]   [断点续跑] 跳过已有 MR：CSK|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:34:04]   提取 CSK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:34:07]   GTEx rsID 映射：68/68 个位点成功 
+[2026-10-16 18:34:17]   CSK @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs34933034） 
+[2026-10-16 18:34:17]   F统计量：min=53.3 mean=53.3（阈值>10）通过 
+[2026-10-16 18:34:17]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:34:17]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:34:17]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:34:17]   [断点续跑] 跳过已有 MR：CSK|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:34:17] ■ IFNGR2（track=positive_control；OA:NA / muscle:NA；chr21:5404-33437521） 
+[2026-10-16 18:34:17]   提取 IFNGR2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:34:29]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（IFNGR2）：AssessedAllele==AlleleB 占 76.01% 
+[2026-10-16 18:34:29]   IFNGR2 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 18:34:29]   提取 IFNGR2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:34:31]   GTEx rsID 映射：204/204 个位点成功 
+[2026-10-16 18:34:42]   IFNGR2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2284553） 
+[2026-10-16 18:34:42]   F统计量：min=63.4 mean=63.4（阈值>10）通过 
+[2026-10-16 18:34:42]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:34:42]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:34:42]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:34:42]   [断点续跑] 跳过已有 MR：IFNGR2|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:34:42] ■ MVD（track=positive_control；OA:NA / muscle:NA；chr16:88651939-88663091） 
+[2026-10-16 18:34:42]   提取 MVD @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:34:48]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MVD）：AssessedAllele==AlleleB 占 78.10% 
+[2026-10-16 18:34:54]   F统计量：min=31.1 mean=116.8（阈值>10）通过 
+[2026-10-16 18:34:54]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:34:54]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:34:54]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:34:54]   [断点续跑] 跳过已有 MR：MVD|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:34:54]   提取 MVD @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:35:02]   GTEx rsID 映射：14/14 个位点成功 
+[2026-10-16 18:35:12]   MVD @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs8064137） 
+[2026-10-16 18:35:12]   F统计量：min=42.9 mean=42.9（阈值>10）通过 
+[2026-10-16 18:35:20]   [断点续跑] 跳过已有 MR：MVD|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:35:31]   [断点续跑] 跳过已有 MR：MVD|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:35:31] ■ FES（track=positive_control；OA:NA / muscle:NA；chr15:90884503-90895776） 
+[2026-10-16 18:35:31]   提取 FES @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:35:36]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FES）：AssessedAllele==AlleleB 占 75.75% 
+[2026-10-16 18:35:40]   F统计量：min=35.5 mean=676.3（阈值>10）通过 
+[2026-10-16 18:35:40]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:35:40]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:35:40]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:35:40]   [断点续跑] 跳过已有 MR：FES|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:35:40]   提取 FES @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:35:41]   GTEx rsID 映射：1/1 个位点成功 
+[2026-10-16 18:35:41]   FES @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:35:41] ■ ITGA2（track=positive_control；OA:NA / muscle:NA；chr5:52989351-53094779） 
+[2026-10-16 18:35:41]   提取 ITGA2 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:35:52]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITGA2）：AssessedAllele==AlleleB 占 82.82% 
+[2026-10-16 18:35:56]   F统计量：min=47.0 mean=528.3（阈值>10）通过 
+[2026-10-16 18:35:56]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:35:56]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:35:56]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:35:56]   [断点续跑] 跳过已有 MR：ITGA2|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:35:56]   提取 ITGA2 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:35:58]   GTEx rsID 映射：199/199 个位点成功 
+[2026-10-16 18:36:08]   ITGA2 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs30164） 
+[2026-10-16 18:36:08]   F统计量：min=43.8 mean=43.8（阈值>10）通过 
+[2026-10-16 18:36:08]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:36:08]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:36:08]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:36:08]   [断点续跑] 跳过已有 MR：ITGA2|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:36:08] ■ GZMK（track=positive_control；OA:NA / muscle:NA；chr5:55024255-55034569） 
+[2026-10-16 18:36:08]   提取 GZMK @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:36:14]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GZMK）：AssessedAllele==AlleleB 占 75.35% 
+[2026-10-16 18:36:21]   F统计量：min=37.8 mean=188.1（阈值>10）通过 
+[2026-10-16 18:36:21]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:36:21]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:36:21]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:36:21]   [断点续跑] 跳过已有 MR：GZMK|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:36:21]   提取 GZMK @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:36:21]   GZMK 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:36:22] ■ LGALS3（track=positive_control；OA:NA / muscle:NA；chr14:55129251-55145430） 
+[2026-10-16 18:36:22]   提取 LGALS3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:36:32]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（LGALS3）：AssessedAllele==AlleleB 占 100.00% 
+[2026-10-16 18:36:43]   LGALS3 @ eqtlgen_blood 工具变量不足 3 个，启用单 SNP 兜底（rs7141706） 
+[2026-10-16 18:36:43]   F统计量：min=55.2 mean=55.2（阈值>10）通过 
+[2026-10-16 18:36:43]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:36:43]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:36:43]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:36:43]   [断点续跑] 跳过已有 MR：LGALS3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:36:43]   提取 LGALS3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:36:45]   GTEx rsID 映射：11/11 个位点成功 
+[2026-10-16 18:36:45]   LGALS3 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:36:45] ■ ITIH1（track=positive_control；OA:NA / muscle:NA；chr3:52777598-52792068） 
+[2026-10-16 18:36:45]   提取 ITIH1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:36:56]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（ITIH1）：AssessedAllele==AlleleB 占 100.00% 
+[2026-10-16 18:36:56]   ITIH1 @ eqtlgen_blood 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:36:56]   提取 ITIH1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:36:57]   ITIH1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:36:57] ■ DNAJB12（track=positive_control；OA:NA / muscle:NA；chr10:72332834-72354919） 
+[2026-10-16 18:36:57]   提取 DNAJB12 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:37:02]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（DNAJB12）：AssessedAllele==AlleleB 占 53.21% 
+[2026-10-16 18:37:02]   DNAJB12 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 18:37:02]   提取 DNAJB12 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:37:05]   GTEx rsID 映射：10/10 个位点成功 
+[2026-10-16 18:37:05]   DNAJB12 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:37:05] ■ USP8（track=positive_control；OA:NA / muscle:NA；chr15:50424404-50514421） 
+[2026-10-16 18:37:05]   提取 USP8 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:37:21]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（USP8）：AssessedAllele==AlleleB 占 74.74% 
+[2026-10-16 18:37:28]   F统计量：min=37.3 mean=223.7（阈值>10）通过 
+[2026-10-16 18:37:28]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:37:28]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:37:28]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:37:28]   [断点续跑] 跳过已有 MR：USP8|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:37:28]   提取 USP8 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:37:29]   USP8 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:37:29] ■ IL12B（track=positive_control；OA:NA / muscle:NA；chr5:159314779-159330487） 
+[2026-10-16 18:37:29]   提取 IL12B @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:37:29]   IL12B 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-10-16 18:37:29]   提取 IL12B @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:37:30]   IL12B 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-10-16 18:37:30] ■ RGMB（track=positive_control；OA:NA / muscle:NA；chr5:98768631-98796494） 
+[2026-10-16 18:37:30]   提取 RGMB @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:37:35]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（RGMB）：AssessedAllele==AlleleB 占 69.86% 
+[2026-10-16 18:37:39]   F统计量：min=110.8 mean=622.6（阈值>10）通过 
+[2026-10-16 18:37:39]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:37:39]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:37:39]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:37:39]   [断点续跑] 跳过已有 MR：RGMB|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:37:39]   提取 RGMB @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:37:42]   GTEx rsID 映射：123/123 个位点成功 
+[2026-10-16 18:37:52]   RGMB @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2547967） 
+[2026-10-16 18:37:52]   F统计量：min=43.7 mean=43.7（阈值>10）通过 
+[2026-10-16 18:37:52]   ebi-a-GCST90007526（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 18:37:56]   ebi-a-GCST007090（二分类）r.outcome 已用 get_r_from_lor 预计算（近似口径：lor+af+ncase/ncontrol+prevalence） 
+[2026-10-16 18:37:56] ■ HP（track=positive_control；OA:NA / muscle:NA；chr16:72054504-72061056） 
+[2026-10-16 18:37:56]   提取 HP @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:38:02]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HP）：AssessedAllele==AlleleB 占 84.54% 
+[2026-10-16 18:38:06]   F统计量：min=36.0 mean=572.1（阈值>10）通过 
+[2026-10-16 18:38:06]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:38:06]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:38:06]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:38:06]   [断点续跑] 跳过已有 MR：HP|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:38:06]   提取 HP @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:38:10]   GTEx rsID 映射：109/109 个位点成功 
+[2026-10-16 18:38:10]   HP @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-10-16 18:38:10] ■ HLA-DRA（track=positive_control；OA:NA / muscle:NA；chr6:9686-32445046） 
+[2026-10-16 18:38:10]   提取 HLA-DRA @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:38:22]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HLA-DRA）：AssessedAllele==AlleleB 占 82.32% 
+[2026-10-16 18:38:32]   F统计量：min=30.6 mean=66.9（阈值>10）通过 
+[2026-10-16 18:38:32]   [断点续跑] 跳过已有 MR：HLA-DRA|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:38:32]   [断点续跑] 跳过已有 MR：HLA-DRA|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:38:32]   [断点续跑] 跳过已有 MR：HLA-DRA|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:38:32]   [断点续跑] 跳过已有 MR：HLA-DRA|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:38:32]   提取 HLA-DRA @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:38:35]   GTEx rsID 映射：3022/3022 个位点成功 
+[2026-10-16 18:38:45]   HLA-DRA @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs9469143） 
+[2026-10-16 18:38:45]   F统计量：min=78.1 mean=78.1（阈值>10）通过 
+[2026-10-16 18:38:45]   [断点续跑] 跳过已有 MR：HLA-DRA|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:38:45]   [断点续跑] 跳过已有 MR：HLA-DRA|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:38:45]   [断点续跑] 跳过已有 MR：HLA-DRA|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:38:45]   [断点续跑] 跳过已有 MR：HLA-DRA|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:38:45] ■ MAP3K3（track=positive_control；OA:NA / muscle:NA；chr17:63622416-63696305） 
+[2026-10-16 18:38:45]   提取 MAP3K3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:38:51]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MAP3K3）：AssessedAllele==AlleleB 占 64.80% 
+[2026-10-16 18:38:51]   MAP3K3 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 18:38:51]   提取 MAP3K3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:38:53]   GTEx rsID 映射：305/305 个位点成功 
+[2026-10-16 18:39:04]   MAP3K3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs111422442） 
+[2026-10-16 18:39:04]   F统计量：min=48.2 mean=48.2（阈值>10）通过 
+[2026-10-16 18:39:04]   [断点续跑] 跳过已有 MR：MAP3K3|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:39:04]   [断点续跑] 跳过已有 MR：MAP3K3|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:39:04]   [断点续跑] 跳过已有 MR：MAP3K3|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:39:04]   [断点续跑] 跳过已有 MR：MAP3K3|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:39:04] ■ MFGE8（track=positive_control；OA:NA / muscle:NA；chr15:88898682-88913379） 
+[2026-10-16 18:39:04]   提取 MFGE8 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:39:09]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（MFGE8）：AssessedAllele==AlleleB 占 69.70% 
+[2026-10-16 18:39:13]   F统计量：min=41.6 mean=778.2（阈值>10）通过 
+[2026-10-16 18:39:13]   [断点续跑] 跳过已有 MR：MFGE8|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-10-16 18:39:13]   [断点续跑] 跳过已有 MR：MFGE8|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-10-16 18:39:13]   [断点续跑] 跳过已有 MR：MFGE8|eqtlgen_blood|ukb-b-4711 
+[2026-10-16 18:39:13]   [断点续跑] 跳过已有 MR：MFGE8|eqtlgen_blood|ebi-a-GCST007090 
+[2026-10-16 18:39:13]   提取 MFGE8 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:39:15]   GTEx rsID 映射：225/225 个位点成功 
+[2026-10-16 18:39:25]   MFGE8 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs7168214） 
+[2026-10-16 18:39:25]   F统计量：min=85.4 mean=85.4（阈值>10）通过 
+[2026-10-16 18:39:25]   [断点续跑] 跳过已有 MR：MFGE8|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:39:25]   [断点续跑] 跳过已有 MR：MFGE8|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:39:25]   [断点续跑] 跳过已有 MR：MFGE8|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:39:25]   [断点续跑] 跳过已有 MR：MFGE8|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:39:25] ■ COL15A1（track=positive_control；OA:NA / muscle:NA；chr9:98943906-99070787） 
+[2026-10-16 18:39:25]   提取 COL15A1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:39:37]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（COL15A1）：AssessedAllele==AlleleB 占 29.33% 
+[2026-10-16 18:39:37]   COL15A1 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 18:39:37]   提取 COL15A1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:39:39]   GTEx rsID 映射：218/218 个位点成功 
+[2026-10-16 18:39:49]   COL15A1 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs62564002） 
+[2026-10-16 18:39:49]   F统计量：min=45.5 mean=45.5（阈值>10）通过 
+[2026-10-16 18:39:49]   [断点续跑] 跳过已有 MR：COL15A1|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:39:49]   [断点续跑] 跳过已有 MR：COL15A1|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:39:49]   [断点续跑] 跳过已有 MR：COL15A1|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:39:49]   [断点续跑] 跳过已有 MR：COL15A1|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:39:49] ■ AURKA（track=positive_control；OA:NA / muscle:NA；chr20:56369388-56392337） 
+[2026-10-16 18:39:49]   提取 AURKA @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-10-16 18:39:55]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（AURKA）：AssessedAllele==AlleleB 占 97.70% 
+[2026-10-16 18:39:55]   AURKA 在 ±1000 kb cis 窗口内无记录 
+[2026-10-16 18:39:55]   提取 AURKA @ gtex_muscle 的 cis-eQTL ... 
+[2026-10-16 18:39:58]   GTEx rsID 映射：94/94 个位点成功 
+[2026-10-16 18:40:07]   AURKA @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs2273535） 
+[2026-10-16 18:40:07]   F统计量：min=110.2 mean=110.2（阈值>10）通过 
+[2026-10-16 18:40:07]   [断点续跑] 跳过已有 MR：AURKA|gtex_muscle|ebi-a-GCST90007526 
+[2026-10-16 18:40:07]   [断点续跑] 跳过已有 MR：AURKA|gtex_muscle|ebi-a-GCST90000025 
+[2026-10-16 18:40:07]   [断点续跑] 跳过已有 MR：AURKA|gtex_muscle|ukb-b-4711 
+[2026-10-16 18:40:07]   [断点续跑] 跳过已有 MR：AURKA|gtex_muscle|ebi-a-GCST007090 
+[2026-10-16 18:40:08] 多重校正：检验族 = 基因×结局×eQTL源，共 86 个主方法检验；Bonferroni 显著 13 个，BH-FDR 显著 18 个 
+[2026-10-16 18:40:08] MR 汇总已写出：moduleH_MR_summary.csv（主方法+校正，86 行）；moduleH_MR_all_methods.csv（全方法长表，166 行） 
+[2026-10-16 18:40:08] 无 coloc 结果可汇总（常见原因：eQTLGen 全量文件缺失——见 status/日志） 
+[2026-10-16 18:40:08] 已知因果基因对照已写出：moduleH_known_causal_overlap.csv；双侧同命中基因：无 
+[2026-10-16 18:40:09] 森林图已写出：moduleH_MR_forest_primary.pdf 
+[2026-10-16 18:40:09] 状态留痕已写出：moduleH_status.csv（199 行） 
+[2026-10-16 18:40:09] 模块 H 运行结束。结果解读前请对照备忘录 v1.1 附录 D 红线清单（aging proxy / 人群混杂 / 方向倒置）与 §6.1 判读速查。 

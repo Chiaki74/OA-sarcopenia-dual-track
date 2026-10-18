@@ -1,0 +1,11 @@
+"gene","track","direction_OA_discovery","direction_blood_observed","consistent"
+"NELL1","concordant","up","up",TRUE
+"STEAP1","concordant","up","down",FALSE
+"GADD45A","mirror_OAdown_muscleUp","down","down",TRUE
+"FBLN5","concordant","up","up",TRUE
+"HEMK1","concordant","up","down",FALSE
+"GDE1","mirror_OAup_muscleDown","up","down",FALSE
+"RNF14","mirror_OAup_muscleDown","up","up",TRUE
+"BNIP3","mirror_OAdown_muscleUp","down","down",TRUE
+"EGFR","mirror_OAdown_muscleUp","down","up",FALSE
+"CBR3","concordant","up","up",TRUE

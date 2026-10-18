@@ -1,0 +1,2 @@
+"check_time","lm22_txt","lm22_xlsx","lm22_loaded","lm22_dim","algorithm","perm","status","note"
+"2026-08-28 23:32:40","LM22.txt","LM22.xlsx",TRUE,"547x22","dicepro v1.0.2 内置 CIBERSORT ν-SVR 开源实现（Newman 2015）",100,"ready（LM22 已载，逐队列实跑 CIBERSORT）","许可合规：LM22 取自原文 Supplementary Table 1（PMC4739640），算法为 CRAN 开源实现；未使用 Stanford 分发文件"

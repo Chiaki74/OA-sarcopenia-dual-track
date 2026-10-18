@@ -1,0 +1,117 @@
+[15:57:52] ==== 模块 F 免疫浸润分析启动（2026-08-23）==== 
+[15:57:52] 模块 D v2 标志物（10 个）：NELL1, STEAP1, GADD45A, FBLN5, HEMK1, GDE1, RNF14, BNIP3, EGFR, CBR3 
+[16:09:04] ==== 模块 F 免疫浸润分析启动（2026-08-23）==== 
+[16:09:04] 模块 D v2 标志物（10 个）：NELL1, STEAP1, GADD45A, FBLN5, HEMK1, GDE1, RNF14, BNIP3, EGFR, CBR3 
+[16:09:04] ssGSEA 基因集：28 细胞类型，782 唯一 metagene（Charoentong 2017） 
+[16:09:04] CIBERSORT 状态：skipped_missing_license_files（未检测到 CIBERSORT.R/LM22.txt，请按官方授权流程获取后放入项目根目录） 
+[16:09:05] —— GSE114007（OA_training：OA 训练层）—— 
+[16:09:05]   样本：case=20 / control=18；基因数=21622 
+[16:09:05]   ⚠ GSE114007 xCell 失败：找不到对象'xCell.data' 
+[16:09:05]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=96.3% 
+[16:09:05] —— GSE55235（OA_training：OA 训练层）—— 
+[16:09:05]   样本：case=10 / control=10；基因数=13237 
+[16:09:05]   ⚠ GSE55235 xCell 失败：找不到对象'xCell.data' 
+[16:09:05]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:09:05] —— GSE55457（OA_training：OA 训练层）—— 
+[16:09:06]   样本：case=10 / control=10；基因数=13237 
+[16:09:06]   ⚠ GSE55457 xCell 失败：找不到对象'xCell.data' 
+[16:09:06]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:09:06] —— GSE12021（OA_training：OA 训练层）—— 
+[16:09:06]   样本：case=10 / control=9；基因数=13237 
+[16:09:06]   ⚠ GSE12021 xCell 失败：找不到对象'xCell.data' 
+[16:09:06]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:09:06] —— GSE51588（OA_training：OA 训练层）—— 
+[16:09:06]   样本：case=40 / control=10；基因数=21754 
+[16:09:06]   ⚠ GSE51588 xCell 失败：找不到对象'xCell.data' 
+[16:09:06]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=97.2% 
+[16:09:06]   GSE51588/ssGSEA: donor 去重（优先保留对照，无对照的 donor 保留病例）后 20 样本（case=15 / ctrl=5） 
+[16:09:06] —— GSE111006（Muscle_sarcopenia：肌肉 sarcopenia 层）—— 
+[16:09:07]   ⚠ GSE111006: n_case=4 < 10，标记 low_power（结果仅作参考） 
+[16:09:07]   样本：case=4 / control=36；基因数=24916 
+[16:09:07]   ⚠ GSE111006 xCell 失败：找不到对象'xCell.data' 
+[16:09:07]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=92.1% 
+[16:09:07] —— GSE111010（Muscle_sarcopenia：肌肉 sarcopenia 层）—— 
+[16:09:07]   ⚠ GSE111010: n_case=9 < 10，标记 low_power（结果仅作参考） 
+[16:09:07]   样本：case=9 / control=30；基因数=27248 
+[16:09:07]   ⚠ GSE111010 xCell 失败：找不到对象'xCell.data' 
+[16:09:07]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=92.9% 
+[16:09:08] —— GSE111016（Muscle_sarcopenia：肌肉 sarcopenia 层）—— 
+[16:09:08]   样本：case=20 / control=20；基因数=25031 
+[16:09:08]   ⚠ GSE111016 xCell 失败：找不到对象'xCell.data' 
+[16:09:08]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=91.9% 
+[16:09:08] —— GSE48556（Blood_exploratory：EXPLORATORY：血液探索层，不做跨队列硬合并）—— 
+[16:09:09]   样本：case=106 / control=33；基因数=25159 
+[16:09:09]   ⚠ GSE48556 xCell 失败：找不到对象'xCell.data' 
+[16:09:10]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=94.8% 
+[16:09:10] —— GSE1428（Aging_proxy：aging proxy（衰老代理，不得写作 sarcopenia 证据））—— 
+[16:09:10]   样本：case=12 / control=10；基因数=13237 
+[16:09:10]   ⚠ GSE1428 xCell 失败：找不到对象'xCell.data' 
+[16:09:11]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:09:11] —— GSE25941（Aging_proxy：aging proxy（衰老代理，不得写作 sarcopenia 证据））—— 
+[16:09:11]   样本：case=21 / control=15；基因数=22880 
+[16:09:11]   ⚠ GSE25941 xCell 失败：找不到对象'xCell.data' 
+[16:09:11]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=96.2% 
+[16:09:11] 运行摘要已写出：11 队列；成功 xCell=0，成功 ssGSEA=11 
+[16:09:11] 组间比较：308 行（显著 adjP<0.05：40 行） 
+[16:09:12] 跨队列方向汇总：112 行；replicated=6，conflicting=7 个 tier×method×cell_type 
+[16:09:12] 相关分析：3080 行（可算 3080 行，显著 adjP<0.05：468 行） 
+[16:09:20] 图形输出完成（18 个文件） 
+[16:09:20] ==== 模块 F 结束 ==== 
+[16:23:47] ==== 模块 F 免疫浸润分析启动（2026-08-23）==== 
+[16:23:47] 模块 D v2 标志物（10 个）：NELL1, STEAP1, GADD45A, FBLN5, HEMK1, GDE1, RNF14, BNIP3, EGFR, CBR3 
+[16:23:47] ssGSEA 基因集：28 细胞类型，782 唯一 metagene（Charoentong 2017） 
+[16:23:47] CIBERSORT 状态：skipped_missing_license_files（未检测到 CIBERSORT.R/LM22.txt，请按官方授权流程获取后放入项目根目录） 
+[16:23:47] —— GSE114007（OA_training：OA 训练层）—— 
+[16:23:47]   样本：case=20 / control=18；基因数=21622 
+[16:23:48]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=21622 
+[16:23:49]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=96.3% 
+[16:23:49] —— GSE55235（OA_training：OA 训练层）—— 
+[16:23:49]   样本：case=10 / control=10；基因数=13237 
+[16:23:49]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=13237 
+[16:23:50]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:23:50] —— GSE55457（OA_training：OA 训练层）—— 
+[16:23:50]   样本：case=10 / control=10；基因数=13237 
+[16:23:50]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=13237 
+[16:23:51]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:23:51] —— GSE12021（OA_training：OA 训练层）—— 
+[16:23:51]   样本：case=10 / control=9；基因数=13237 
+[16:23:51]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=13237 
+[16:23:52]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:23:52] —— GSE51588（OA_training：OA 训练层）—— 
+[16:23:52]   样本：case=40 / control=10；基因数=21754 
+[16:23:53]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=21754 
+[16:23:53]   GSE51588/xCell: donor 去重（优先保留对照，无对照的 donor 保留病例）后 20 样本（case=15 / ctrl=5） 
+[16:23:54]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=97.2% 
+[16:23:54]   GSE51588/ssGSEA: donor 去重（优先保留对照，无对照的 donor 保留病例）后 20 样本（case=15 / ctrl=5） 
+[16:23:54] —— GSE111006（Muscle_sarcopenia：肌肉 sarcopenia 层）—— 
+[16:23:54]   ⚠ GSE111006: n_case=4 < 10，标记 low_power（结果仅作参考） 
+[16:23:54]   样本：case=4 / control=36；基因数=24916 
+[16:23:54]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=24916 
+[16:23:55]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=92.1% 
+[16:23:55] —— GSE111010（Muscle_sarcopenia：肌肉 sarcopenia 层）—— 
+[16:23:55]   ⚠ GSE111010: n_case=9 < 10，标记 low_power（结果仅作参考） 
+[16:23:55]   样本：case=9 / control=30；基因数=27248 
+[16:23:56]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=27248 
+[16:23:57]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=92.9% 
+[16:23:57] —— GSE111016（Muscle_sarcopenia：肌肉 sarcopenia 层）—— 
+[16:23:57]   样本：case=20 / control=20；基因数=25031 
+[16:23:58]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=25031 
+[16:23:58]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=91.9% 
+[16:23:59] —— GSE48556（Blood_exploratory：EXPLORATORY：血液探索层，不做跨队列硬合并）—— 
+[16:23:59]   样本：case=106 / control=33；基因数=25159 
+[16:24:00]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=25159 
+[16:24:02]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=94.8% 
+[16:24:02] —— GSE1428（Aging_proxy：aging proxy（衰老代理，不得写作 sarcopenia 证据））—— 
+[16:24:02]   样本：case=12 / control=10；基因数=13237 
+[16:24:02]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=13237 
+[16:24:03]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=87.3% 
+[16:24:04] —— GSE25941（Aging_proxy：aging proxy（衰老代理，不得写作 sarcopenia 证据））—— 
+[16:24:04]   样本：case=21 / control=15；基因数=22880 
+[16:24:04]   xCell 完成：67 细胞类型；签名覆盖率=NA（包内对象不可取）；输入基因=22880 
+[16:24:05]   ssGSEA 完成：28 细胞类型；平均 metagene 覆盖率=96.2% 
+[16:24:05] 运行摘要已写出：11 队列；成功 xCell=11，成功 ssGSEA=11 
+[16:24:05] 组间比较：1045 行（显著 adjP<0.05：121 行） 
+[16:24:06] 跨队列方向汇总：380 行；replicated=14，conflicting=15 个 tier×method×cell_type 
+[16:24:06] 相关分析：10450 行（可算 10450 行，显著 adjP<0.05：1220 行） 
+[16:24:21] 图形输出完成（36 个文件） 
+[16:24:21] ==== 模块 F 结束 ==== 

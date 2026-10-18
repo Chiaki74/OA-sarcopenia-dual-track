@@ -1,0 +1,6 @@
+gene,outcome,status,n_snp_final,d1_cs,d2_cs,n_cs_pairs,susie_PPH4,susie_PPH3,abf_PPH4,abf_PPH3,d1_level,d2_level,d1_error,d2_error
+FBLN5,alm,ok,5286,10,8,80,4.25986239162756e-148,1,4.02265253585886e-10,0.999999987898263,L3(shrink0.1+fixed),L1(rawR+est.resid),,
+CBR3,knee_oa,ok,2276,8,0,,,,0.00415147766732209,0.085765566645618,L2(shrink0.1+est.resid),L1(rawR+est.resid),,
+HEMK1,alm,ok,3434,6,3,18,0,1,2.05629513581934e-19,1,L2(shrink0.1+est.resid),L1(rawR+est.resid),,
+GDE1,low_grip,ok,5057,10,0,,,,0.0268280658287673,0.151351117270322,L3(shrink0.1+fixed),L1(rawR+est.resid),,
+RNF14,walk_pace,ok,4564,8,0,,,,0.00229899787620764,0.103480880655669,L3(shrink0.1+fixed),L1(rawR+est.resid),,

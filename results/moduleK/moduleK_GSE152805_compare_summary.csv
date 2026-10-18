@@ -1,0 +1,2 @@
+dataset,group1,group2,n_interaction_g1,n_interaction_g2,weight_g1,weight_g2
+GSE152805,MT,oLT,1761,282,0.987,0.724

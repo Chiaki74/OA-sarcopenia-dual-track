@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count","database","track"
+"R-HSA-611105","Respiratory electron transport","5/30","91/6166",0.0549450549450549,11.2930402930403,6.91633021633233,6.67534974476883e-05,0.0130169320022992,0.0102589585551184,"UQCR10/GOT1/NDUFC2/MDH1/NDUFS3",5,"Reactome","mirror_OAup_muscleDown"
+"R-HSA-9856872","Malate-aspartate shuttle","2/30","5/6166",0.4,82.2133333333333,12.7019741989097,0.000226794290812461,0.0221124433542149,0.0174273507676944,"GOT1/MDH1",2,"Reactome","mirror_OAup_muscleDown"
+"R-HSA-1428517","Aerobic respiration and respiratory electron transport","5/30","143/6166",0.034965034965035,7.18648018648019,5.2334696006032,0.000558444296167915,0.0362988792509145,0.0286080235931633,"UQCR10/GOT1/NDUFC2/MDH1/NDUFS3",5,"Reactome","mirror_OAup_muscleDown"

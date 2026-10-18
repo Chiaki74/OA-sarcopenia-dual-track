@@ -1,0 +1,520 @@
+[2026-08-27 22:12:58] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-27 22:12:58] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-27 22:12:58] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-27 22:12:58] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-27 22:12:58] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-27 22:12:58] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-27 22:12:58]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:13:29]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-27 22:13:29]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:13:36]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-27 22:13:36] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-27 22:13:36]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:13:36]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-27 22:13:36]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:16:38]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-27 22:16:38]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 22:16:38] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-27 22:16:38]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:16:54]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 77.59% 
+[2026-08-27 22:17:01]   F统计量：min=30.2 mean=45.5（阈值>10）通过 
+[2026-08-27 22:17:01]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 22:17:07]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 22:17:07]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 22:17:08]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr1:66685200-68688334，共 6779 SNP 
+[2026-08-27 22:17:08]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:17:08]   等位基因协调：交集 4218 → 保留 3936（非回文同向 2065，非回文翻转 1633，回文同向保留 238；剔除：回文中间带 35 + 回文非同向 246 + 回文MAF不一致 0 + 无法协调 1） 
+[2026-08-27 22:17:08]   check_dataset 未通过（GADD45A × 低握力(60+,EWGSOP)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:17:08]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 22:17:19]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 22:17:19]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 22:17:19]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr1:66685200-68688334，共 12884 SNP 
+[2026-08-27 22:17:19]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 12 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:17:19]   等位基因协调：交集 4898 → 保留 4589（非回文同向 2459，非回文翻转 1863，回文同向保留 267；剔除：回文中间带 36 + 回文非同向 270 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 22:17:19]   check_dataset 未通过（GADD45A × 四肢瘦体重(ALM)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:17:19]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 22:17:25]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 22:17:25]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 22:17:25]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr1:66685200-68688334，共 6747 SNP 
+[2026-08-27 22:17:25]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:17:25]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 22:17:25]   等位基因协调：交集 4754 → 保留 4594（非回文同向 3225，非回文翻转 961，回文同向保留 408；剔除：回文中间带 35 + 回文非同向 122 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 22:17:25]   check_dataset 未通过（GADD45A × 步行速度(平常步速)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:17:25]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 22:17:41]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 22:17:41]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 22:17:41]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr1:66685200-68688334，共 7655 SNP 
+[2026-08-27 22:17:41]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:17:41]   等位基因协调：交集 4973 → 保留 4654（非回文同向 2499，非回文翻转 1887，回文同向保留 268；剔除：回文中间带 36 + 回文非同向 276 + 回文MAF不一致 0 + 无法协调 7） 
+[2026-08-27 22:17:41]   check_dataset 未通过（GADD45A × 膝骨关节炎）：dataset : s must be between 0 and 1 
+[2026-08-27 22:17:41]   提取 GADD45A @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:17:42]   GADD45A 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-27 22:17:42] ■ FBLN5（track=concordant；OA:up / muscle:up；chr14:91869410-91947694） 
+[2026-08-27 22:17:42]   提取 FBLN5 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:17:48]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 85.64% 
+[2026-08-27 22:17:52]   F统计量：min=35.8 mean=1466.4（阈值>10）通过 
+[2026-08-27 22:17:52]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 22:17:59]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 22:17:59]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 22:17:59]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr14:90869410-92947694，共 7554 SNP 
+[2026-08-27 22:17:59]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 10 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:17:59]   等位基因协调：交集 4822 → 保留 4497（非回文同向 2466，非回文翻转 1788，回文同向保留 243；剔除：回文中间带 57 + 回文非同向 263 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-27 22:17:59]   check_dataset 未通过（FBLN5 × 低握力(60+,EWGSOP)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:17:59]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 22:18:06]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 22:18:06]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 22:18:06]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-27 22:18:06]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:18:06]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-27 22:18:06]   check_dataset 未通过（FBLN5 × 四肢瘦体重(ALM)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:18:06]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 22:18:25]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 22:18:25]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 22:18:25]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr14:90869410-92947694，共 7694 SNP 
+[2026-08-27 22:18:25]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:18:25]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 22:18:25]   等位基因协调：交集 5520 → 保留 5338（非回文同向 4003，非回文翻转 887，回文同向保留 448；剔除：回文中间带 57 + 回文非同向 122 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 22:18:25]   check_dataset 未通过（FBLN5 × 步行速度(平常步速)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:18:25]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 22:18:31]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 22:18:31]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 22:18:31]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr14:90869410-92947694，共 8973 SNP 
+[2026-08-27 22:18:31]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:18:31]   等位基因协调：交集 5893 → 保留 5507（非回文同向 3058，非回文翻转 2161，回文同向保留 288；剔除：回文中间带 57 + 回文非同向 315 + 回文MAF不一致 0 + 无法协调 14） 
+[2026-08-27 22:18:31]   check_dataset 未通过（FBLN5 × 膝骨关节炎）：dataset : s must be between 0 and 1 
+[2026-08-27 22:18:31]   提取 FBLN5 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:18:34]   GTEx rsID 映射：16/16 个位点成功 
+[2026-08-27 22:18:34]   FBLN5 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 22:18:35] ■ HEMK1（track=concordant；OA:up / muscle:up；chr3:50569151-50596166） 
+[2026-08-27 22:18:35]   提取 HEMK1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:18:41]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 75.55% 
+[2026-08-27 22:18:47]   F统计量：min=42.6 mean=146.1（阈值>10）通过 
+[2026-08-27 22:18:47]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 22:18:58]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 22:18:58]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 22:18:58]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr3:49569151-51596166，共 4027 SNP 
+[2026-08-27 22:18:58]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 4 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:18:58]   等位基因协调：交集 3192 → 保留 2982（非回文同向 1667，非回文翻转 1160，回文同向保留 155；剔除：回文中间带 30 + 回文非同向 178 + 回文MAF不一致 1 + 无法协调 1） 
+[2026-08-27 22:18:58]   check_dataset 未通过（HEMK1 × 低握力(60+,EWGSOP)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:18:58]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 22:19:04]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 22:19:04]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 22:19:04]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-27 22:19:04]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:19:04]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-27 22:19:04]   check_dataset 未通过（HEMK1 × 四肢瘦体重(ALM)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:19:04]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 22:19:10]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 22:19:10]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 22:19:10]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr3:49569151-51596166，共 3776 SNP 
+[2026-08-27 22:19:10]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 1 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:19:10]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 22:19:10]   等位基因协调：交集 3516 → 保留 3390（非回文同向 2354，非回文翻转 776，回文同向保留 260；剔除：回文中间带 30 + 回文非同向 94 + 回文MAF不一致 1 + 无法协调 1） 
+[2026-08-27 22:19:10]   check_dataset 未通过（HEMK1 × 步行速度(平常步速)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:19:10]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 22:19:21]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 22:19:21]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 22:19:21]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr3:49569151-51596166，共 4567 SNP 
+[2026-08-27 22:19:21]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:19:21]   等位基因协调：交集 3812 → 保留 3580（非回文同向 2065，非回文翻转 1337，回文同向保留 178；剔除：回文中间带 30 + 回文非同向 198 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-27 22:19:21]   check_dataset 未通过（HEMK1 × 膝骨关节炎）：dataset : s must be between 0 and 1 
+[2026-08-27 22:19:21]   提取 HEMK1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:19:24]   GTEx rsID 映射：1179/1179 个位点成功 
+[2026-08-27 22:19:34]   HEMK1 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs13076850） 
+[2026-08-27 22:19:34]   F统计量：min=73.4 mean=73.4（阈值>10）通过 
+[2026-08-27 22:19:34]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ebi-a-GCST90007526 
+[2026-08-27 22:19:34]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ebi-a-GCST90000025 
+[2026-08-27 22:19:34]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ukb-b-4711 
+[2026-08-27 22:19:34]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ebi-a-GCST007090 
+[2026-08-27 22:19:34] ■ GDE1（track=mirror_OAup_muscleDown；OA:up / muscle:down；chr16:19501692-19522098） 
+[2026-08-27 22:19:34]   提取 GDE1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:19:40]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 88.73% 
+[2026-08-27 22:19:43]   F统计量：min=30.7 mean=883.8（阈值>10）通过 
+[2026-08-27 22:19:43]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 22:19:54]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 22:19:54]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 22:19:54]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-27 22:19:54]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:19:54]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 22:19:54]   check_dataset 未通过（GDE1 × 低握力(60+,EWGSOP)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:19:54]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 22:20:00]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 22:20:00]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 22:20:00]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr16:18501692-20522098，共 13019 SNP 
+[2026-08-27 22:20:00]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 28 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:00]   等位基因协调：交集 6259 → 保留 5855（非回文同向 3209，非回文翻转 2312，回文同向保留 334；剔除：回文中间带 54 + 回文非同向 343 + 回文MAF不一致 0 + 无法协调 7） 
+[2026-08-27 22:20:00]   check_dataset 未通过（GDE1 × 四肢瘦体重(ALM)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:00]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 22:20:05]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 22:20:05]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 22:20:05]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr16:18501692-20522098，共 6118 SNP 
+[2026-08-27 22:20:05]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 4 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:05]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 22:20:05]   等位基因协调：交集 5749 → 保留 5569（非回文同向 4185，非回文翻转 862，回文同向保留 522；剔除：回文中间带 50 + 回文非同向 125 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-27 22:20:05]   check_dataset 未通过（GDE1 × 步行速度(平常步速)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:05]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 22:20:11]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 22:20:11]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 22:20:11]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr16:18501692-20522098，共 7526 SNP 
+[2026-08-27 22:20:11]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 21 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:11]   等位基因协调：交集 6368 → 保留 5959（非回文同向 3274，非回文翻转 2350，回文同向保留 335；剔除：回文中间带 54 + 回文非同向 346 + 回文MAF不一致 0 + 无法协调 9） 
+[2026-08-27 22:20:11]   check_dataset 未通过（GDE1 × 膝骨关节炎）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:11]   提取 GDE1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:20:12]   GTEx rsID 映射：1/1 个位点成功 
+[2026-08-27 22:20:13]   GDE1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 22:20:13] ■ RNF14（track=mirror_OAup_muscleDown；OA:up / muscle:down；chr5:141966836-141990292） 
+[2026-08-27 22:20:13]   提取 RNF14 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:20:24]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 80.33% 
+[2026-08-27 22:20:28]   F统计量：min=63.3 mean=759.2（阈值>10）通过 
+[2026-08-27 22:20:28]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 22:20:34]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 22:20:34]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 22:20:34]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr5:140966836-142990292，共 6772 SNP 
+[2026-08-27 22:20:34]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 6 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:34]   等位基因协调：交集 4392 → 保留 4093（非回文同向 2267，非回文翻转 1584，回文同向保留 242；剔除：回文中间带 51 + 回文非同向 247 + 回文MAF不一致 0 + 无法协调 1） 
+[2026-08-27 22:20:34]   check_dataset 未通过（RNF14 × 低握力(60+,EWGSOP)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:34]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 22:20:40]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 22:20:40]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 22:20:40]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr5:140966836-142990292，共 12566 SNP 
+[2026-08-27 22:20:40]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 24 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:40]   等位基因协调：交集 5068 → 保留 4752（非回文同向 2677，非回文翻转 1812，回文同向保留 263；剔除：回文中间带 51 + 回文非同向 265 + 回文MAF不一致 0 + 无法协调 0） 
+[2026-08-27 22:20:40]   check_dataset 未通过（RNF14 × 四肢瘦体重(ALM)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:40]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 22:20:46]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 22:20:46]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 22:20:46]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr5:140966836-142990292，共 6824 SNP 
+[2026-08-27 22:20:46]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:46]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 22:20:46]   等位基因协调：交集 4819 → 保留 4689（非回文同向 3586，非回文翻转 655，回文同向保留 448；剔除：回文中间带 51 + 回文非同向 75 + 回文MAF不一致 0 + 无法协调 4） 
+[2026-08-27 22:20:46]   check_dataset 未通过（RNF14 × 步行速度(平常步速)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:46]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 22:20:57]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 22:20:58]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 22:20:58]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr5:140966836-142990292，共 7914 SNP 
+[2026-08-27 22:20:58]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 22 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:20:58]   等位基因协调：交集 5155 → 保留 4825（非回文同向 2718，非回文翻转 1840，回文同向保留 267；剔除：回文中间带 52 + 回文非同向 271 + 回文MAF不一致 0 + 无法协调 7） 
+[2026-08-27 22:20:58]   check_dataset 未通过（RNF14 × 膝骨关节炎）：dataset : s must be between 0 and 1 
+[2026-08-27 22:20:58]   提取 RNF14 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:20:58]   RNF14 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-27 22:20:59] ■ BNIP3（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr10:131967682-131982013） 
+[2026-08-27 22:20:59]   提取 BNIP3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:21:05]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（BNIP3）：AssessedAllele==AlleleB 占 91.43% 
+[2026-08-27 22:21:05]   BNIP3 在 ±1000 kb cis 窗口内无记录 
+[2026-08-27 22:21:05]   提取 BNIP3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:21:08]   GTEx rsID 映射：51/51 个位点成功 
+[2026-08-27 22:21:08]   BNIP3 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 22:21:08] ■ EGFR（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr7:55019016-55211628） 
+[2026-08-27 22:21:08]   提取 EGFR @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:21:08]   EGFR 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-27 22:21:08]   提取 EGFR @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:21:16]   GTEx rsID 映射：55/55 个位点成功 
+[2026-08-27 22:21:16]   EGFR @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 22:21:16] ■ CBR3（track=concordant；OA:up / muscle:up；chr21:36135078-36146562） 
+[2026-08-27 22:21:16]   提取 CBR3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 22:21:23]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 75.83% 
+[2026-08-27 22:21:30]   F统计量：min=43.8 mean=61.4（阈值>10）通过 
+[2026-08-27 22:21:30]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 22:21:37]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 22:21:37]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 22:21:37]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr21:35135078-37146562，共 5688 SNP 
+[2026-08-27 22:21:37]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:21:37]   等位基因协调：交集 2139 → 保留 1999（非回文同向 1010，非回文翻转 860，回文同向保留 129；剔除：回文中间带 29 + 回文非同向 111 + 回文MAF不一致 0 + 无法协调 0） 
+[2026-08-27 22:21:37]   check_dataset 未通过（CBR3 × 低握力(60+,EWGSOP)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:21:37]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 22:21:48]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 22:21:48]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 22:21:48]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr21:35135078-37146562，共 11456 SNP 
+[2026-08-27 22:21:48]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 19 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:21:48]   等位基因协调：交集 2447 → 保留 2295（非回文同向 1171，非回文翻转 986，回文同向保留 138；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-27 22:21:48]   check_dataset 未通过（CBR3 × 四肢瘦体重(ALM)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:21:48]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 22:21:54]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 22:21:54]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 22:21:55]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr21:35135078-37146562，共 5820 SNP 
+[2026-08-27 22:21:55]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 1 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:21:55]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 22:21:55]   等位基因协调：交集 2411 → 保留 2342（非回文同向 1800，非回文翻转 323，回文同向保留 219；剔除：回文中间带 29 + 回文非同向 40 + 回文MAF不一致 0 + 无法协调 0） 
+[2026-08-27 22:21:55]   check_dataset 未通过（CBR3 × 步行速度(平常步速)）：dataset : s must be between 0 and 1 
+[2026-08-27 22:21:55]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 22:22:02]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 22:22:02]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 22:22:02]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-27 22:22:02]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 22:22:02]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-27 22:22:02]   check_dataset 未通过（CBR3 × 膝骨关节炎）：dataset : s must be between 0 and 1 
+[2026-08-27 22:22:02]   提取 CBR3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 22:22:05]   GTEx rsID 映射：83/83 个位点成功 
+[2026-08-27 22:22:06]   CBR3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs73374920） 
+[2026-08-27 22:22:06]   F统计量：min=31.4 mean=31.4（阈值>10）通过 
+[2026-08-27 22:22:06]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ebi-a-GCST90007526 
+[2026-08-27 22:22:06]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ebi-a-GCST90000025 
+[2026-08-27 22:22:06]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ukb-b-4711 
+[2026-08-27 22:22:06]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ebi-a-GCST007090 
+[2026-08-27 22:22:06] 多重校正：检验族 = 基因×结局×eQTL源，共 32 个主方法检验；Bonferroni 显著 0 个，BH-FDR 显著 0 个 
+[2026-08-27 22:22:06] MR 汇总已写出：moduleH_MR_summary.csv（主方法+校正，32 行）；moduleH_MR_all_methods.csv（全方法长表，80 行） 
+[2026-08-27 22:22:06] 无 coloc 结果可汇总（常见原因：eQTLGen 全量文件缺失——见 status/日志） 
+[2026-08-27 22:22:06] 已知因果基因对照已写出：moduleH_known_causal_overlap.csv；双侧同命中基因：无 
+[2026-08-27 22:22:08] 森林图已写出：moduleH_MR_forest_primary.pdf 
+[2026-08-27 22:22:08] 状态留痕已写出：moduleH_status.csv（76 行） 
+[2026-08-27 22:22:08] 模块 H 运行结束。结果解读前请对照备忘录 v1.1 附录 D 红线清单（aging proxy / 人群混杂 / 方向倒置）与 §6.1 判读速查。 
+[2026-08-27 23:40:24] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-27 23:40:24] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-27 23:40:24] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-27 23:40:24] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-27 23:40:24] 主循环启动：10 基因 × 2 eQTL源 × 4 结局 
+[2026-08-27 23:40:24] ■ NELL1（track=concordant；OA:up / muscle:up；chr11:20669550-21575683） 
+[2026-08-27 23:40:24]   提取 NELL1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:41:02]   NELL1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-27 23:41:02]   提取 NELL1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:41:05]   NELL1 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-27 23:41:05] ■ STEAP1（track=concordant；OA:up / muscle:up；chr7:90154468-90164827） 
+[2026-08-27 23:41:05]   提取 STEAP1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:41:05]   STEAP1 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-27 23:41:05]   提取 STEAP1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:42:27]   GTEx rsID 映射：106/106 个位点成功 
+[2026-08-27 23:42:27]   STEAP1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 23:42:27] ■ GADD45A（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr1:67685200-67688334） 
+[2026-08-27 23:42:27]   提取 GADD45A @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:42:39]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 77.59% 
+[2026-08-27 23:42:47]   F统计量：min=30.2 mean=45.5（阈值>10）通过 
+[2026-08-27 23:42:47]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 23:42:53]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 23:42:53]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 23:42:54]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr1:66685200-68688334，共 6779 SNP 
+[2026-08-27 23:42:54]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:42:54]   等位基因协调：交集 4218 → 保留 3936（非回文同向 2065，非回文翻转 1633，回文同向保留 238；剔除：回文中间带 35 + 回文非同向 246 + 回文MAF不一致 0 + 无法协调 1） 
+[2026-08-27 23:42:54]   coloc GADD45A × 低握力(60+,EWGSOP)：分支=coloc.abf(单因果变异假设)，PPH4=0.009（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:42:54]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 23:43:00]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 23:43:00]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 23:43:00]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr1:66685200-68688334，共 12884 SNP 
+[2026-08-27 23:43:00]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 12 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:43:00]   等位基因协调：交集 4898 → 保留 4589（非回文同向 2459，非回文翻转 1863，回文同向保留 267；剔除：回文中间带 36 + 回文非同向 270 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 23:43:00]   coloc GADD45A × 四肢瘦体重(ALM)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:43:00]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 23:43:13]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 23:43:13]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 23:43:13]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr1:66685200-68688334，共 6747 SNP 
+[2026-08-27 23:43:13]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:43:13]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 23:43:13]   等位基因协调：交集 4754 → 保留 4594（非回文同向 3225，非回文翻转 961，回文同向保留 408；剔除：回文中间带 35 + 回文非同向 122 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 23:43:13]   coloc GADD45A × 步行速度(平常步速)：分支=coloc.abf(单因果变异假设)，PPH4=0.003（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:43:13]   [断点续跑] 跳过已有 MR：GADD45A|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 23:43:20]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GADD45A）：AssessedAllele==AlleleB 占 85.59% 
+[2026-08-27 23:43:20]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 23:43:20]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr1:66685200-68688334，共 7655 SNP 
+[2026-08-27 23:43:20]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:43:20]   等位基因协调：交集 4973 → 保留 4654（非回文同向 2499，非回文翻转 1887，回文同向保留 268；剔除：回文中间带 36 + 回文非同向 276 + 回文MAF不一致 0 + 无法协调 7） 
+[2026-08-27 23:43:20]   coloc GADD45A × 膝骨关节炎：分支=coloc.abf(单因果变异假设)，PPH4=0.007（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:43:20]   提取 GADD45A @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:43:21]   GADD45A 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-27 23:43:21] ■ FBLN5（track=concordant；OA:up / muscle:up；chr14:91869410-91947694） 
+[2026-08-27 23:43:21]   提取 FBLN5 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:43:28]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 85.64% 
+[2026-08-27 23:43:32]   F统计量：min=35.8 mean=1466.4（阈值>10）通过 
+[2026-08-27 23:43:32]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 23:43:39]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 23:43:39]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 23:43:39]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr14:90869410-92947694，共 7554 SNP 
+[2026-08-27 23:43:39]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 10 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:43:39]   等位基因协调：交集 4822 → 保留 4497（非回文同向 2466，非回文翻转 1788，回文同向保留 243；剔除：回文中间带 57 + 回文非同向 263 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-27 23:43:39]   coloc FBLN5 × 低握力(60+,EWGSOP)：分支=coloc.abf(单因果变异假设)，PPH4=0.003（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:43:39]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 23:43:52]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 23:43:52]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 23:43:52]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-27 23:43:52]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:43:52]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-27 23:43:52]   coloc FBLN5 × 四肢瘦体重(ALM)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:43:52]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 23:43:58]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 23:43:58]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 23:43:58]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr14:90869410-92947694，共 7694 SNP 
+[2026-08-27 23:43:58]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:43:58]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 23:43:58]   等位基因协调：交集 5520 → 保留 5338（非回文同向 4003，非回文翻转 887，回文同向保留 448；剔除：回文中间带 57 + 回文非同向 122 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 23:43:58]   coloc FBLN5 × 步行速度(平常步速)：分支=coloc.abf(单因果变异假设)，PPH4=0.002（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:43:58]   [断点续跑] 跳过已有 MR：FBLN5|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 23:44:04]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-27 23:44:04]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 23:44:04]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr14:90869410-92947694，共 8973 SNP 
+[2026-08-27 23:44:04]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:44:04]   等位基因协调：交集 5893 → 保留 5507（非回文同向 3058，非回文翻转 2161，回文同向保留 288；剔除：回文中间带 57 + 回文非同向 315 + 回文MAF不一致 0 + 无法协调 14） 
+[2026-08-27 23:44:04]   coloc FBLN5 × 膝骨关节炎：分支=coloc.abf(单因果变异假设)，PPH4=0.002（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:44:04]   提取 FBLN5 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:44:07]   GTEx rsID 映射：16/16 个位点成功 
+[2026-08-27 23:44:07]   FBLN5 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 23:44:07] ■ HEMK1（track=concordant；OA:up / muscle:up；chr3:50569151-50596166） 
+[2026-08-27 23:44:07]   提取 HEMK1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:44:19]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 75.55% 
+[2026-08-27 23:44:25]   F统计量：min=42.6 mean=146.1（阈值>10）通过 
+[2026-08-27 23:44:25]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 23:44:31]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 23:44:31]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 23:44:31]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr3:49569151-51596166，共 4027 SNP 
+[2026-08-27 23:44:31]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 4 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:44:31]   等位基因协调：交集 3192 → 保留 2982（非回文同向 1667，非回文翻转 1160，回文同向保留 155；剔除：回文中间带 30 + 回文非同向 178 + 回文MAF不一致 1 + 无法协调 1） 
+[2026-08-27 23:44:31]   coloc HEMK1 × 低握力(60+,EWGSOP)：分支=coloc.abf(单因果变异假设)，PPH4=0.005（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:44:31]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 23:44:37]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 23:44:37]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 23:44:37]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-27 23:44:37]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:44:37]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-27 23:44:37]   coloc HEMK1 × 四肢瘦体重(ALM)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:44:37]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 23:44:48]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 23:44:48]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 23:44:48]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr3:49569151-51596166，共 3776 SNP 
+[2026-08-27 23:44:48]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 1 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:44:48]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 23:44:48]   等位基因协调：交集 3516 → 保留 3390（非回文同向 2354，非回文翻转 776，回文同向保留 260；剔除：回文中间带 30 + 回文非同向 94 + 回文MAF不一致 1 + 无法协调 1） 
+[2026-08-27 23:44:48]   coloc HEMK1 × 步行速度(平常步速)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:44:48]   [断点续跑] 跳过已有 MR：HEMK1|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 23:44:54]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-27 23:44:54]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 23:44:54]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr3:49569151-51596166，共 4567 SNP 
+[2026-08-27 23:44:54]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:44:54]   等位基因协调：交集 3812 → 保留 3580（非回文同向 2065，非回文翻转 1337，回文同向保留 178；剔除：回文中间带 30 + 回文非同向 198 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-27 23:44:54]   coloc HEMK1 × 膝骨关节炎：分支=coloc.abf(单因果变异假设)，PPH4=0.003（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:44:54]   提取 HEMK1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:44:57]   GTEx rsID 映射：1179/1179 个位点成功 
+[2026-08-27 23:45:08]   HEMK1 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs13076850） 
+[2026-08-27 23:45:08]   F统计量：min=73.4 mean=73.4（阈值>10）通过 
+[2026-08-27 23:45:08]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ebi-a-GCST90007526 
+[2026-08-27 23:45:08]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ebi-a-GCST90000025 
+[2026-08-27 23:45:08]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ukb-b-4711 
+[2026-08-27 23:45:08]   [断点续跑] 跳过已有 MR：HEMK1|gtex_muscle|ebi-a-GCST007090 
+[2026-08-27 23:45:08] ■ GDE1（track=mirror_OAup_muscleDown；OA:up / muscle:down；chr16:19501692-19522098） 
+[2026-08-27 23:45:08]   提取 GDE1 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:45:19]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 88.73% 
+[2026-08-27 23:45:23]   F统计量：min=30.7 mean=883.8（阈值>10）通过 
+[2026-08-27 23:45:23]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 23:45:29]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 23:45:29]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 23:45:29]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-27 23:45:29]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:45:29]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-27 23:45:29]   coloc GDE1 × 低握力(60+,EWGSOP)：分支=coloc.abf(单因果变异假设)，PPH4=0.027（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:45:29]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 23:45:35]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 23:45:35]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 23:45:35]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr16:18501692-20522098，共 13019 SNP 
+[2026-08-27 23:45:35]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 28 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:45:35]   等位基因协调：交集 6259 → 保留 5855（非回文同向 3209，非回文翻转 2312，回文同向保留 334；剔除：回文中间带 54 + 回文非同向 343 + 回文MAF不一致 0 + 无法协调 7） 
+[2026-08-27 23:45:35]   coloc GDE1 × 四肢瘦体重(ALM)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:45:35]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 23:45:41]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 23:45:41]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 23:45:41]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr16:18501692-20522098，共 6118 SNP 
+[2026-08-27 23:45:41]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 4 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:45:41]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 23:45:41]   等位基因协调：交集 5749 → 保留 5569（非回文同向 4185，非回文翻转 862，回文同向保留 522；剔除：回文中间带 50 + 回文非同向 125 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-27 23:45:41]   coloc GDE1 × 步行速度(平常步速)：分支=coloc.abf(单因果变异假设)，PPH4=0.002（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:45:41]   [断点续跑] 跳过已有 MR：GDE1|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 23:45:54]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-27 23:45:54]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 23:45:54]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr16:18501692-20522098，共 7526 SNP 
+[2026-08-27 23:45:54]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 21 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:45:54]   等位基因协调：交集 6368 → 保留 5959（非回文同向 3274，非回文翻转 2350，回文同向保留 335；剔除：回文中间带 54 + 回文非同向 346 + 回文MAF不一致 0 + 无法协调 9） 
+[2026-08-27 23:45:54]   coloc GDE1 × 膝骨关节炎：分支=coloc.abf(单因果变异假设)，PPH4=0.004（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:45:54]   提取 GDE1 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:45:55]   GTEx rsID 映射：1/1 个位点成功 
+[2026-08-27 23:45:55]   GDE1 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 23:45:56] ■ RNF14（track=mirror_OAup_muscleDown；OA:up / muscle:down；chr5:141966836-141990292） 
+[2026-08-27 23:45:56]   提取 RNF14 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:46:02]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 80.33% 
+[2026-08-27 23:46:05]   F统计量：min=63.3 mean=759.2（阈值>10）通过 
+[2026-08-27 23:46:05]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 23:46:11]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 23:46:11]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 23:46:11]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr5:140966836-142990292，共 6772 SNP 
+[2026-08-27 23:46:11]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 6 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:46:11]   等位基因协调：交集 4392 → 保留 4093（非回文同向 2267，非回文翻转 1584，回文同向保留 242；剔除：回文中间带 51 + 回文非同向 247 + 回文MAF不一致 0 + 无法协调 1） 
+[2026-08-27 23:46:11]   coloc RNF14 × 低握力(60+,EWGSOP)：分支=coloc.abf(单因果变异假设)，PPH4=0.002（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:46:11]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 23:46:17]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 23:46:17]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 23:46:17]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr5:140966836-142990292，共 12566 SNP 
+[2026-08-27 23:46:17]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 24 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:46:17]   等位基因协调：交集 5068 → 保留 4752（非回文同向 2677，非回文翻转 1812，回文同向保留 263；剔除：回文中间带 51 + 回文非同向 265 + 回文MAF不一致 0 + 无法协调 0） 
+[2026-08-27 23:46:17]   coloc RNF14 × 四肢瘦体重(ALM)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:46:17]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 23:46:38]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 23:46:38]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 23:46:38]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr5:140966836-142990292，共 6824 SNP 
+[2026-08-27 23:46:38]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:46:38]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 23:46:38]   等位基因协调：交集 4819 → 保留 4689（非回文同向 3586，非回文翻转 655，回文同向保留 448；剔除：回文中间带 51 + 回文非同向 75 + 回文MAF不一致 0 + 无法协调 4） 
+[2026-08-27 23:46:39]   coloc RNF14 × 步行速度(平常步速)：分支=coloc.abf(单因果变异假设)，PPH4=0.002（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:46:39]   [断点续跑] 跳过已有 MR：RNF14|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 23:46:45]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-27 23:46:45]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 23:46:45]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr5:140966836-142990292，共 7914 SNP 
+[2026-08-27 23:46:45]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 22 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:46:45]   等位基因协调：交集 5155 → 保留 4825（非回文同向 2718，非回文翻转 1840，回文同向保留 267；剔除：回文中间带 52 + 回文非同向 271 + 回文MAF不一致 0 + 无法协调 7） 
+[2026-08-27 23:46:45]   coloc RNF14 × 膝骨关节炎：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:46:45]   提取 RNF14 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:46:46]   RNF14 在 gtex_muscle 中无显著 cis-eQTL 记录 
+[2026-08-27 23:46:46] ■ BNIP3（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr10:131967682-131982013） 
+[2026-08-27 23:46:46]   提取 BNIP3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:46:52]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（BNIP3）：AssessedAllele==AlleleB 占 91.43% 
+[2026-08-27 23:46:52]   BNIP3 在 ±1000 kb cis 窗口内无记录 
+[2026-08-27 23:46:52]   提取 BNIP3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:46:55]   GTEx rsID 映射：51/51 个位点成功 
+[2026-08-27 23:46:55]   BNIP3 @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 23:46:55] ■ EGFR（track=mirror_OAdown_muscleUp；OA:down / muscle:up；chr7:55019016-55211628） 
+[2026-08-27 23:46:55]   提取 EGFR @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:46:55]   EGFR 在 eqtlgen_blood 中无显著 cis-eQTL 记录 
+[2026-08-27 23:46:55]   提取 EGFR @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:47:04]   GTEx rsID 映射：55/55 个位点成功 
+[2026-08-27 23:47:05]   EGFR @ gtex_muscle 真无IV：无 P<5e-08 的 cis-eQTL 
+[2026-08-27 23:47:05] ■ CBR3（track=concordant；OA:up / muscle:up；chr21:36135078-36146562） 
+[2026-08-27 23:47:05]   提取 CBR3 @ eqtlgen_blood 的 cis-eQTL ... 
+[2026-08-27 23:47:11]   [fetch_eqtlgen] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 75.83% 
+[2026-08-27 23:47:18]   F统计量：min=43.8 mean=61.4（阈值>10）通过 
+[2026-08-27 23:47:18]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ebi-a-GCST90007526 
+[2026-08-27 23:47:24]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 23:47:24]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-27 23:47:24]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr21:35135078-37146562，共 5688 SNP 
+[2026-08-27 23:47:24]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:47:24]   等位基因协调：交集 2139 → 保留 1999（非回文同向 1010，非回文翻转 860，回文同向保留 129；剔除：回文中间带 29 + 回文非同向 111 + 回文MAF不一致 0 + 无法协调 0） 
+[2026-08-27 23:47:24]   coloc CBR3 × 低握力(60+,EWGSOP)：分支=coloc.abf(单因果变异假设)，PPH4=0.003（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:47:24]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ebi-a-GCST90000025 
+[2026-08-27 23:47:30]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 23:47:30]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-27 23:47:30]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr21:35135078-37146562，共 11456 SNP 
+[2026-08-27 23:47:30]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 19 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:47:30]   等位基因协调：交集 2447 → 保留 2295（非回文同向 1171，非回文翻转 986，回文同向保留 138；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-27 23:47:30]   coloc CBR3 × 四肢瘦体重(ALM)：分支=coloc.abf(单因果变异假设)，PPH4=0.000（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:47:30]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ukb-b-4711 
+[2026-08-27 23:47:42]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 23:47:42]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-27 23:47:42]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr21:35135078-37146562，共 5820 SNP 
+[2026-08-27 23:47:42]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 1 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:47:42]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-27 23:47:42]   等位基因协调：交集 2411 → 保留 2342（非回文同向 1800，非回文翻转 323，回文同向保留 219；剔除：回文中间带 29 + 回文非同向 40 + 回文MAF不一致 0 + 无法协调 0） 
+[2026-08-27 23:47:42]   coloc CBR3 × 步行速度(平常步速)：分支=coloc.abf(单因果变异假设)，PPH4=0.001（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:47:42]   [断点续跑] 跳过已有 MR：CBR3|eqtlgen_blood|ebi-a-GCST007090 
+[2026-08-27 23:47:48]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-27 23:47:48]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-27 23:47:48]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-27 23:47:48]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-27 23:47:48]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-27 23:47:48]   coloc CBR3 × 膝骨关节炎：分支=coloc.abf(单因果变异假设)，PPH4=0.004（>0.8:FALSE，>0.9:FALSE），CS对数=1 
+[2026-08-27 23:47:48]   提取 CBR3 @ gtex_muscle 的 cis-eQTL ... 
+[2026-08-27 23:47:51]   GTEx rsID 映射：83/83 个位点成功 
+[2026-08-27 23:47:51]   CBR3 @ gtex_muscle 工具变量不足 3 个，启用单 SNP 兜底（rs73374920） 
+[2026-08-27 23:47:51]   F统计量：min=31.4 mean=31.4（阈值>10）通过 
+[2026-08-27 23:47:51]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ebi-a-GCST90007526 
+[2026-08-27 23:47:51]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ebi-a-GCST90000025 
+[2026-08-27 23:47:51]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ukb-b-4711 
+[2026-08-27 23:47:51]   [断点续跑] 跳过已有 MR：CBR3|gtex_muscle|ebi-a-GCST007090 
+[2026-08-27 23:47:51] 多重校正：检验族 = 基因×结局×eQTL源，共 32 个主方法检验；Bonferroni 显著 0 个，BH-FDR 显著 0 个 
+[2026-08-27 23:47:51] MR 汇总已写出：moduleH_MR_summary.csv（主方法+校正，32 行）；moduleH_MR_all_methods.csv（全方法长表，80 行） 
+[2026-08-27 23:47:51] coloc 汇总已写出：moduleH_coloc_summary.csv（24 行） 
+[2026-08-27 23:47:52] 已知因果基因对照已写出：moduleH_known_causal_overlap.csv；双侧同命中基因：无 
+[2026-08-27 23:47:52] 森林图已写出：moduleH_MR_forest_primary.pdf 
+[2026-08-27 23:47:52] 状态留痕已写出：moduleH_status.csv（76 行） 
+[2026-08-27 23:47:52] 模块 H 运行结束。结果解读前请对照备忘录 v1.1 附录 D 红线清单（aging proxy / 人群混杂 / 方向倒置）与 §6.1 判读速查。 

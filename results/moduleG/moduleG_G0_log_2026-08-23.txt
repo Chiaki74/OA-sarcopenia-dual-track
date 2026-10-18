@@ -1,0 +1,127 @@
+2026-08-23 17:18:56 | === 模块 G G0 启动：GEO 单细胞补充包下载与清单 === 
+2026-08-23 17:18:56 | 提示：总下载量约 2.2GB，请确保网络稳定、磁盘空间充足。 
+2026-08-23 17:18:56 | ---- 处理资源:  GSE152805_RAW  ---- 
+2026-08-23 17:18:56 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 17:19:02 | ERROR: 下载失败  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar  :  无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar' 
+2026-08-23 17:19:02 | ---- 处理资源:  GSE169454_RAW  ---- 
+2026-08-23 17:19:02 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar 
+2026-08-23 17:19:02 | ERROR: 下载失败  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar  :  无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar' 
+2026-08-23 17:19:02 | ---- 处理资源:  GSE167186_RAW  ---- 
+2026-08-23 17:19:02 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar 
+2026-08-23 17:19:04 | ERROR: 下载失败  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar  :  无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar' 
+2026-08-23 17:19:04 | ---- 处理资源:  GSE167186_metadata_xlsx  ---- 
+2026-08-23 17:19:04 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 17:19:05 | ERROR: 下载失败  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx  :  无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx' 
+2026-08-23 17:19:05 | 写出: moduleG_download_status.csv ( 4  行) 
+2026-08-23 17:19:05 | WARN: 无任何 tar contents 可写出（可能全部解压失败）。 
+2026-08-23 17:19:05 | WARN: 文件清单为空（可能所有资源均失败）。 
+2026-08-23 17:19:05 | ==== 汇总 ==== 
+2026-08-23 17:19:05 | GSE152805 : extracted_n =  0  / expected =  27 
+2026-08-23 17:19:05 | GSE169454 : extracted_n =  0  / expected =  21 
+2026-08-23 17:19:05 | GSE167186 : extracted_n =  0  / expected =  17 
+2026-08-23 17:19:05 | 模块 G G0 存在失败资源，请检查以下 URL/文件后重跑：
+  - GSE152805_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar | download failed; delete .part; check network and rerun this script
+  - GSE169454_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar | download failed; delete .part; check network and rerun this script
+  - GSE167186_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar | download failed; delete .part; check network and rerun this script
+  - GSE167186_metadata_xlsx | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx | download failed; delete .part; check network and rerun this script 
+2026-08-23 17:28:05 | === 模块 G G0 启动：GEO 单细胞补充包下载与清单 === 
+2026-08-23 17:28:05 | 提示：总下载量约 2.2GB，请确保网络稳定、磁盘空间充足。 
+2026-08-23 17:28:05 | ---- 处理资源:  GSE152805_RAW  ---- 
+2026-08-23 17:28:05 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 17:28:05 | 尝试 download.file(method=" wininet "):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 17:28:55 | ERROR [ wininet ]:  download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar'  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar ) 
+2026-08-23 17:28:55 | 尝试 download.file(method=" libcurl "):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 17:29:41 | ERROR [ libcurl ]:  download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar'  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar ) 
+2026-08-23 17:29:41 | 已准备 ftp 变体 URL 作为 curl 备选:  ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 17:29:41 | 尝试系统 curl ( curl-https ):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 19:11:59 | ERROR [ curl-https ]:  curl exit code 56  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar ) 
+2026-08-23 19:11:59 | 尝试系统 curl ( curl-ftp ):  ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar 
+2026-08-23 19:13:12 | ERROR [ curl-ftp ]:  curl exit code 18  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar ) 
+2026-08-23 19:13:12 | ERROR:  download failed via all methods (wininet: download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar' | libcurl: download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar' | curl-https: curl exit code 56 | curl-ftp: curl exit code 18); you may also manually download https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar via a web browser to C:/Users/凉月/Desktop/ENG论文/data/GEO/GSE152805/GSE152805_RAW.tar (must be exactly 329338880 bytes) and rerun this script - it will detect the file by byte size and skip downloading 
+2026-08-23 19:13:12 | ---- 处理资源:  GSE169454_RAW  ---- 
+2026-08-23 19:13:12 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar 
+2026-08-23 19:13:12 | 尝试 download.file(method=" wininet "):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar 
+2026-08-23 19:13:29 | ERROR [ wininet ]:  download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar'  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar ) 
+2026-08-23 19:13:29 | 尝试 download.file(method=" libcurl "):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar 
+2026-08-23 19:13:35 | ERROR [ libcurl ]:  download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar'  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar ) 
+2026-08-23 19:13:35 | 已准备 ftp 变体 URL 作为 curl 备选:  ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar 
+2026-08-23 19:13:35 | 尝试系统 curl ( curl-https ):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar 
+2026-08-23 20:49:15 | === 模块 G G0 启动：GEO 单细胞补充包下载与清单 === 
+2026-08-23 20:49:15 | 提示：总下载量约 2.2GB，请确保网络稳定、磁盘空间充足。 
+2026-08-23 20:49:16 | ---- 处理资源:  GSE152805_RAW  ---- 
+2026-08-23 20:49:16 | 已存在且大小匹配，跳过下载:  GSE152805_RAW.tar 
+2026-08-23 20:49:16 | ERROR:  GSE152805_RAW  解压异常（不影响其他资源）:  input string 1 is invalid UTF-8 
+2026-08-23 20:49:16 | ---- 处理资源:  GSE169454_RAW  ---- 
+2026-08-23 20:49:16 | 已存在且大小匹配，跳过下载:  GSE169454_RAW.tar 
+2026-08-23 20:49:17 | ERROR:  GSE169454_RAW  解压异常（不影响其他资源）:  input string 1 is invalid UTF-8 
+2026-08-23 20:49:17 | ---- 处理资源:  GSE167186_RAW  ---- 
+2026-08-23 20:49:17 | 已存在且大小匹配，跳过下载:  GSE167186_RAW.tar 
+2026-08-23 20:49:17 | ERROR:  GSE167186_RAW  解压异常（不影响其他资源）:  input string 1 is invalid UTF-8 
+2026-08-23 20:49:17 | ---- 处理资源:  GSE167186_metadata_xlsx  ---- 
+2026-08-23 20:49:17 | 开始下载:  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:49:17 | 尝试 download.file(method=" wininet "):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:49:53 | ERROR [ wininet ]:  download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx'  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx ) 
+2026-08-23 20:49:53 | 尝试 download.file(method=" libcurl "):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:51:24 | ERROR [ libcurl ]:  download.file error: 无法打开URL'https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx'  ( https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx ) 
+2026-08-23 20:51:24 | 已准备 ftp 变体 URL 作为 curl 备选:  ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:51:24 | 尝试系统 curl ( curl-https ):  https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:51:28 | 下载完成并校验通过:  GSE167186_SimplifiedMetadataSheet.xlsx  ( 10124  bytes, via  curl-https ) 
+2026-08-23 20:51:28 | 元数据文件已登记清单:  GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:51:28 | 写出: moduleG_download_status.csv ( 4  行) 
+2026-08-23 20:51:28 | 写出: moduleG_tar_contents.csv ( 0  行) 
+2026-08-23 20:51:28 | 写出: moduleG_file_inventory.csv ( 1  行) 
+2026-08-23 20:51:28 | ==== 汇总 ==== 
+2026-08-23 20:51:28 | GSE152805 : extracted_n =  0  / expected =  27 
+2026-08-23 20:51:28 | GSE169454 : extracted_n =  0  / expected =  21 
+2026-08-23 20:51:28 | GSE167186 : extracted_n =  0  / expected =  17 
+2026-08-23 20:51:28 | 模块 G G0 存在失败资源，请检查以下 URL/文件后重跑：
+  - GSE152805_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar | existing file size matched; extraction incomplete: got 0, expected 27
+  - GSE169454_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar | existing file size matched; extraction incomplete: got 0, expected 21
+  - GSE167186_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar | existing file size matched; extraction incomplete: got 0, expected 17 
+2026-08-23 20:59:09 | === 模块 G G0 启动：GEO 单细胞补充包下载与清单 === 
+2026-08-23 20:59:09 | 提示：总下载量约 2.2GB，请确保网络稳定、磁盘空间充足。 
+2026-08-23 20:59:09 | ---- 处理资源:  GSE152805_RAW  ---- 
+2026-08-23 20:59:09 | 已存在且大小匹配，跳过下载:  GSE152805_RAW.tar 
+2026-08-23 20:59:10 | ERROR:  GSE152805_RAW  解压异常（不影响其他资源）:  input string 1 is invalid UTF-8 
+2026-08-23 20:59:10 | ---- 处理资源:  GSE169454_RAW  ---- 
+2026-08-23 20:59:10 | 已存在且大小匹配，跳过下载:  GSE169454_RAW.tar 
+2026-08-23 20:59:10 | ERROR:  GSE169454_RAW  解压异常（不影响其他资源）:  input string 1 is invalid UTF-8 
+2026-08-23 20:59:10 | ---- 处理资源:  GSE167186_RAW  ---- 
+2026-08-23 20:59:10 | 已存在且大小匹配，跳过下载:  GSE167186_RAW.tar 
+2026-08-23 20:59:11 | ERROR:  GSE167186_RAW  解压异常（不影响其他资源）:  input string 1 is invalid UTF-8 
+2026-08-23 20:59:11 | ---- 处理资源:  GSE167186_metadata_xlsx  ---- 
+2026-08-23 20:59:11 | 已存在且大小匹配，跳过下载:  GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:59:11 | 元数据文件已登记清单:  GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 20:59:11 | 写出: moduleG_download_status.csv ( 4  行) 
+2026-08-23 20:59:11 | 写出: moduleG_tar_contents.csv ( 0  行) 
+2026-08-23 20:59:11 | 写出: moduleG_file_inventory.csv ( 1  行) 
+2026-08-23 20:59:11 | ==== 汇总 ==== 
+2026-08-23 20:59:11 | GSE152805 : extracted_n =  0  / expected =  27 
+2026-08-23 20:59:11 | GSE169454 : extracted_n =  0  / expected =  21 
+2026-08-23 20:59:11 | GSE167186 : extracted_n =  0  / expected =  17 
+2026-08-23 20:59:11 | 模块 G G0 存在失败资源，请检查以下 URL/文件后重跑：
+  - GSE152805_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar | existing file size matched; extraction incomplete: got 0, expected 27
+  - GSE169454_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar | existing file size matched; extraction incomplete: got 0, expected 21
+  - GSE167186_RAW | https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar | existing file size matched; extraction incomplete: got 0, expected 17 
+2026-08-23 21:10:08 | === 模块 G G0 启动：GEO 单细胞补充包下载与清单 === 
+2026-08-23 21:10:08 | 提示：总下载量约 2.2GB，请确保网络稳定、磁盘空间充足。 
+2026-08-23 21:10:08 | ---- 处理资源:  GSE152805_RAW  ---- 
+2026-08-23 21:10:09 | 已存在且大小匹配，跳过下载:  GSE152805_RAW.tar 
+2026-08-23 21:10:09 | GSE152805_RAW.tar ：tar 成员  27  个，选中待解压  27  个（预期  27 ） 
+2026-08-23 21:10:09 | ---- 处理资源:  GSE169454_RAW  ---- 
+2026-08-23 21:10:09 | 已存在且大小匹配，跳过下载:  GSE169454_RAW.tar 
+2026-08-23 21:10:10 | GSE169454_RAW.tar ：tar 成员  42  个，选中待解压  21  个（预期  21 ） 
+2026-08-23 21:10:10 | ---- 处理资源:  GSE167186_RAW  ---- 
+2026-08-23 21:10:10 | 已存在且大小匹配，跳过下载:  GSE167186_RAW.tar 
+2026-08-23 21:10:11 | GSE167186_RAW.tar ：tar 成员  34  个，选中待解压  17  个（预期  17 ） 
+2026-08-23 21:10:11 | ---- 处理资源:  GSE167186_metadata_xlsx  ---- 
+2026-08-23 21:10:11 | 已存在且大小匹配，跳过下载:  GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 21:10:11 | 元数据文件已登记清单:  GSE167186_SimplifiedMetadataSheet.xlsx 
+2026-08-23 21:10:11 | 写出: moduleG_download_status.csv ( 4  行) 
+2026-08-23 21:10:11 | 写出: moduleG_tar_contents.csv ( 103  行) 
+2026-08-23 21:10:11 | 写出: moduleG_file_inventory.csv ( 66  行) 
+2026-08-23 21:10:11 | ==== 汇总 ==== 
+2026-08-23 21:10:11 | GSE152805 : extracted_n =  27  / expected =  27 
+2026-08-23 21:10:11 | GSE169454 : extracted_n =  21  / expected =  21 
+2026-08-23 21:10:11 | GSE167186 : extracted_n =  17  / expected =  17 
+2026-08-23 21:10:11 | 模块 G G0 完成，下一步可进入 Seurat 建对象脚本 08_moduleG_singlecell.R 

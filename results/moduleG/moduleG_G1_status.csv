@@ -1,0 +1,4 @@
+"gse","status","n_samples","cells_before","cells_after","rds_path","note"
+"GSE152805","OK",9,36885,35503,"C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE152805_seurat_G1.rds","OK: merged -> dataset-level QC -> LogNormalize+VST2000"
+"GSE169454","OK",7,66818,65042,"C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE169454_seurat_G1.rds","OK: merged -> dataset-level QC -> LogNormalize+VST2000"
+"GSE167186","OK",17,NA,52269,"C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE167186_seurat_G1.rds","OK: per-sample QC -> merge -> LogNormalize+VST2000 (memory-safe path)"

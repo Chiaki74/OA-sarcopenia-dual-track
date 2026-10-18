@@ -1,0 +1,4 @@
+"variant","n_candidates","n_mirror","mirror_frac","binom_p_greater"
+"未校正基线（冻结）",99,72,0.7273,3.45e-06
+"xCell校正",17,7,0.4118,0.8338
+"ssGSEA校正",23,13,0.5652,0.3388

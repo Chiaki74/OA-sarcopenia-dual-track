@@ -1,0 +1,775 @@
+2026-08-24 20:38:46 | === 模块 G G2 启动：标志物定位 / 三轨 UCell / pseudobulk 统计 === 
+2026-08-24 20:38:46 | 红线 1: GSE152805 无健康对照，仅供体内 oLT vs MT 配对对比（描述性）。 
+2026-08-24 20:38:46 | 红线 2: GSE167186 为 Old vs Young aging proxy，严禁 sarcopenia 表述。 
+2026-08-24 20:38:46 | 红线 3: 差异统计以 donor/样本级 pseudobulk 为底线；Harmony 仅用于聚类/UMAP。 
+2026-08-24 20:38:46 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-24 20:38:55 | 依赖检查通过:  Seurat 5.5.1 | Matrix 1.7.5 | data.table 1.18.6.1 | ggplot2 4.0.3 | patchwork 1.3.2 | harmony 2.0.5 | UCell 2.16.0 
+2026-08-24 20:38:55 | 三轨表载入:  99  行；10 个锁定标志物轨归属全部查到。 
+2026-08-24 20:38:55 | 三轨基因数:  concordant=27 | mirror_OAup_muscleDown=37 | mirror_OAdown_muscleUp=35 
+2026-08-24 20:38:56 | ---- 数据集:  GSE152805  ---- 
+2026-08-24 20:39:05 | GSE152805 : RDS 载入  35503  细胞 x  22289  基因。 
+2026-08-24 20:39:22 | GSE152805 : JoinLayers 完成，layers= data,counts 
+2026-08-24 20:41:24 | GSE152805 : 聚类完成， 16  个 cluster (Harmony by  donor )。 
+2026-08-24 20:41:27 |     图已写出:  GSE152805_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 20:41:28 |     图已写出:  GSE152805_UMAP_tissue .pdf/.png 
+2026-08-24 20:41:29 |     图已写出:  GSE152805_UMAP_donor .pdf/.png 
+2026-08-24 20:41:30 | WARN:  GSE152805   Endothelial  标志物部分检出  1 / 2 （未检出:  PECAM1 ） 
+2026-08-24 20:41:31 | WARN:  GSE152805   Bcell  标志物部分检出  1 / 2 （未检出:  MS4A1 ） 
+2026-08-24 20:41:31 | GSE152805 : 自动注释完成， 16  个 cluster ->  6  种细胞类型 ( Chondrocyte=6, Endothelial=1, FibroChondro=6, Immune=1, Macrophage=1, SynFibro=1 ) 
+2026-08-24 20:41:31 |     写出:  GSE152805 _cluster_celltype_scores.csv ( 16  行) 
+2026-08-24 20:41:32 |     图已写出:  GSE152805_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 20:41:32 | GSE152805 : 标志物检出  10 /10。 
+2026-08-24 20:41:46 |     图已写出:  GSE152805_markers_FeaturePlot .pdf/.png 
+2026-08-24 20:41:47 |     图已写出:  GSE152805_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 20:41:50 |     图已写出:  GSE152805_markers_VlnPlot_tissue .pdf/.png 
+2026-08-24 20:41:50 | GSE152805 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 20:41:50 | GSE152805 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 20:41:50 | GSE152805 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 20:41:50 | ERROR:  GSE152805  G2 处理失败（不影响其他数据集）:  Unrecognized input format. 
+2026-08-24 20:41:50 | ----  GSE152805  处理完毕，已 gc() ---- 
+2026-08-24 20:41:50 | ---- 数据集:  GSE169454  ---- 
+2026-08-24 20:41:58 | GSE169454 : RDS 载入  65042  细胞 x  23719  基因。 
+2026-08-24 20:42:19 | GSE169454 : JoinLayers 完成，layers= data,counts 
+2026-08-24 20:46:01 | GSE169454 : 聚类完成， 14  个 cluster (Harmony by  gsm )。 
+2026-08-24 20:46:05 |     图已写出:  GSE169454_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 20:46:09 |     图已写出:  GSE169454_UMAP_condition .pdf/.png 
+2026-08-24 20:46:12 |     图已写出:  GSE169454_UMAP_donor .pdf/.png 
+2026-08-24 20:46:16 | GSE169454 : 自动注释完成， 14  个 cluster ->  3  种细胞类型 ( Chondrocyte=10, FibroChondro=1, HomeoChondro=3 ) 
+2026-08-24 20:46:16 |     写出:  GSE169454 _cluster_celltype_scores.csv ( 14  行) 
+2026-08-24 20:46:18 |     图已写出:  GSE169454_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 20:46:18 | GSE169454 : 标志物检出  10 /10。 
+2026-08-24 20:46:52 |     图已写出:  GSE169454_markers_FeaturePlot .pdf/.png 
+2026-08-24 20:46:53 |     图已写出:  GSE169454_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 20:46:59 |     图已写出:  GSE169454_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 20:46:59 | GSE169454 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 20:46:59 | GSE169454 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 20:46:59 | GSE169454 : 轨  mirror_OAdown_muscleUp  检出覆盖度  35/35 
+2026-08-24 20:46:59 | ERROR:  GSE169454  G2 处理失败（不影响其他数据集）:  Unrecognized input format. 
+2026-08-24 20:47:00 | ----  GSE169454  处理完毕，已 gc() ---- 
+2026-08-24 20:47:00 | ---- 数据集:  GSE167186  ---- 
+2026-08-24 20:47:03 | GSE167186 : RDS 载入  52269  细胞 x  22047  基因。 
+2026-08-24 20:47:17 | GSE167186 : JoinLayers 完成，layers= data,counts 
+2026-08-24 20:47:17 | WARN:  GSE167186  JoinLayers 后 VariableFeatures 仅  677  个（预期 ~2000），VST2000 存活异常，请检查 G1 RDS 完整性。 
+2026-08-24 20:51:38 | GSE167186 : 聚类完成， 12  个 cluster (Harmony by  donor )。 
+2026-08-24 20:51:41 |     图已写出:  GSE167186_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 20:51:45 |     图已写出:  GSE167186_UMAP_condition .pdf/.png 
+2026-08-24 20:51:48 |     图已写出:  GSE167186_UMAP_donor .pdf/.png 
+2026-08-24 20:51:50 | GSE167186 : 自动注释完成， 12  个 cluster ->  1  种细胞类型 ( Myonuclei=12 ) 
+2026-08-24 20:51:50 |     写出:  GSE167186 _cluster_celltype_scores.csv ( 12  行) 
+2026-08-24 20:51:51 |     图已写出:  GSE167186_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 20:51:51 | GSE167186 : 标志物检出  10 /10。 
+2026-08-24 20:52:18 |     图已写出:  GSE167186_markers_FeaturePlot .pdf/.png 
+2026-08-24 20:52:20 |     图已写出:  GSE167186_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 20:52:25 |     图已写出:  GSE167186_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 20:52:25 | GSE167186 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 20:52:25 | GSE167186 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 20:52:25 | GSE167186 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 20:52:25 | ERROR:  GSE167186  G2 处理失败（不影响其他数据集）:  Unrecognized input format. 
+2026-08-24 20:52:25 | ----  GSE167186  处理完毕，已 gc() ---- 
+2026-08-24 20:52:25 | 写出: G2/moduleG_G2_status.csv ( 3  行) 
+2026-08-24 20:52:25 | WARN: 无任何 pseudobulk 统计行可写出（所有数据集均失败）。 
+2026-08-24 20:52:25 | WARN: 无任何定位汇总行可写出（所有数据集均失败）。 
+2026-08-24 20:52:25 | ==== G2 汇总 ==== 
+2026-08-24 20:52:25 | GSE152805 :  FAIL  | cells= NA  | clusters= NA  | celltypes= NA  | markers= NA  | ucell= NA  |  FAIL: Unrecognized input format. 
+2026-08-24 20:52:25 | GSE169454 :  FAIL  | cells= NA  | clusters= NA  | celltypes= NA  | markers= NA  | ucell= NA  |  FAIL: Unrecognized input format. 
+2026-08-24 20:52:25 | GSE167186 :  FAIL  | cells= NA  | clusters= NA  | celltypes= NA  | markers= NA  | ucell= NA  |  FAIL: Unrecognized input format. 
+2026-08-24 20:52:25 | ==== sessionInfo ==== 
+2026-08-24 20:52:26 | R version 4.6.0 (2026-04-24 ucrt) 
+2026-08-24 20:52:26 | Platform: x86_64-w64-mingw32/x64 
+2026-08-24 20:52:26 | Running under: Windows 11 x64 (build 26200) 
+2026-08-24 20:52:26 |  
+2026-08-24 20:52:26 | Matrix products: default 
+2026-08-24 20:52:26 |   LAPACK version 3.12.1 
+2026-08-24 20:52:26 |  
+2026-08-24 20:52:26 | locale: 
+2026-08-24 20:52:26 | [1] LC_COLLATE=Chinese (Simplified)_China.utf8  
+2026-08-24 20:52:26 | [2] LC_CTYPE=Chinese (Simplified)_China.utf8    
+2026-08-24 20:52:26 | [3] LC_MONETARY=Chinese (Simplified)_China.utf8 
+2026-08-24 20:52:26 | [4] LC_NUMERIC=C                                
+2026-08-24 20:52:26 | [5] LC_TIME=Chinese (Simplified)_China.utf8     
+2026-08-24 20:52:26 |  
+2026-08-24 20:52:26 | time zone: Asia/Hong_Kong 
+2026-08-24 20:52:26 | tzcode source: internal 
+2026-08-24 20:52:26 |  
+2026-08-24 20:52:26 | attached base packages: 
+2026-08-24 20:52:26 | [1] stats     graphics  grDevices utils     datasets  methods   
+2026-08-24 20:52:26 | [7] base      
+2026-08-24 20:52:26 |  
+2026-08-24 20:52:26 | other attached packages: 
+2026-08-24 20:52:26 | [1] future_1.75.0      ggplot2_4.0.3      Matrix_1.7-5       
+2026-08-24 20:52:26 | [4] Seurat_5.5.1       SeuratObject_5.4.0 sp_2.2-3           
+2026-08-24 20:52:26 |  
+2026-08-24 20:52:26 | loaded via a namespace (and not attached): 
+2026-08-24 20:52:26 |   [1] RColorBrewer_1.1-3          UCell_2.16.0                
+2026-08-24 20:52:26 |   [3] rstudioapi_0.19.0           jsonlite_2.0.0              
+2026-08-24 20:52:26 |   [5] magrittr_2.0.5              ggbeeswarm_0.7.3            
+2026-08-24 20:52:26 |   [7] spatstat.utils_3.2-4        farver_2.1.2                
+2026-08-24 20:52:26 |   [9] ragg_1.5.2                  vctrs_0.7.3                 
+2026-08-24 20:52:26 |  [11] ROCR_1.0-12                 spatstat.explore_3.8-2      
+2026-08-24 20:52:26 |  [13] htmltools_0.5.9             S4Arrays_1.12.0             
+2026-08-24 20:52:26 |  [15] BiocNeighbors_2.6.0         SparseArray_1.12.2          
+2026-08-24 20:52:26 |  [17] sctransform_0.4.3           parallelly_1.48.0           
+2026-08-24 20:52:26 |  [19] KernSmooth_2.23-27          htmlwidgets_1.6.4           
+2026-08-24 20:52:26 |  [21] ica_1.0-3                   plyr_1.8.9                  
+2026-08-24 20:52:26 |  [23] plotly_4.12.1               zoo_1.9-0                   
+2026-08-24 20:52:26 |  [25] igraph_2.3.3                mime_0.13                   
+2026-08-24 20:52:26 |  [27] lifecycle_1.0.5             pkgconfig_2.0.3             
+2026-08-24 20:52:26 |  [29] R6_2.6.1                    fastmap_1.2.0               
+2026-08-24 20:52:26 |  [31] MatrixGenerics_1.24.0       fitdistrplus_1.2-6          
+2026-08-24 20:52:26 |  [33] shiny_1.14.0                digest_0.6.39               
+2026-08-24 20:52:26 |  [35] patchwork_1.3.2             S4Vectors_0.50.1            
+2026-08-24 20:52:26 |  [37] tensor_1.5.1                RSpectra_0.16-2             
+2026-08-24 20:52:26 |  [39] irlba_2.3.7                 textshaping_1.0.5           
+2026-08-24 20:52:26 |  [41] GenomicRanges_1.64.0        labeling_0.4.3              
+2026-08-24 20:52:26 |  [43] progressr_1.0.0             spatstat.sparse_3.2-0       
+2026-08-24 20:52:26 |  [45] httr_1.4.8                  polyclip_1.10-7             
+2026-08-24 20:52:26 |  [47] abind_1.4-8                 compiler_4.6.0              
+2026-08-24 20:52:26 |  [49] withr_3.0.3                 S7_0.2.2                    
+2026-08-24 20:52:26 |  [51] BiocParallel_1.46.0         fastDummies_1.7.6           
+2026-08-24 20:52:26 |  [53] MASS_7.3-66                 DelayedArray_0.38.2         
+2026-08-24 20:52:26 |  [55] tools_4.6.0                 vipor_0.4.7                 
+2026-08-24 20:52:26 |  [57] lmtest_0.9-40               otel_0.2.0                  
+2026-08-24 20:52:26 |  [59] beeswarm_0.4.0              httpuv_1.6.17               
+2026-08-24 20:52:26 |  [61] future.apply_1.20.2         goftest_1.2-3               
+2026-08-24 20:52:26 |  [63] glue_1.8.1                  nlme_3.1-170                
+2026-08-24 20:52:26 |  [65] promises_1.5.0              grid_4.6.0                  
+2026-08-24 20:52:26 |  [67] Rtsne_0.17                  cluster_2.1.8.3             
+2026-08-24 20:52:26 |  [69] reshape2_1.4.5              generics_0.1.4              
+2026-08-24 20:52:26 |  [71] gtable_0.3.6                spatstat.data_3.1-9         
+2026-08-24 20:52:26 |  [73] tidyr_1.3.2                 data.table_1.18.6.1         
+2026-08-24 20:52:26 |  [75] XVector_0.52.0              BiocGenerics_0.58.1         
+2026-08-24 20:52:26 |  [77] spatstat.geom_3.8-2         RcppAnnoy_0.0.23            
+2026-08-24 20:52:26 |  [79] ggrepel_0.9.8               RANN_2.6.3                  
+2026-08-24 20:52:26 |  [81] pillar_1.11.1               stringr_1.6.0               
+2026-08-24 20:52:26 |  [83] spam_2.11-4                 RcppHNSW_0.7.0              
+2026-08-24 20:52:26 |  [85] later_1.4.8                 splines_4.6.0               
+2026-08-24 20:52:26 |  [87] dplyr_1.2.1                 lattice_0.22-9              
+2026-08-24 20:52:26 |  [89] survival_3.8-6              deldir_2.0-4                
+2026-08-24 20:52:26 |  [91] tidyselect_1.2.1            SingleCellExperiment_1.34.0 
+2026-08-24 20:52:26 |  [93] miniUI_0.1.2                pbapply_1.7-4               
+2026-08-24 20:52:26 |  [95] gridExtra_2.3.1             IRanges_2.46.0              
+2026-08-24 20:52:26 |  [97] Seqinfo_1.2.0               SummarizedExperiment_1.42.0 
+2026-08-24 20:52:26 |  [99] scattermore_1.2             RhpcBLASctl_0.23-42         
+2026-08-24 20:52:26 | [101] stats4_4.6.0                Biobase_2.72.0              
+2026-08-24 20:52:26 | [103] matrixStats_1.5.0           stringi_1.8.9               
+2026-08-24 20:52:26 | [105] codetools_0.2-20            tibble_3.3.1                
+2026-08-24 20:52:26 | [107] cli_3.6.6                   uwot_0.2.4                  
+2026-08-24 20:52:26 | [109] systemfonts_1.3.2           xtable_1.8-8                
+2026-08-24 20:52:26 | [111] reticulate_1.46.0           harmony_2.0.5               
+2026-08-24 20:52:26 | [113] Rcpp_1.1.2                  globals_0.19.1              
+2026-08-24 20:52:26 | [115] spatstat.random_3.5-1       png_0.1-9                   
+2026-08-24 20:52:26 | [117] ggrastr_1.0.2               spatstat.univar_3.2-0       
+2026-08-24 20:52:26 | [119] parallel_4.6.0              dotCall64_1.2               
+2026-08-24 20:52:26 | [121] listenv_1.0.0               viridisLite_0.4.3           
+2026-08-24 20:52:26 | [123] scales_1.4.0                ggridges_0.5.7              
+2026-08-24 20:52:26 | [125] purrr_1.2.2                 rlang_1.3.0                 
+2026-08-24 20:52:26 | [127] cowplot_1.2.0               
+2026-08-24 20:52:26 | 模块 G G2 存在失败数据集：
+  - GSE152805 | FAIL: Unrecognized input format.
+  - GSE169454 | FAIL: Unrecognized input format.
+  - GSE167186 | FAIL: Unrecognized input format.
+修复后重跑本脚本即可（全部产物幂等覆盖写）。 
+2026-08-24 22:09:59 | === 模块 G G2 启动：标志物定位 / 三轨 UCell / pseudobulk 统计 === 
+2026-08-24 22:09:59 | 红线 1: GSE152805 无健康对照，仅供体内 oLT vs MT 配对对比（描述性）。 
+2026-08-24 22:09:59 | 红线 2: GSE167186 为 Old vs Young aging proxy，严禁 sarcopenia 表述。 
+2026-08-24 22:09:59 | 红线 3: 差异统计以 donor/样本级 pseudobulk 为底线；Harmony 仅用于聚类/UMAP。 
+2026-08-24 22:09:59 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-24 22:10:07 | 依赖检查通过:  Seurat 5.5.1 | Matrix 1.7.5 | data.table 1.18.6.1 | ggplot2 4.0.3 | patchwork 1.3.2 | harmony 2.0.5 | UCell 2.16.0 
+2026-08-24 22:10:07 | 三轨表载入:  99  行；10 个锁定标志物轨归属全部查到。 
+2026-08-24 22:10:07 | 三轨基因数:  concordant=27 | mirror_OAup_muscleDown=37 | mirror_OAdown_muscleUp=35 
+2026-08-24 22:10:07 | ---- 数据集:  GSE152805  ---- 
+2026-08-24 22:10:20 | GSE152805 : RDS 载入  35503  细胞 x  22289  基因。 
+2026-08-24 22:10:37 | GSE152805 : JoinLayers 完成，layers= data,counts 
+2026-08-24 22:12:56 | GSE152805 : 聚类完成， 16  个 cluster (Harmony by  donor )。 
+2026-08-24 22:12:58 |     图已写出:  GSE152805_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 22:13:01 |     图已写出:  GSE152805_UMAP_tissue .pdf/.png 
+2026-08-24 22:13:03 |     图已写出:  GSE152805_UMAP_donor .pdf/.png 
+2026-08-24 22:13:04 | WARN:  GSE152805   Endothelial  标志物部分检出  1 / 2 （未检出:  PECAM1 ） 
+2026-08-24 22:13:05 | WARN:  GSE152805   Bcell  标志物部分检出  1 / 2 （未检出:  MS4A1 ） 
+2026-08-24 22:13:06 | GSE152805 : 自动注释完成， 16  个 cluster ->  6  种细胞类型 ( Chondrocyte=6, Endothelial=1, FibroChondro=6, Immune=1, Macrophage=1, SynFibro=1 ) 
+2026-08-24 22:13:06 |     写出:  GSE152805 _cluster_celltype_scores.csv ( 16  行) 
+2026-08-24 22:13:07 |     图已写出:  GSE152805_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 22:13:07 | GSE152805 : 标志物检出  10 /10。 
+2026-08-24 22:13:29 |     图已写出:  GSE152805_markers_FeaturePlot .pdf/.png 
+2026-08-24 22:13:30 |     图已写出:  GSE152805_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 22:13:35 |     图已写出:  GSE152805_markers_VlnPlot_tissue .pdf/.png 
+2026-08-24 22:13:35 | GSE152805 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 22:13:35 | GSE152805 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 22:13:35 | GSE152805 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 22:15:53 |     图已写出:  GSE152805_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 22:15:54 |     图已写出:  GSE152805_UCell_concordant_VlnPlot_tissue .pdf/.png 
+2026-08-24 22:15:57 |     图已写出:  GSE152805_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 22:15:58 |     图已写出:  GSE152805_UCell_mirror_OAup_muscleDown_VlnPlot_tissue .pdf/.png 
+2026-08-24 22:16:00 |     图已写出:  GSE152805_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 22:16:01 |     图已写出:  GSE152805_UCell_mirror_OAdown_muscleUp_VlnPlot_tissue .pdf/.png 
+2026-08-24 22:16:01 | GSE152805 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(34/35) 
+2026-08-24 22:16:01 | GSE152805 : pseudobulk 聚合单位 =  donorxtissue ，共  9  个单位。 
+2026-08-24 22:16:02 | GSE152805 : 单位分组分布:  MT=3, oLT=3, synovium=3 
+2026-08-24 22:16:02 |     写出:  GSE152805 _per_unit_values.csv ( 9  行； 供复核复算) 
+2026-08-24 22:16:02 |     写出:  GSE152805 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 22:17:47 | GSE152805 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE152805/GSE152805_seurat_G2.rds  ( 684.5  MB) 
+2026-08-24 22:17:48 | ----  GSE152805  处理完毕，已 gc() ---- 
+2026-08-24 22:17:48 | ---- 数据集:  GSE169454  ---- 
+2026-08-24 22:18:01 | GSE169454 : RDS 载入  65042  细胞 x  23719  基因。 
+2026-08-24 22:18:35 | GSE169454 : JoinLayers 完成，layers= data,counts 
+2026-08-24 22:21:30 | GSE169454 : 聚类完成， 14  个 cluster (Harmony by  gsm )。 
+2026-08-24 22:21:34 |     图已写出:  GSE169454_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 22:21:36 |     图已写出:  GSE169454_UMAP_condition .pdf/.png 
+2026-08-24 22:21:39 |     图已写出:  GSE169454_UMAP_donor .pdf/.png 
+2026-08-24 22:21:41 | GSE169454 : 自动注释完成， 14  个 cluster ->  3  种细胞类型 ( Chondrocyte=10, FibroChondro=1, HomeoChondro=3 ) 
+2026-08-24 22:21:41 |     写出:  GSE169454 _cluster_celltype_scores.csv ( 14  行) 
+2026-08-24 22:21:42 |     图已写出:  GSE169454_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 22:21:42 | GSE169454 : 标志物检出  10 /10。 
+2026-08-24 22:22:05 |     图已写出:  GSE169454_markers_FeaturePlot .pdf/.png 
+2026-08-24 22:22:06 |     图已写出:  GSE169454_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 22:22:09 |     图已写出:  GSE169454_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 22:22:09 | GSE169454 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 22:22:09 | GSE169454 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 22:22:09 | GSE169454 : 轨  mirror_OAdown_muscleUp  检出覆盖度  35/35 
+2026-08-24 22:26:32 |     图已写出:  GSE169454_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 22:26:32 |     图已写出:  GSE169454_UCell_concordant_VlnPlot_condition .pdf/.png 
+2026-08-24 22:26:35 |     图已写出:  GSE169454_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 22:26:36 |     图已写出:  GSE169454_UCell_mirror_OAup_muscleDown_VlnPlot_condition .pdf/.png 
+2026-08-24 22:26:38 |     图已写出:  GSE169454_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 22:26:39 |     图已写出:  GSE169454_UCell_mirror_OAdown_muscleUp_VlnPlot_condition .pdf/.png 
+2026-08-24 22:26:39 | GSE169454 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(35/35) 
+2026-08-24 22:26:39 | GSE169454 : pseudobulk 聚合单位 =  gsm ，共  7  个单位。 
+2026-08-24 22:26:40 | GSE169454 : 单位分组分布:  normal=3, OA=4 
+2026-08-24 22:26:40 |     写出:  GSE169454 _per_unit_values.csv ( 7  行； 供复核复算) 
+2026-08-24 22:26:40 |     写出:  GSE169454 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 22:28:39 | GSE169454 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE169454/GSE169454_seurat_G2.rds  ( 1027.8  MB) 
+2026-08-24 22:28:40 | ----  GSE169454  处理完毕，已 gc() ---- 
+2026-08-24 22:28:40 | ---- 数据集:  GSE167186  ---- 
+2026-08-24 22:28:43 | GSE167186 : RDS 载入  52269  细胞 x  22047  基因。 
+2026-08-24 22:28:50 | GSE167186 : JoinLayers 完成，layers= data,counts 
+2026-08-24 22:28:50 | WARN:  GSE167186  JoinLayers 后 VariableFeatures 仅  677  个（预期 ~2000），VST2000 存活异常，请检查 G1 RDS 完整性。 
+2026-08-24 22:31:34 | GSE167186 : 聚类完成， 12  个 cluster (Harmony by  donor )。 
+2026-08-24 22:31:37 |     图已写出:  GSE167186_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 22:31:40 |     图已写出:  GSE167186_UMAP_condition .pdf/.png 
+2026-08-24 22:31:43 |     图已写出:  GSE167186_UMAP_donor .pdf/.png 
+2026-08-24 22:31:43 | GSE167186 : 自动注释完成， 12  个 cluster ->  1  种细胞类型 ( Myonuclei=12 ) 
+2026-08-24 22:31:43 |     写出:  GSE167186 _cluster_celltype_scores.csv ( 12  行) 
+2026-08-24 22:31:44 |     图已写出:  GSE167186_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 22:31:44 | GSE167186 : 标志物检出  10 /10。 
+2026-08-24 22:32:06 |     图已写出:  GSE167186_markers_FeaturePlot .pdf/.png 
+2026-08-24 22:32:07 |     图已写出:  GSE167186_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 22:32:10 |     图已写出:  GSE167186_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 22:32:10 | GSE167186 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 22:32:10 | GSE167186 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 22:32:10 | GSE167186 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 22:35:20 |     图已写出:  GSE167186_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 22:35:21 |     图已写出:  GSE167186_UCell_concordant_VlnPlot_condition .pdf/.png 
+2026-08-24 22:35:24 |     图已写出:  GSE167186_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 22:35:24 |     图已写出:  GSE167186_UCell_mirror_OAup_muscleDown_VlnPlot_condition .pdf/.png 
+2026-08-24 22:35:27 |     图已写出:  GSE167186_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 22:35:28 |     图已写出:  GSE167186_UCell_mirror_OAdown_muscleUp_VlnPlot_condition .pdf/.png 
+2026-08-24 22:35:28 | GSE167186 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(34/35) 
+2026-08-24 22:35:28 | GSE167186 : pseudobulk 聚合单位 =  donor ，共  17  个单位。 
+2026-08-24 22:35:28 | GSE167186 : 单位分组分布:  Old=11, Young=6 
+2026-08-24 22:35:28 |     写出:  GSE167186 _per_unit_values.csv ( 17  行； 供复核复算) 
+2026-08-24 22:35:28 | GSE167186 : BH 校正完成（feature_type 内分别进行）。 
+2026-08-24 22:35:28 |     写出:  GSE167186 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 22:36:09 | GSE167186 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE167186/GSE167186_seurat_G2.rds  ( 371.4  MB) 
+2026-08-24 22:36:10 | ----  GSE167186  处理完毕，已 gc() ---- 
+2026-08-24 22:36:10 | 写出: G2/moduleG_G2_status.csv ( 3  行) 
+2026-08-24 22:36:10 | 写出: G2/moduleG_G2_pseudobulk_stats.csv ( 39  行) 
+2026-08-24 22:36:10 | 写出: G2/marker_localization_summary.csv ( 100  行； 三数据集合并) 
+2026-08-24 22:36:10 | ==== G2 汇总 ==== 
+2026-08-24 22:36:10 | GSE152805 :  OK  | cells= 35503  | clusters= 16  | celltypes= 6  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=34/35  |  OK; harmony_by=donor; comparison=oLT_vs_MT_paired 
+2026-08-24 22:36:10 | GSE169454 :  OK  | cells= 65042  | clusters= 14  | celltypes= 3  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=35/35  |  OK; harmony_by=gsm; comparison=OA_vs_normal 
+2026-08-24 22:36:10 | GSE167186 :  OK  | cells= 52269  | clusters= 12  | celltypes= 1  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=34/35  |  OK; harmony_by=donor; comparison=Old_vs_Young; aging proxy - NOT sarcopenia 
+2026-08-24 22:36:10 | ==== sessionInfo ==== 
+2026-08-24 22:36:10 | R version 4.6.0 (2026-04-24 ucrt) 
+2026-08-24 22:36:10 | Platform: x86_64-w64-mingw32/x64 
+2026-08-24 22:36:10 | Running under: Windows 11 x64 (build 26200) 
+2026-08-24 22:36:10 |  
+2026-08-24 22:36:10 | Matrix products: default 
+2026-08-24 22:36:10 |   LAPACK version 3.12.1 
+2026-08-24 22:36:10 |  
+2026-08-24 22:36:10 | locale: 
+2026-08-24 22:36:10 | [1] LC_COLLATE=Chinese (Simplified)_China.utf8  
+2026-08-24 22:36:10 | [2] LC_CTYPE=Chinese (Simplified)_China.utf8    
+2026-08-24 22:36:10 | [3] LC_MONETARY=Chinese (Simplified)_China.utf8 
+2026-08-24 22:36:10 | [4] LC_NUMERIC=C                                
+2026-08-24 22:36:10 | [5] LC_TIME=Chinese (Simplified)_China.utf8     
+2026-08-24 22:36:10 |  
+2026-08-24 22:36:10 | time zone: Asia/Hong_Kong 
+2026-08-24 22:36:10 | tzcode source: internal 
+2026-08-24 22:36:10 |  
+2026-08-24 22:36:10 | attached base packages: 
+2026-08-24 22:36:10 | [1] stats     graphics  grDevices utils     datasets  methods   
+2026-08-24 22:36:10 | [7] base      
+2026-08-24 22:36:10 |  
+2026-08-24 22:36:10 | other attached packages: 
+2026-08-24 22:36:10 | [1] future_1.75.0      ggplot2_4.0.3      Matrix_1.7-5       
+2026-08-24 22:36:10 | [4] Seurat_5.5.1       SeuratObject_5.4.0 sp_2.2-3           
+2026-08-24 22:36:10 |  
+2026-08-24 22:36:10 | loaded via a namespace (and not attached): 
+2026-08-24 22:36:10 |   [1] RColorBrewer_1.1-3          UCell_2.16.0                
+2026-08-24 22:36:10 |   [3] rstudioapi_0.19.0           jsonlite_2.0.0              
+2026-08-24 22:36:10 |   [5] magrittr_2.0.5              ggbeeswarm_0.7.3            
+2026-08-24 22:36:10 |   [7] spatstat.utils_3.2-4        farver_2.1.2                
+2026-08-24 22:36:10 |   [9] ragg_1.5.2                  vctrs_0.7.3                 
+2026-08-24 22:36:10 |  [11] ROCR_1.0-12                 spatstat.explore_3.8-2      
+2026-08-24 22:36:10 |  [13] htmltools_0.5.9             S4Arrays_1.12.0             
+2026-08-24 22:36:10 |  [15] BiocNeighbors_2.6.0         SparseArray_1.12.2          
+2026-08-24 22:36:10 |  [17] sctransform_0.4.3           parallelly_1.48.0           
+2026-08-24 22:36:10 |  [19] KernSmooth_2.23-27          htmlwidgets_1.6.4           
+2026-08-24 22:36:10 |  [21] ica_1.0-3                   plyr_1.8.9                  
+2026-08-24 22:36:10 |  [23] plotly_4.12.1               zoo_1.9-0                   
+2026-08-24 22:36:10 |  [25] igraph_2.3.3                mime_0.13                   
+2026-08-24 22:36:10 |  [27] lifecycle_1.0.5             pkgconfig_2.0.3             
+2026-08-24 22:36:10 |  [29] R6_2.6.1                    fastmap_1.2.0               
+2026-08-24 22:36:10 |  [31] MatrixGenerics_1.24.0       fitdistrplus_1.2-6          
+2026-08-24 22:36:10 |  [33] shiny_1.14.0                digest_0.6.39               
+2026-08-24 22:36:10 |  [35] patchwork_1.3.2             S4Vectors_0.50.1            
+2026-08-24 22:36:10 |  [37] tensor_1.5.1                RSpectra_0.16-2             
+2026-08-24 22:36:10 |  [39] irlba_2.3.7                 textshaping_1.0.5           
+2026-08-24 22:36:10 |  [41] GenomicRanges_1.64.0        labeling_0.4.3              
+2026-08-24 22:36:10 |  [43] progressr_1.0.0             spatstat.sparse_3.2-0       
+2026-08-24 22:36:10 |  [45] httr_1.4.8                  polyclip_1.10-7             
+2026-08-24 22:36:10 |  [47] abind_1.4-8                 compiler_4.6.0              
+2026-08-24 22:36:10 |  [49] withr_3.0.3                 S7_0.2.2                    
+2026-08-24 22:36:10 |  [51] BiocParallel_1.46.0         fastDummies_1.7.6           
+2026-08-24 22:36:10 |  [53] MASS_7.3-66                 DelayedArray_0.38.2         
+2026-08-24 22:36:10 |  [55] tools_4.6.0                 vipor_0.4.7                 
+2026-08-24 22:36:10 |  [57] lmtest_0.9-40               otel_0.2.0                  
+2026-08-24 22:36:10 |  [59] beeswarm_0.4.0              httpuv_1.6.17               
+2026-08-24 22:36:10 |  [61] future.apply_1.20.2         goftest_1.2-3               
+2026-08-24 22:36:10 |  [63] glue_1.8.1                  nlme_3.1-170                
+2026-08-24 22:36:10 |  [65] promises_1.5.0              grid_4.6.0                  
+2026-08-24 22:36:10 |  [67] Rtsne_0.17                  cluster_2.1.8.3             
+2026-08-24 22:36:10 |  [69] reshape2_1.4.5              generics_0.1.4              
+2026-08-24 22:36:10 |  [71] gtable_0.3.6                spatstat.data_3.1-9         
+2026-08-24 22:36:10 |  [73] tidyr_1.3.2                 data.table_1.18.6.1         
+2026-08-24 22:36:10 |  [75] XVector_0.52.0              BiocGenerics_0.58.1         
+2026-08-24 22:36:10 |  [77] spatstat.geom_3.8-2         RcppAnnoy_0.0.23            
+2026-08-24 22:36:10 |  [79] ggrepel_0.9.8               RANN_2.6.3                  
+2026-08-24 22:36:10 |  [81] pillar_1.11.1               stringr_1.6.0               
+2026-08-24 22:36:10 |  [83] spam_2.11-4                 RcppHNSW_0.7.0              
+2026-08-24 22:36:10 |  [85] later_1.4.8                 splines_4.6.0               
+2026-08-24 22:36:10 |  [87] dplyr_1.2.1                 lattice_0.22-9              
+2026-08-24 22:36:10 |  [89] survival_3.8-6              deldir_2.0-4                
+2026-08-24 22:36:10 |  [91] tidyselect_1.2.1            SingleCellExperiment_1.34.0 
+2026-08-24 22:36:10 |  [93] miniUI_0.1.2                pbapply_1.7-4               
+2026-08-24 22:36:10 |  [95] gridExtra_2.3.1             IRanges_2.46.0              
+2026-08-24 22:36:10 |  [97] Seqinfo_1.2.0               SummarizedExperiment_1.42.0 
+2026-08-24 22:36:10 |  [99] scattermore_1.2             RhpcBLASctl_0.23-42         
+2026-08-24 22:36:10 | [101] stats4_4.6.0                Biobase_2.72.0              
+2026-08-24 22:36:10 | [103] matrixStats_1.5.0           stringi_1.8.9               
+2026-08-24 22:36:10 | [105] codetools_0.2-20            tibble_3.3.1                
+2026-08-24 22:36:10 | [107] cli_3.6.6                   uwot_0.2.4                  
+2026-08-24 22:36:10 | [109] systemfonts_1.3.2           xtable_1.8-8                
+2026-08-24 22:36:10 | [111] reticulate_1.46.0           harmony_2.0.5               
+2026-08-24 22:36:10 | [113] Rcpp_1.1.2                  globals_0.19.1              
+2026-08-24 22:36:10 | [115] spatstat.random_3.5-1       png_0.1-9                   
+2026-08-24 22:36:10 | [117] ggrastr_1.0.2               spatstat.univar_3.2-0       
+2026-08-24 22:36:10 | [119] parallel_4.6.0              dotCall64_1.2               
+2026-08-24 22:36:10 | [121] listenv_1.0.0               viridisLite_0.4.3           
+2026-08-24 22:36:10 | [123] scales_1.4.0                ggridges_0.5.7              
+2026-08-24 22:36:10 | [125] purrr_1.2.2                 rlang_1.3.0                 
+2026-08-24 22:36:10 | [127] cowplot_1.2.0               
+2026-08-24 22:36:10 | 模块 G G2 完成。红线提醒：GSE152805 仅供体内 oLT vs MT 描述性配对对比；GSE167186 为 Old vs Young aging proxy 不得写成 sarcopenia；一切统计为 donor/样本级 pseudobulk，自动注释需人工复核 DotPlot。 
+2026-08-24 23:09:51 | === 模块 G G2 启动：标志物定位 / 三轨 UCell / pseudobulk 统计 === 
+2026-08-24 23:09:51 | 红线 1: GSE152805 无健康对照，仅供体内 oLT vs MT 配对对比（描述性）。 
+2026-08-24 23:09:51 | 红线 2: GSE167186 为 Old vs Young aging proxy，严禁 sarcopenia 表述。 
+2026-08-24 23:09:51 | 红线 3: 差异统计以 donor/样本级 pseudobulk 为底线；Harmony 仅用于聚类/UMAP。 
+2026-08-24 23:09:51 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-24 23:09:58 | 依赖检查通过:  Seurat 5.5.1 | Matrix 1.7.5 | data.table 1.18.6.1 | ggplot2 4.0.3 | patchwork 1.3.2 | harmony 2.0.5 | UCell 2.16.0 
+2026-08-24 23:09:58 | 三轨表载入:  99  行；10 个锁定标志物轨归属全部查到。 
+2026-08-24 23:09:58 | 三轨基因数:  concordant=27 | mirror_OAup_muscleDown=37 | mirror_OAdown_muscleUp=35 
+2026-08-24 23:09:58 | ---- 数据集:  GSE152805  ---- 
+2026-08-24 23:10:06 | GSE152805 : RDS 载入  35503  细胞 x  22289  基因。 
+2026-08-24 23:10:20 | GSE152805 : JoinLayers 完成，layers= data,counts 
+2026-08-24 23:12:02 | GSE152805 : 聚类完成， 16  个 cluster (Harmony by  donor )。 
+2026-08-24 23:12:04 |     图已写出:  GSE152805_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 23:12:06 |     图已写出:  GSE152805_UMAP_tissue .pdf/.png 
+2026-08-24 23:12:08 |     图已写出:  GSE152805_UMAP_donor .pdf/.png 
+2026-08-24 23:12:09 | WARN:  GSE152805   Endothelial  标志物部分检出  1 / 2 （未检出:  PECAM1 ） 
+2026-08-24 23:12:09 | WARN:  GSE152805   Bcell  标志物部分检出  1 / 2 （未检出:  MS4A1 ） 
+2026-08-24 23:12:10 | GSE152805 : 自动注释完成， 16  个 cluster ->  7  种细胞类型 ( Chondrocyte=5, Endothelial=1, FibroChondro=3, HyperChondro=1, Immune=1, Macrophage=1, SynFibro=4 ) 
+2026-08-24 23:12:10 |     写出:  GSE152805 _cluster_celltype_scores.csv ( 16  行) 
+2026-08-24 23:12:11 |     图已写出:  GSE152805_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 23:12:11 | GSE152805 : 标志物检出  10 /10。 
+2026-08-24 23:12:27 |     图已写出:  GSE152805_markers_FeaturePlot .pdf/.png 
+2026-08-24 23:12:28 |     图已写出:  GSE152805_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 23:12:32 |     图已写出:  GSE152805_markers_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:12:32 | GSE152805 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 23:12:32 | GSE152805 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 23:12:32 | GSE152805 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 23:14:24 |     图已写出:  GSE152805_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 23:14:25 |     图已写出:  GSE152805_UCell_concordant_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:14:27 |     图已写出:  GSE152805_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 23:14:27 |     图已写出:  GSE152805_UCell_mirror_OAup_muscleDown_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:14:29 |     图已写出:  GSE152805_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 23:14:30 |     图已写出:  GSE152805_UCell_mirror_OAdown_muscleUp_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:14:30 | GSE152805 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(34/35) 
+2026-08-24 23:14:30 | GSE152805 : pseudobulk 聚合单位 =  donorxtissue ，共  9  个单位。 
+2026-08-24 23:14:31 | GSE152805 : 单位分组分布:  MT=3, oLT=3, synovium=3 
+2026-08-24 23:14:31 |     写出:  GSE152805 _per_unit_values.csv ( 9  行； 供复核复算) 
+2026-08-24 23:14:31 |     写出:  GSE152805 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 23:15:54 | GSE152805 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE152805/GSE152805_seurat_G2.rds  ( 684.5  MB) 
+2026-08-24 23:15:55 | ----  GSE152805  处理完毕，已 gc() ---- 
+2026-08-24 23:15:55 | ---- 数据集:  GSE169454  ---- 
+2026-08-24 23:16:03 | GSE169454 : RDS 载入  65042  细胞 x  23719  基因。 
+2026-08-24 23:16:31 | GSE169454 : JoinLayers 完成，layers= data,counts 
+2026-08-24 23:19:45 | GSE169454 : 聚类完成， 14  个 cluster (Harmony by  gsm )。 
+2026-08-24 23:19:48 |     图已写出:  GSE169454_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 23:19:51 |     图已写出:  GSE169454_UMAP_condition .pdf/.png 
+2026-08-24 23:19:54 |     图已写出:  GSE169454_UMAP_donor .pdf/.png 
+2026-08-24 23:19:56 | GSE169454 : 自动注释完成， 14  个 cluster ->  5  种细胞类型 ( Chondrocyte=4, FibroChondro=1, HomeoChondro=5, HyperChondro=3, Immune=1 ) 
+2026-08-24 23:19:56 |     写出:  GSE169454 _cluster_celltype_scores.csv ( 14  行) 
+2026-08-24 23:19:57 |     图已写出:  GSE169454_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 23:19:57 | GSE169454 : 标志物检出  10 /10。 
+2026-08-24 23:20:32 |     图已写出:  GSE169454_markers_FeaturePlot .pdf/.png 
+2026-08-24 23:20:33 |     图已写出:  GSE169454_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 23:20:39 |     图已写出:  GSE169454_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 23:20:39 | GSE169454 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 23:20:39 | GSE169454 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 23:20:39 | GSE169454 : 轨  mirror_OAdown_muscleUp  检出覆盖度  35/35 
+2026-08-24 23:26:29 |     图已写出:  GSE169454_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 23:26:31 |     图已写出:  GSE169454_UCell_concordant_VlnPlot_condition .pdf/.png 
+2026-08-24 23:26:35 |     图已写出:  GSE169454_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 23:26:36 |     图已写出:  GSE169454_UCell_mirror_OAup_muscleDown_VlnPlot_condition .pdf/.png 
+2026-08-24 23:26:41 |     图已写出:  GSE169454_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 23:26:42 |     图已写出:  GSE169454_UCell_mirror_OAdown_muscleUp_VlnPlot_condition .pdf/.png 
+2026-08-24 23:26:42 | GSE169454 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(35/35) 
+2026-08-24 23:26:42 | GSE169454 : pseudobulk 聚合单位 =  gsm ，共  7  个单位。 
+2026-08-24 23:26:44 | GSE169454 : 单位分组分布:  normal=3, OA=4 
+2026-08-24 23:26:45 |     写出:  GSE169454 _per_unit_values.csv ( 7  行； 供复核复算) 
+2026-08-24 23:26:45 |     写出:  GSE169454 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 23:29:24 | GSE169454 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE169454/GSE169454_seurat_G2.rds  ( 1027.8  MB) 
+2026-08-24 23:29:25 | ----  GSE169454  处理完毕，已 gc() ---- 
+2026-08-24 23:29:25 | ---- 数据集:  GSE167186  ---- 
+2026-08-24 23:29:28 | GSE167186 : RDS 载入  52269  细胞 x  22047  基因。 
+2026-08-24 23:29:39 | GSE167186 : JoinLayers 完成，layers= data,counts 
+2026-08-24 23:29:39 | WARN:  GSE167186  JoinLayers 后 VariableFeatures 仅  677  个（预期 ~2000），VST2000 存活异常，请检查 G1 RDS 完整性。 
+2026-08-24 23:34:00 | GSE167186 : 聚类完成， 12  个 cluster (Harmony by  donor )。 
+2026-08-24 23:34:03 |     图已写出:  GSE167186_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 23:34:07 |     图已写出:  GSE167186_UMAP_condition .pdf/.png 
+2026-08-24 23:34:11 |     图已写出:  GSE167186_UMAP_donor .pdf/.png 
+2026-08-24 23:34:12 | GSE167186 : 自动注释完成， 12  个 cluster ->  7  种细胞类型 ( Adipocyte=1, Immune=1, Myonuc_I=1, Myonuc_IIa=3, Myonuc_IIx=1, Myonuclei=4, Satellite=1 ) 
+2026-08-24 23:34:12 |     写出:  GSE167186 _cluster_celltype_scores.csv ( 12  行) 
+2026-08-24 23:34:14 |     图已写出:  GSE167186_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 23:34:14 | GSE167186 : 标志物检出  10 /10。 
+2026-08-24 23:34:38 |     图已写出:  GSE167186_markers_FeaturePlot .pdf/.png 
+2026-08-24 23:34:38 |     图已写出:  GSE167186_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 23:34:41 |     图已写出:  GSE167186_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 23:34:41 | GSE167186 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 23:34:41 | GSE167186 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 23:34:41 | GSE167186 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 23:38:01 |     图已写出:  GSE167186_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 23:38:01 |     图已写出:  GSE167186_UCell_concordant_VlnPlot_condition .pdf/.png 
+2026-08-24 23:38:04 |     图已写出:  GSE167186_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 23:38:04 |     图已写出:  GSE167186_UCell_mirror_OAup_muscleDown_VlnPlot_condition .pdf/.png 
+2026-08-24 23:38:06 |     图已写出:  GSE167186_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 23:38:07 |     图已写出:  GSE167186_UCell_mirror_OAdown_muscleUp_VlnPlot_condition .pdf/.png 
+2026-08-24 23:38:07 | GSE167186 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(34/35) 
+2026-08-24 23:38:07 | GSE167186 : pseudobulk 聚合单位 =  donor ，共  17  个单位。 
+2026-08-24 23:38:07 | GSE167186 : 单位分组分布:  Old=11, Young=6 
+2026-08-24 23:38:07 |     写出:  GSE167186 _per_unit_values.csv ( 17  行； 供复核复算) 
+2026-08-24 23:38:07 | GSE167186 : BH 校正完成（feature_type 内分别进行）。 
+2026-08-24 23:38:07 |     写出:  GSE167186 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 23:38:46 | GSE167186 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE167186/GSE167186_seurat_G2.rds  ( 371.4  MB) 
+2026-08-24 23:38:46 | ----  GSE167186  处理完毕，已 gc() ---- 
+2026-08-24 23:38:46 | 写出: G2/moduleG_G2_status.csv ( 3  行) 
+2026-08-24 23:38:46 | 写出: G2/moduleG_G2_pseudobulk_stats.csv ( 39  行) 
+2026-08-24 23:38:46 | 写出: G2/marker_localization_summary.csv ( 190  行； 三数据集合并) 
+2026-08-24 23:38:46 | ==== G2 汇总 ==== 
+2026-08-24 23:38:46 | GSE152805 :  OK  | cells= 35503  | clusters= 16  | celltypes= 7  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=34/35  |  OK; harmony_by=donor; comparison=oLT_vs_MT_paired 
+2026-08-24 23:38:46 | GSE169454 :  OK  | cells= 65042  | clusters= 14  | celltypes= 5  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=35/35  |  OK; harmony_by=gsm; comparison=OA_vs_normal 
+2026-08-24 23:38:46 | GSE167186 :  OK  | cells= 52269  | clusters= 12  | celltypes= 7  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=34/35  |  OK; harmony_by=donor; comparison=Old_vs_Young; aging proxy - NOT sarcopenia 
+2026-08-24 23:38:46 | ==== sessionInfo ==== 
+2026-08-24 23:38:47 | R version 4.6.0 (2026-04-24 ucrt) 
+2026-08-24 23:38:47 | Platform: x86_64-w64-mingw32/x64 
+2026-08-24 23:38:47 | Running under: Windows 11 x64 (build 26200) 
+2026-08-24 23:38:47 |  
+2026-08-24 23:38:47 | Matrix products: default 
+2026-08-24 23:38:47 |   LAPACK version 3.12.1 
+2026-08-24 23:38:47 |  
+2026-08-24 23:38:47 | locale: 
+2026-08-24 23:38:47 | [1] LC_COLLATE=Chinese (Simplified)_China.utf8  
+2026-08-24 23:38:47 | [2] LC_CTYPE=Chinese (Simplified)_China.utf8    
+2026-08-24 23:38:47 | [3] LC_MONETARY=Chinese (Simplified)_China.utf8 
+2026-08-24 23:38:47 | [4] LC_NUMERIC=C                                
+2026-08-24 23:38:47 | [5] LC_TIME=Chinese (Simplified)_China.utf8     
+2026-08-24 23:38:47 |  
+2026-08-24 23:38:47 | time zone: Asia/Hong_Kong 
+2026-08-24 23:38:47 | tzcode source: internal 
+2026-08-24 23:38:47 |  
+2026-08-24 23:38:47 | attached base packages: 
+2026-08-24 23:38:47 | [1] stats     graphics  grDevices utils     datasets  methods   
+2026-08-24 23:38:47 | [7] base      
+2026-08-24 23:38:47 |  
+2026-08-24 23:38:47 | other attached packages: 
+2026-08-24 23:38:47 | [1] future_1.75.0      ggplot2_4.0.3      Matrix_1.7-5       
+2026-08-24 23:38:47 | [4] Seurat_5.5.1       SeuratObject_5.4.0 sp_2.2-3           
+2026-08-24 23:38:47 |  
+2026-08-24 23:38:47 | loaded via a namespace (and not attached): 
+2026-08-24 23:38:47 |   [1] RColorBrewer_1.1-3          UCell_2.16.0                
+2026-08-24 23:38:47 |   [3] rstudioapi_0.19.0           jsonlite_2.0.0              
+2026-08-24 23:38:47 |   [5] magrittr_2.0.5              ggbeeswarm_0.7.3            
+2026-08-24 23:38:47 |   [7] spatstat.utils_3.2-4        farver_2.1.2                
+2026-08-24 23:38:47 |   [9] ragg_1.5.2                  vctrs_0.7.3                 
+2026-08-24 23:38:47 |  [11] ROCR_1.0-12                 spatstat.explore_3.8-2      
+2026-08-24 23:38:47 |  [13] htmltools_0.5.9             S4Arrays_1.12.0             
+2026-08-24 23:38:47 |  [15] BiocNeighbors_2.6.0         SparseArray_1.12.2          
+2026-08-24 23:38:47 |  [17] sctransform_0.4.3           parallelly_1.48.0           
+2026-08-24 23:38:47 |  [19] KernSmooth_2.23-27          htmlwidgets_1.6.4           
+2026-08-24 23:38:47 |  [21] ica_1.0-3                   plyr_1.8.9                  
+2026-08-24 23:38:47 |  [23] plotly_4.12.1               zoo_1.9-0                   
+2026-08-24 23:38:47 |  [25] igraph_2.3.3                mime_0.13                   
+2026-08-24 23:38:47 |  [27] lifecycle_1.0.5             pkgconfig_2.0.3             
+2026-08-24 23:38:47 |  [29] R6_2.6.1                    fastmap_1.2.0               
+2026-08-24 23:38:47 |  [31] MatrixGenerics_1.24.0       fitdistrplus_1.2-6          
+2026-08-24 23:38:47 |  [33] shiny_1.14.0                digest_0.6.39               
+2026-08-24 23:38:47 |  [35] patchwork_1.3.2             S4Vectors_0.50.1            
+2026-08-24 23:38:47 |  [37] tensor_1.5.1                RSpectra_0.16-2             
+2026-08-24 23:38:47 |  [39] irlba_2.3.7                 textshaping_1.0.5           
+2026-08-24 23:38:47 |  [41] GenomicRanges_1.64.0        labeling_0.4.3              
+2026-08-24 23:38:47 |  [43] progressr_1.0.0             spatstat.sparse_3.2-0       
+2026-08-24 23:38:47 |  [45] httr_1.4.8                  polyclip_1.10-7             
+2026-08-24 23:38:47 |  [47] abind_1.4-8                 compiler_4.6.0              
+2026-08-24 23:38:47 |  [49] withr_3.0.3                 S7_0.2.2                    
+2026-08-24 23:38:47 |  [51] BiocParallel_1.46.0         fastDummies_1.7.6           
+2026-08-24 23:38:47 |  [53] MASS_7.3-66                 DelayedArray_0.38.2         
+2026-08-24 23:38:47 |  [55] tools_4.6.0                 vipor_0.4.7                 
+2026-08-24 23:38:47 |  [57] lmtest_0.9-40               otel_0.2.0                  
+2026-08-24 23:38:47 |  [59] beeswarm_0.4.0              httpuv_1.6.17               
+2026-08-24 23:38:47 |  [61] future.apply_1.20.2         goftest_1.2-3               
+2026-08-24 23:38:47 |  [63] glue_1.8.1                  nlme_3.1-170                
+2026-08-24 23:38:47 |  [65] promises_1.5.0              grid_4.6.0                  
+2026-08-24 23:38:47 |  [67] Rtsne_0.17                  cluster_2.1.8.3             
+2026-08-24 23:38:47 |  [69] reshape2_1.4.5              generics_0.1.4              
+2026-08-24 23:38:47 |  [71] gtable_0.3.6                spatstat.data_3.1-9         
+2026-08-24 23:38:47 |  [73] tidyr_1.3.2                 data.table_1.18.6.1         
+2026-08-24 23:38:47 |  [75] XVector_0.52.0              BiocGenerics_0.58.1         
+2026-08-24 23:38:47 |  [77] spatstat.geom_3.8-2         RcppAnnoy_0.0.23            
+2026-08-24 23:38:47 |  [79] ggrepel_0.9.8               RANN_2.6.3                  
+2026-08-24 23:38:47 |  [81] pillar_1.11.1               stringr_1.6.0               
+2026-08-24 23:38:47 |  [83] spam_2.11-4                 RcppHNSW_0.7.0              
+2026-08-24 23:38:47 |  [85] later_1.4.8                 splines_4.6.0               
+2026-08-24 23:38:47 |  [87] dplyr_1.2.1                 lattice_0.22-9              
+2026-08-24 23:38:47 |  [89] survival_3.8-6              deldir_2.0-4                
+2026-08-24 23:38:47 |  [91] tidyselect_1.2.1            SingleCellExperiment_1.34.0 
+2026-08-24 23:38:47 |  [93] miniUI_0.1.2                pbapply_1.7-4               
+2026-08-24 23:38:47 |  [95] gridExtra_2.3.1             IRanges_2.46.0              
+2026-08-24 23:38:47 |  [97] Seqinfo_1.2.0               SummarizedExperiment_1.42.0 
+2026-08-24 23:38:47 |  [99] scattermore_1.2             RhpcBLASctl_0.23-42         
+2026-08-24 23:38:47 | [101] stats4_4.6.0                Biobase_2.72.0              
+2026-08-24 23:38:47 | [103] matrixStats_1.5.0           stringi_1.8.9               
+2026-08-24 23:38:47 | [105] codetools_0.2-20            tibble_3.3.1                
+2026-08-24 23:38:47 | [107] cli_3.6.6                   uwot_0.2.4                  
+2026-08-24 23:38:47 | [109] systemfonts_1.3.2           xtable_1.8-8                
+2026-08-24 23:38:47 | [111] reticulate_1.46.0           harmony_2.0.5               
+2026-08-24 23:38:47 | [113] Rcpp_1.1.2                  globals_0.19.1              
+2026-08-24 23:38:47 | [115] spatstat.random_3.5-1       png_0.1-9                   
+2026-08-24 23:38:47 | [117] ggrastr_1.0.2               spatstat.univar_3.2-0       
+2026-08-24 23:38:47 | [119] parallel_4.6.0              dotCall64_1.2               
+2026-08-24 23:38:47 | [121] listenv_1.0.0               viridisLite_0.4.3           
+2026-08-24 23:38:47 | [123] scales_1.4.0                ggridges_0.5.7              
+2026-08-24 23:38:47 | [125] purrr_1.2.2                 rlang_1.3.0                 
+2026-08-24 23:38:47 | [127] cowplot_1.2.0               
+2026-08-24 23:38:47 | 模块 G G2 完成。红线提醒：GSE152805 仅供体内 oLT vs MT 描述性配对对比；GSE167186 为 Old vs Young aging proxy 不得写成 sarcopenia；一切统计为 donor/样本级 pseudobulk，自动注释需人工复核 DotPlot。 
+2026-08-24 23:48:28 | === 模块 G G2 启动：标志物定位 / 三轨 UCell / pseudobulk 统计 === 
+2026-08-24 23:48:28 | 红线 1: GSE152805 无健康对照，仅供体内 oLT vs MT 配对对比（描述性）。 
+2026-08-24 23:48:28 | 红线 2: GSE167186 为 Old vs Young aging proxy，严禁 sarcopenia 表述。 
+2026-08-24 23:48:28 | 红线 3: 差异统计以 donor/样本级 pseudobulk 为底线；Harmony 仅用于聚类/UMAP。 
+2026-08-24 23:48:28 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-24 23:48:37 | 依赖检查通过:  Seurat 5.5.1 | Matrix 1.7.5 | data.table 1.18.6.1 | ggplot2 4.0.3 | patchwork 1.3.2 | harmony 2.0.5 | UCell 2.16.0 
+2026-08-24 23:48:37 | 三轨表载入:  99  行；10 个锁定标志物轨归属全部查到。 
+2026-08-24 23:48:37 | 三轨基因数:  concordant=27 | mirror_OAup_muscleDown=37 | mirror_OAdown_muscleUp=35 
+2026-08-24 23:48:37 | ---- 数据集:  GSE152805  ---- 
+2026-08-24 23:48:48 | GSE152805 : RDS 载入  35503  细胞 x  22289  基因。 
+2026-08-24 23:49:08 | GSE152805 : JoinLayers 完成，layers= data,counts 
+2026-08-24 23:51:33 | GSE152805 : 聚类完成， 16  个 cluster (Harmony by  donor )。 
+2026-08-24 23:51:37 |     图已写出:  GSE152805_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 23:51:39 |     图已写出:  GSE152805_UMAP_tissue .pdf/.png 
+2026-08-24 23:51:41 |     图已写出:  GSE152805_UMAP_donor .pdf/.png 
+2026-08-24 23:51:42 | WARN:  GSE152805   Endothelial  标志物部分检出  1 / 2 （未检出:  PECAM1 ） 
+2026-08-24 23:51:43 | WARN:  GSE152805   Bcell  标志物部分检出  1 / 2 （未检出:  MS4A1 ） 
+2026-08-24 23:51:44 | GSE152805 : 自动注释完成， 16  个 cluster ->  7  种细胞类型 ( Chondrocyte=5, Endothelial=1, FibroChondro=3, HyperChondro=1, Immune=1, Macrophage=1, SynFibro=4 ) 
+2026-08-24 23:51:44 |     写出:  GSE152805 _cluster_celltype_scores.csv ( 16  行) 
+2026-08-24 23:51:45 |     图已写出:  GSE152805_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 23:51:45 | GSE152805 : 标志物检出  10 /10。 
+2026-08-24 23:52:00 |     图已写出:  GSE152805_markers_FeaturePlot .pdf/.png 
+2026-08-24 23:52:01 |     图已写出:  GSE152805_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 23:52:04 |     图已写出:  GSE152805_markers_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:52:04 | GSE152805 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 23:52:04 | GSE152805 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 23:52:04 | GSE152805 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-24 23:53:47 |     图已写出:  GSE152805_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-24 23:53:48 |     图已写出:  GSE152805_UCell_concordant_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:53:50 |     图已写出:  GSE152805_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-24 23:53:50 |     图已写出:  GSE152805_UCell_mirror_OAup_muscleDown_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:53:52 |     图已写出:  GSE152805_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-24 23:53:53 |     图已写出:  GSE152805_UCell_mirror_OAdown_muscleUp_VlnPlot_tissue .pdf/.png 
+2026-08-24 23:53:53 | GSE152805 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(34/35) 
+2026-08-24 23:53:53 | GSE152805 : pseudobulk 聚合单位 =  donorxtissue ，共  9  个单位。 
+2026-08-24 23:53:54 | GSE152805 : 单位分组分布:  MT=3, oLT=3, synovium=3 
+2026-08-24 23:53:54 |     写出:  GSE152805 _per_unit_values.csv ( 9  行； 供复核复算) 
+2026-08-24 23:53:54 |     写出:  GSE152805 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-24 23:55:13 | GSE152805 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE152805/GSE152805_seurat_G2.rds  ( 684.5  MB) 
+2026-08-24 23:55:14 | ----  GSE152805  处理完毕，已 gc() ---- 
+2026-08-24 23:55:14 | ---- 数据集:  GSE169454  ---- 
+2026-08-24 23:55:22 | GSE169454 : RDS 载入  65042  细胞 x  23719  基因。 
+2026-08-24 23:55:48 | GSE169454 : JoinLayers 完成，layers= data,counts 
+2026-08-24 23:58:53 | GSE169454 : 聚类完成， 14  个 cluster (Harmony by  gsm )。 
+2026-08-24 23:58:56 |     图已写出:  GSE169454_UMAP_seurat_clusters .pdf/.png 
+2026-08-24 23:58:59 |     图已写出:  GSE169454_UMAP_condition .pdf/.png 
+2026-08-24 23:59:02 |     图已写出:  GSE169454_UMAP_donor .pdf/.png 
+2026-08-24 23:59:04 | GSE169454 : 自动注释完成， 14  个 cluster ->  5  种细胞类型 ( Chondrocyte=4, FibroChondro=1, HomeoChondro=5, HyperChondro=3, Immune=1 ) 
+2026-08-24 23:59:04 |     写出:  GSE169454 _cluster_celltype_scores.csv ( 14  行) 
+2026-08-24 23:59:05 |     图已写出:  GSE169454_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-24 23:59:05 | GSE169454 : 标志物检出  10 /10。 
+2026-08-24 23:59:31 |     图已写出:  GSE169454_markers_FeaturePlot .pdf/.png 
+2026-08-24 23:59:32 |     图已写出:  GSE169454_markers_DotPlot_celltype .pdf/.png 
+2026-08-24 23:59:36 |     图已写出:  GSE169454_markers_VlnPlot_condition .pdf/.png 
+2026-08-24 23:59:36 | GSE169454 : 轨  concordant  检出覆盖度  27/27 
+2026-08-24 23:59:36 | GSE169454 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-24 23:59:36 | GSE169454 : 轨  mirror_OAdown_muscleUp  检出覆盖度  35/35 
+2026-08-25 00:03:47 |     图已写出:  GSE169454_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-25 00:03:48 |     图已写出:  GSE169454_UCell_concordant_VlnPlot_condition .pdf/.png 
+2026-08-25 00:03:51 |     图已写出:  GSE169454_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-25 00:03:52 |     图已写出:  GSE169454_UCell_mirror_OAup_muscleDown_VlnPlot_condition .pdf/.png 
+2026-08-25 00:03:55 |     图已写出:  GSE169454_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-25 00:03:56 |     图已写出:  GSE169454_UCell_mirror_OAdown_muscleUp_VlnPlot_condition .pdf/.png 
+2026-08-25 00:03:56 | GSE169454 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(35/35) 
+2026-08-25 00:03:56 | GSE169454 : pseudobulk 聚合单位 =  gsm ，共  7  个单位。 
+2026-08-25 00:03:57 | GSE169454 : 单位分组分布:  normal=3, OA=4 
+2026-08-25 00:03:57 |     写出:  GSE169454 _per_unit_values.csv ( 7  行； 供复核复算) 
+2026-08-25 00:03:57 |     写出:  GSE169454 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-25 00:06:20 | GSE169454 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE169454/GSE169454_seurat_G2.rds  ( 1027.8  MB) 
+2026-08-25 00:06:21 | ----  GSE169454  处理完毕，已 gc() ---- 
+2026-08-25 00:06:21 | ---- 数据集:  GSE167186  ---- 
+2026-08-25 00:06:23 | GSE167186 : RDS 载入  52269  细胞 x  22047  基因。 
+2026-08-25 00:06:31 | GSE167186 : JoinLayers 完成，layers= data,counts 
+2026-08-25 00:06:31 | WARN:  GSE167186  JoinLayers 后 VariableFeatures 仅  677  个（预期 ~2000），VST2000 存活异常，请检查 G1 RDS 完整性。 
+2026-08-25 00:09:11 | GSE167186 : 聚类完成， 12  个 cluster (Harmony by  donor )。 
+2026-08-25 00:09:14 |     图已写出:  GSE167186_UMAP_seurat_clusters .pdf/.png 
+2026-08-25 00:09:17 |     图已写出:  GSE167186_UMAP_condition .pdf/.png 
+2026-08-25 00:09:20 |     图已写出:  GSE167186_UMAP_donor .pdf/.png 
+2026-08-25 00:09:21 | GSE167186 : fix3 并列决胜/下限改标  3  个 cluster:  6 Satellite->FAPs; 8 Immune->Endothelial; 11 Adipocyte->Myonuclei 
+2026-08-25 00:09:21 | GSE167186 : 自动注释完成， 12  个 cluster ->  6  种细胞类型 ( Endothelial=1, FAPs=1, Myonuc_I=1, Myonuc_IIa=3, Myonuc_IIx=1, Myonuclei=5 ) 
+2026-08-25 00:09:21 |     写出:  GSE167186 _cluster_celltype_scores.csv ( 12  行) 
+2026-08-25 00:09:22 |     图已写出:  GSE167186_classic_markers_DotPlot_cluster .pdf/.png 
+2026-08-25 00:09:22 | GSE167186 : 标志物检出  10 /10。 
+2026-08-25 00:09:45 |     图已写出:  GSE167186_markers_FeaturePlot .pdf/.png 
+2026-08-25 00:09:46 |     图已写出:  GSE167186_markers_DotPlot_celltype .pdf/.png 
+2026-08-25 00:09:49 |     图已写出:  GSE167186_markers_VlnPlot_condition .pdf/.png 
+2026-08-25 00:09:49 | GSE167186 : 轨  concordant  检出覆盖度  27/27 
+2026-08-25 00:09:49 | GSE167186 : 轨  mirror_OAup_muscleDown  检出覆盖度  37/37 
+2026-08-25 00:09:49 | GSE167186 : 轨  mirror_OAdown_muscleUp  检出覆盖度  34/35 
+2026-08-25 00:12:51 |     图已写出:  GSE167186_UCell_concordant_FeaturePlot .pdf/.png 
+2026-08-25 00:12:51 |     图已写出:  GSE167186_UCell_concordant_VlnPlot_condition .pdf/.png 
+2026-08-25 00:12:54 |     图已写出:  GSE167186_UCell_mirror_OAup_muscleDown_FeaturePlot .pdf/.png 
+2026-08-25 00:12:54 |     图已写出:  GSE167186_UCell_mirror_OAup_muscleDown_VlnPlot_condition .pdf/.png 
+2026-08-25 00:12:57 |     图已写出:  GSE167186_UCell_mirror_OAdown_muscleUp_FeaturePlot .pdf/.png 
+2026-08-25 00:12:58 |     图已写出:  GSE167186_UCell_mirror_OAdown_muscleUp_VlnPlot_condition .pdf/.png 
+2026-08-25 00:12:58 | GSE167186 : UCell 完成，成功评分轨  concordant(27/27), mirror_OAup_muscleDown(37/37), mirror_OAdown_muscleUp(34/35) 
+2026-08-25 00:12:58 | GSE167186 : pseudobulk 聚合单位 =  donor ，共  17  个单位。 
+2026-08-25 00:12:58 | GSE167186 : 单位分组分布:  Old=11, Young=6 
+2026-08-25 00:12:58 |     写出:  GSE167186 _per_unit_values.csv ( 17  行； 供复核复算) 
+2026-08-25 00:12:58 | GSE167186 : BH 校正完成（feature_type 内分别进行）。 
+2026-08-25 00:12:58 |     写出:  GSE167186 _pseudobulk_stats.csv ( 13  行； 单位级 Wilcoxon，无细胞级 p 值) 
+2026-08-25 00:13:44 | GSE167186 : G2 RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/G2/GSE167186/GSE167186_seurat_G2.rds  ( 371.4  MB) 
+2026-08-25 00:13:44 | ----  GSE167186  处理完毕，已 gc() ---- 
+2026-08-25 00:13:44 | 写出: G2/moduleG_G2_status.csv ( 3  行) 
+2026-08-25 00:13:44 | 写出: G2/moduleG_G2_pseudobulk_stats.csv ( 39  行) 
+2026-08-25 00:13:44 | 写出: G2/marker_localization_summary.csv ( 180  行； 三数据集合并) 
+2026-08-25 00:13:44 | ==== G2 汇总 ==== 
+2026-08-25 00:13:44 | GSE152805 :  OK  | cells= 35503  | clusters= 16  | celltypes= 7  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=34/35  |  OK; harmony_by=donor; comparison=oLT_vs_MT_paired 
+2026-08-25 00:13:44 | GSE169454 :  OK  | cells= 65042  | clusters= 14  | celltypes= 5  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=35/35  |  OK; harmony_by=gsm; comparison=OA_vs_normal 
+2026-08-25 00:13:44 | GSE167186 :  OK  | cells= 52269  | clusters= 12  | celltypes= 6  | markers= 10/10  | ucell= concordant=27/27; mirror_OAup_muscleDown=37/37; mirror_OAdown_muscleUp=34/35  |  OK; harmony_by=donor; comparison=Old_vs_Young; aging proxy - NOT sarcopenia 
+2026-08-25 00:13:44 | ==== sessionInfo ==== 
+2026-08-25 00:13:44 | R version 4.6.0 (2026-04-24 ucrt) 
+2026-08-25 00:13:44 | Platform: x86_64-w64-mingw32/x64 
+2026-08-25 00:13:44 | Running under: Windows 11 x64 (build 26200) 
+2026-08-25 00:13:44 |  
+2026-08-25 00:13:44 | Matrix products: default 
+2026-08-25 00:13:44 |   LAPACK version 3.12.1 
+2026-08-25 00:13:44 |  
+2026-08-25 00:13:44 | locale: 
+2026-08-25 00:13:44 | [1] LC_COLLATE=Chinese (Simplified)_China.utf8  
+2026-08-25 00:13:44 | [2] LC_CTYPE=Chinese (Simplified)_China.utf8    
+2026-08-25 00:13:44 | [3] LC_MONETARY=Chinese (Simplified)_China.utf8 
+2026-08-25 00:13:44 | [4] LC_NUMERIC=C                                
+2026-08-25 00:13:44 | [5] LC_TIME=Chinese (Simplified)_China.utf8     
+2026-08-25 00:13:44 |  
+2026-08-25 00:13:44 | time zone: Asia/Hong_Kong 
+2026-08-25 00:13:44 | tzcode source: internal 
+2026-08-25 00:13:44 |  
+2026-08-25 00:13:44 | attached base packages: 
+2026-08-25 00:13:44 | [1] stats     graphics  grDevices utils     datasets  methods   
+2026-08-25 00:13:44 | [7] base      
+2026-08-25 00:13:44 |  
+2026-08-25 00:13:44 | other attached packages: 
+2026-08-25 00:13:44 | [1] future_1.75.0      ggplot2_4.0.3      Matrix_1.7-5       
+2026-08-25 00:13:44 | [4] Seurat_5.5.1       SeuratObject_5.4.0 sp_2.2-3           
+2026-08-25 00:13:44 |  
+2026-08-25 00:13:44 | loaded via a namespace (and not attached): 
+2026-08-25 00:13:44 |   [1] RColorBrewer_1.1-3          UCell_2.16.0                
+2026-08-25 00:13:44 |   [3] rstudioapi_0.19.0           jsonlite_2.0.0              
+2026-08-25 00:13:44 |   [5] magrittr_2.0.5              ggbeeswarm_0.7.3            
+2026-08-25 00:13:44 |   [7] spatstat.utils_3.2-4        farver_2.1.2                
+2026-08-25 00:13:44 |   [9] ragg_1.5.2                  vctrs_0.7.3                 
+2026-08-25 00:13:44 |  [11] ROCR_1.0-12                 spatstat.explore_3.8-2      
+2026-08-25 00:13:44 |  [13] htmltools_0.5.9             S4Arrays_1.12.0             
+2026-08-25 00:13:44 |  [15] BiocNeighbors_2.6.0         SparseArray_1.12.2          
+2026-08-25 00:13:44 |  [17] sctransform_0.4.3           parallelly_1.48.0           
+2026-08-25 00:13:44 |  [19] KernSmooth_2.23-27          htmlwidgets_1.6.4           
+2026-08-25 00:13:44 |  [21] ica_1.0-3                   plyr_1.8.9                  
+2026-08-25 00:13:44 |  [23] plotly_4.12.1               zoo_1.9-0                   
+2026-08-25 00:13:44 |  [25] igraph_2.3.3                mime_0.13                   
+2026-08-25 00:13:44 |  [27] lifecycle_1.0.5             pkgconfig_2.0.3             
+2026-08-25 00:13:44 |  [29] R6_2.6.1                    fastmap_1.2.0               
+2026-08-25 00:13:44 |  [31] MatrixGenerics_1.24.0       fitdistrplus_1.2-6          
+2026-08-25 00:13:44 |  [33] shiny_1.14.0                digest_0.6.39               
+2026-08-25 00:13:44 |  [35] patchwork_1.3.2             S4Vectors_0.50.1            
+2026-08-25 00:13:44 |  [37] tensor_1.5.1                RSpectra_0.16-2             
+2026-08-25 00:13:44 |  [39] irlba_2.3.7                 textshaping_1.0.5           
+2026-08-25 00:13:44 |  [41] GenomicRanges_1.64.0        labeling_0.4.3              
+2026-08-25 00:13:44 |  [43] progressr_1.0.0             spatstat.sparse_3.2-0       
+2026-08-25 00:13:44 |  [45] httr_1.4.8                  polyclip_1.10-7             
+2026-08-25 00:13:44 |  [47] abind_1.4-8                 compiler_4.6.0              
+2026-08-25 00:13:44 |  [49] withr_3.0.3                 S7_0.2.2                    
+2026-08-25 00:13:44 |  [51] BiocParallel_1.46.0         fastDummies_1.7.6           
+2026-08-25 00:13:44 |  [53] MASS_7.3-66                 DelayedArray_0.38.2         
+2026-08-25 00:13:44 |  [55] tools_4.6.0                 vipor_0.4.7                 
+2026-08-25 00:13:44 |  [57] lmtest_0.9-40               otel_0.2.0                  
+2026-08-25 00:13:44 |  [59] beeswarm_0.4.0              httpuv_1.6.17               
+2026-08-25 00:13:44 |  [61] future.apply_1.20.2         goftest_1.2-3               
+2026-08-25 00:13:44 |  [63] glue_1.8.1                  nlme_3.1-170                
+2026-08-25 00:13:44 |  [65] promises_1.5.0              grid_4.6.0                  
+2026-08-25 00:13:44 |  [67] Rtsne_0.17                  cluster_2.1.8.3             
+2026-08-25 00:13:44 |  [69] reshape2_1.4.5              generics_0.1.4              
+2026-08-25 00:13:44 |  [71] gtable_0.3.6                spatstat.data_3.1-9         
+2026-08-25 00:13:44 |  [73] tidyr_1.3.2                 data.table_1.18.6.1         
+2026-08-25 00:13:44 |  [75] XVector_0.52.0              BiocGenerics_0.58.1         
+2026-08-25 00:13:44 |  [77] spatstat.geom_3.8-2         RcppAnnoy_0.0.23            
+2026-08-25 00:13:44 |  [79] ggrepel_0.9.8               RANN_2.6.3                  
+2026-08-25 00:13:44 |  [81] pillar_1.11.1               stringr_1.6.0               
+2026-08-25 00:13:44 |  [83] spam_2.11-4                 RcppHNSW_0.7.0              
+2026-08-25 00:13:44 |  [85] later_1.4.8                 splines_4.6.0               
+2026-08-25 00:13:44 |  [87] dplyr_1.2.1                 lattice_0.22-9              
+2026-08-25 00:13:44 |  [89] survival_3.8-6              deldir_2.0-4                
+2026-08-25 00:13:44 |  [91] tidyselect_1.2.1            SingleCellExperiment_1.34.0 
+2026-08-25 00:13:44 |  [93] miniUI_0.1.2                pbapply_1.7-4               
+2026-08-25 00:13:44 |  [95] gridExtra_2.3.1             IRanges_2.46.0              
+2026-08-25 00:13:44 |  [97] Seqinfo_1.2.0               SummarizedExperiment_1.42.0 
+2026-08-25 00:13:44 |  [99] scattermore_1.2             RhpcBLASctl_0.23-42         
+2026-08-25 00:13:44 | [101] stats4_4.6.0                Biobase_2.72.0              
+2026-08-25 00:13:44 | [103] matrixStats_1.5.0           stringi_1.8.9               
+2026-08-25 00:13:44 | [105] codetools_0.2-20            tibble_3.3.1                
+2026-08-25 00:13:44 | [107] cli_3.6.6                   uwot_0.2.4                  
+2026-08-25 00:13:44 | [109] systemfonts_1.3.2           xtable_1.8-8                
+2026-08-25 00:13:44 | [111] reticulate_1.46.0           harmony_2.0.5               
+2026-08-25 00:13:44 | [113] Rcpp_1.1.2                  globals_0.19.1              
+2026-08-25 00:13:44 | [115] spatstat.random_3.5-1       png_0.1-9                   
+2026-08-25 00:13:44 | [117] ggrastr_1.0.2               spatstat.univar_3.2-0       
+2026-08-25 00:13:44 | [119] parallel_4.6.0              dotCall64_1.2               
+2026-08-25 00:13:44 | [121] listenv_1.0.0               viridisLite_0.4.3           
+2026-08-25 00:13:44 | [123] scales_1.4.0                ggridges_0.5.7              
+2026-08-25 00:13:44 | [125] purrr_1.2.2                 rlang_1.3.0                 
+2026-08-25 00:13:44 | [127] cowplot_1.2.0               
+2026-08-25 00:13:44 | 模块 G G2 完成。红线提醒：GSE152805 仅供体内 oLT vs MT 描述性配对对比；GSE167186 为 Old vs Young aging proxy 不得写成 sarcopenia；一切统计为 donor/样本级 pseudobulk，自动注释需人工复核 DotPlot。 

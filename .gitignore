@@ -1,12 +1,17 @@
-# 数据与结果不入库（体积与 GEO 再分发条款）
+# ---- 重大7 排除规则（脚本52生成 2026-10-19，人工清理版）----
+# 大体积中间产物与缓存（可由脚本从原始数据重建）
+results/**/*.rds
+results/**/*.RData
+results/**/*.rda
+# 超限文件（>50MB）
+results/moduleK/moduleK_GSE152805_cellchat.rds
+results/moduleK/moduleK_GSE167186_cellchat.rds
+results/moduleK/moduleK_GSE169454_cellchat.rds
+results/moduleF/fix14_cibersortx/GSE48556_mixture.txt
+results/moduleH/fix11_susie/ld_FBLN5_alm.rds
+results/moduleH/fix11_susie/ld_GDE1_low_grip.rds
+results/moduleH/fix11_susie/ld_RNF14_walk_pace.rds
+# 原始数据目录（GEO/OpenGWAS 可复现，一律不入库）
 data/
-processed/
-results/
-*.rds
-*.RDS
-*.RData
-*.Rhistory
-
-# 系统文件
-.DS_Store
-Thumbs.db
+*.gz
+*.parquet

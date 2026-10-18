@@ -1,0 +1,7 @@
+"step","status","note"
+"S0_input_check","OK","3 files present; DSigDB url reachable"
+"universe_build","OK","union=5928 intersect=4344"
+"moduleH_causal","DEGRADED","tier3 markers_only; tier1 file present but causal_established_any all FALSE (0 hits)"
+"overlap","OK","hits=5/10 finan_only=5 mode=markers_only"
+"dsigdb_ora","OK","tested=561 bg=5163 sig_fdr005=0"
+"barplot","OK","top15 by raw p"

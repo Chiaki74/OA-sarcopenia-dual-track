@@ -1,0 +1,58 @@
+重大8 MR 披露汇总  运行时间: 2026-10-15 02:41:38 
+R 版本: R version 4.6.0 (2026-04-24 ucrt) 
+主方法行（检验族 = 基因×结局×eQTL源）：32 
+
+① 工具变量层级分布（32 组合）： 
+  单SNP兜底: 8 
+  放宽参数: 12 
+  首选参数: 12 
+  触发放宽或兜底合计：20 / 32 
+
+② F 统计（F = (beta/se)^2，阈值 > 10）： 
+  全部 32 组合 f_min 范围：30.2 – 73.4 
+  f_min > 10 全部满足：TRUE 
+  放宽/兜底组合逐检验 F： 
+    CBR3 | eqtlgen_blood | 膝骨关节炎 | tier=放宽参数 | nsnp=4 | f_min=43.8 f_mean=61.4 | P<5e-08, r2=0.010, kb=10000 
+    CBR3 | eqtlgen_blood | 四肢瘦体重(ALM) | tier=放宽参数 | nsnp=4 | f_min=43.8 f_mean=61.4 | P<5e-08, r2=0.010, kb=10000 
+    CBR3 | eqtlgen_blood | 低握力(60+,EWGSOP) | tier=放宽参数 | nsnp=4 | f_min=43.8 f_mean=61.4 | P<5e-08, r2=0.010, kb=10000 
+    CBR3 | eqtlgen_blood | 步行速度(平常步速) | tier=放宽参数 | nsnp=4 | f_min=43.8 f_mean=61.4 | P<5e-08, r2=0.010, kb=10000 
+    CBR3 | gtex_muscle | 膝骨关节炎 | tier=单SNP兜底 | nsnp=1 | f_min=31.4 f_mean=31.4 | 单SNP(top cis eQTL), Wald ratio 
+    CBR3 | gtex_muscle | 四肢瘦体重(ALM) | tier=单SNP兜底 | nsnp=1 | f_min=31.4 f_mean=31.4 | 单SNP(top cis eQTL), Wald ratio 
+    CBR3 | gtex_muscle | 低握力(60+,EWGSOP) | tier=单SNP兜底 | nsnp=1 | f_min=31.4 f_mean=31.4 | 单SNP(top cis eQTL), Wald ratio 
+    CBR3 | gtex_muscle | 步行速度(平常步速) | tier=单SNP兜底 | nsnp=1 | f_min=31.4 f_mean=31.4 | 单SNP(top cis eQTL), Wald ratio 
+    GADD45A | eqtlgen_blood | 膝骨关节炎 | tier=放宽参数 | nsnp=3 | f_min=30.2 f_mean=45.5 | P<5e-08, r2=0.010, kb=10000 
+    GADD45A | eqtlgen_blood | 四肢瘦体重(ALM) | tier=放宽参数 | nsnp=3 | f_min=30.2 f_mean=45.5 | P<5e-08, r2=0.010, kb=10000 
+    GADD45A | eqtlgen_blood | 低握力(60+,EWGSOP) | tier=放宽参数 | nsnp=3 | f_min=30.2 f_mean=45.5 | P<5e-08, r2=0.010, kb=10000 
+    GADD45A | eqtlgen_blood | 步行速度(平常步速) | tier=放宽参数 | nsnp=3 | f_min=30.2 f_mean=45.5 | P<5e-08, r2=0.010, kb=10000 
+    HEMK1 | eqtlgen_blood | 膝骨关节炎 | tier=放宽参数 | nsnp=4 | f_min=42.6 f_mean=146.1 | P<5e-08, r2=0.010, kb=10000 
+    HEMK1 | eqtlgen_blood | 四肢瘦体重(ALM) | tier=放宽参数 | nsnp=4 | f_min=42.6 f_mean=146.1 | P<5e-08, r2=0.010, kb=10000 
+    HEMK1 | eqtlgen_blood | 低握力(60+,EWGSOP) | tier=放宽参数 | nsnp=4 | f_min=42.6 f_mean=146.1 | P<5e-08, r2=0.010, kb=10000 
+    HEMK1 | eqtlgen_blood | 步行速度(平常步速) | tier=放宽参数 | nsnp=4 | f_min=42.6 f_mean=146.1 | P<5e-08, r2=0.010, kb=10000 
+    HEMK1 | gtex_muscle | 膝骨关节炎 | tier=单SNP兜底 | nsnp=1 | f_min=73.4 f_mean=73.4 | 单SNP(top cis eQTL), Wald ratio 
+    HEMK1 | gtex_muscle | 四肢瘦体重(ALM) | tier=单SNP兜底 | nsnp=1 | f_min=73.4 f_mean=73.4 | 单SNP(top cis eQTL), Wald ratio 
+    HEMK1 | gtex_muscle | 低握力(60+,EWGSOP) | tier=单SNP兜底 | nsnp=1 | f_min=73.4 f_mean=73.4 | 单SNP(top cis eQTL), Wald ratio 
+    HEMK1 | gtex_muscle | 步行速度(平常步速) | tier=单SNP兜底 | nsnp=1 | f_min=73.4 f_mean=73.4 | 单SNP(top cis eQTL), Wald ratio 
+
+③ 单 SNP 组合：8 个 
+    CBR3 | gtex_muscle | 膝骨关节炎 | method=Wald ratio | P=0.14 
+    CBR3 | gtex_muscle | 四肢瘦体重(ALM) | method=Wald ratio | P=0.0643 
+    CBR3 | gtex_muscle | 低握力(60+,EWGSOP) | method=Wald ratio | P=0.64 
+    CBR3 | gtex_muscle | 步行速度(平常步速) | method=Wald ratio | P=0.0666 
+    HEMK1 | gtex_muscle | 膝骨关节炎 | method=Wald ratio | P=0.983 
+    HEMK1 | gtex_muscle | 四肢瘦体重(ALM) | method=Wald ratio | P=0.0101 
+    HEMK1 | gtex_muscle | 低握力(60+,EWGSOP) | method=Wald ratio | P=0.256 
+    HEMK1 | gtex_muscle | 步行速度(平常步速) | method=Wald ratio | P=0.909 
+  核对通过：全部单 SNP 组合主方法为 Wald ratio（正文若写 IVW 须改） 
+
+④ 名义显著（P<0.05，未校正）候选：6 个（冻结口径应为 6） 
+    FBLN5–四肢瘦体重(ALM) | eqtlgen_blood | Inverse variance weighted P=0.00335 | nsnp=6 | tier=首选参数 | f_min=35.8 
+    CBR3–膝骨关节炎 | eqtlgen_blood | Inverse variance weighted P=0.0084 | nsnp=4 | tier=放宽参数 | f_min=43.8 
+    HEMK1–四肢瘦体重(ALM) | gtex_muscle | Wald ratio P=0.0101 | nsnp=1 | tier=单SNP兜底 | f_min=73.4 
+    GDE1–低握力(60+,EWGSOP) | eqtlgen_blood | Inverse variance weighted P=0.0293 | nsnp=4 | tier=首选参数 | f_min=30.7 
+    HEMK1–四肢瘦体重(ALM) | eqtlgen_blood | Inverse variance weighted P=0.0327 | nsnp=4 | tier=放宽参数 | f_min=42.6 
+    RNF14–步行速度(平常步速) | eqtlgen_blood | Inverse variance weighted P=0.0455 | nsnp=3 | tier=首选参数 | f_min=63.3 
+
+Steiger 方向性：32 组合中方向判定错误数 = 0（冻结口径应为 0；NA 数 = 0） 
+
+已写出：results/moduleH/disclosure/MR披露_32组合工具层级与F统计.csv 
+完成。 

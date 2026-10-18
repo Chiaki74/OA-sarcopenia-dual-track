@@ -1,0 +1,26 @@
+[20:28:07] —— 模块 J：TF-miRNA 上游调控网络（E4，10 标志物，06 封板口径）—— 
+[20:28:20] Enrichr 在线，目标库全部就位：TRRUST_Transcription_Factors_2019 | ChEA_2022 | miRTarBase_2017 
+[20:28:20] Part 1：TF 与 miRNA 富集查询 
+[20:30:22]   ⚠ 库 TRRUST_Transcription_Factors_2019 查询失败：Stream error in the HTTP/2 framing layer [maayanlab.cloud]:
+HTTP/2 stream 17 was not closed cleanly: INTERNAL_ERROR (err 2) 
+[20:30:22]   ⚠ 库 TRRUST_Transcription_Factors_2019 无返回 
+[20:31:50]   ⚠ 库 ChEA_2022 查询失败：Stream error in the HTTP/2 framing layer [maayanlab.cloud]:
+HTTP/2 stream 21 was not closed cleanly: INTERNAL_ERROR (err 2) 
+[20:31:50]   ⚠ 库 ChEA_2022 无返回 
+[20:34:46]   miRTarBase_2017：349 条（adj.P<0.05 者 1 条） 
+[20:34:46] Part 2：边表 2 条（TF 0 / miRNA 2；双库 TF 高置信 0 个）→ moduleJ_TFmiRNA_edges.csv 
+[20:34:46] 标志物覆盖：2/10 有显著上游调节因子（未覆盖：NELL1,STEAP1,GADD45A,FBLN5,RNF14,BNIP3,EGFR,CBR3——如实报告） 
+[20:34:46] Part 3：hub（≥3/10 靶）0 个： → moduleJ_TFmiRNA_hub.csv 
+[20:34:46] 网络图已出：moduleJ_TFmiRNA_network.pdf 
+[20:34:46] 模块 J 完成。产物：moduleJ_TFmiRNA_edges.csv / moduleJ_TFmiRNA_hub.csv / moduleJ_TFmiRNA_network.pdf（若有 igraph） 
+[20:34:46] 写稿口径：数据库预测性上游调控，入补充材料；hub 与双库 TF 交集可在讨论机制段以「假设生成」一句带过，不作因果/机制断言。 
+[01:02:12] —— 补丁 13b：TF 层修复重跑 —— 
+[01:02:12] 通道 A：HTTP/1.1 重试 Enrichr TF 库 
+[01:02:35]   TRRUST_Transcription_Factors_2019 第 1 次成功：45 条 
+[01:03:02]   ChEA_2022 第 1 次成功：461 条 
+[01:03:40]   miRTarBase_2017 第 1 次成功：349 条 
+[01:03:40] 通道 A 结果：TRRUST_Transcription_Factors_2019=OK ChEA_2022=OK 
+[01:03:41]   ChEA_2022：无 adj.P<0.05 条目——取名义显著前 10 并标记 
+[01:03:41] 边表重建：75 条（TF 73 / miRNA 2；多源 TF 高置信 0 个）→ moduleJ_TFmiRNA_edges.csv 
+[01:03:41] 标志物覆盖：6/10（未覆盖：NELL1,STEAP1,RNF14,CBR3——如实报告） 
+[01:03:41] hub（≥3/10 靶）0 个： 

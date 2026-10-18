@@ -1,0 +1,2 @@
+dataset,group1,group2,n_interaction_g1,n_interaction_g2,weight_g1,weight_g2
+GSE167186,Young,Old,54,10,0.007,0.001

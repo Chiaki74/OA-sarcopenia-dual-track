@@ -1,0 +1,5 @@
+"gse","platform","n_genes","n_samples","transform","file","md5","created"
+"GSE55235","GPL96",13237,20,"2^x - 1 (log2(x+1) -> linear)","GSE55235_mixture.txt","ce353787edaaf19ae1985c94e5b9cfc8","2026-09-03 16:44:40"
+"GSE55457","GPL96",13237,20,"2^x - 1 (log2(x+1) -> linear)","GSE55457_mixture.txt","2b474012ae26bdeb03dfa3c6651f2e17","2026-09-03 16:44:40"
+"GSE12021","GPL96",13237,19,"2^x - 1 (log2(x+1) -> linear)","GSE12021_mixture.txt","d273d92cb0530ab34835c52ffb7e49dc","2026-09-03 16:44:41"
+"GSE48556","GPL6947",25159,139,"2^x - 1 (log2(x+1) -> linear)","GSE48556_mixture.txt","c117b55d0ee591d1f1c315f73a4de864","2026-09-03 16:44:46"

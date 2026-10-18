@@ -1,0 +1,74 @@
+重大4 校准失败定量分解与外部再校准  运行时间: 2026-10-15 01:27:58 
+R 版本: R version 4.6.0 (2026-04-24 ucrt) 
+重建外部 AUC = 0.818（冻结值 0.818） 
+
+—— ① 患病率分解 —— 
+训练层患病率 = 0.5556 (65/117); 验证层 = 0.825 (33/40) 
+患病率迁移隐含截距漂移 Δlogit = logit(0.825) − logit(0.556) = 1.327 
+实测外部校准: slope = 0.268, 截距更新量 = 5.45 
+超出患病率可解释部分 = 4.123 logit（占比 75.6% 的截距漂移无法由患病率解释） 
+
+—— ② z 评分跨层分布对比 —— 
+           gene   coef train_ctrl_mean train_ctrl_sd train_case_mean
+NELL1     NELL1  0.957          -0.586         0.617           0.469
+STEAP1   STEAP1  2.078          -0.539         0.917           0.431
+GADD45A GADD45A -2.919           0.505         0.983          -0.404
+FBLN5     FBLN5  0.843          -0.587         0.751           0.470
+HEMK1     HEMK1  2.626          -0.273         1.148           0.218
+GDE1       GDE1  0.293          -0.640         0.833           0.512
+RNF14     RNF14  0.636          -0.565         0.811           0.452
+BNIP3     BNIP3 -2.380           0.432         1.099          -0.345
+EGFR       EGFR -1.285           0.468         1.015          -0.375
+CBR3       CBR3  1.916          -0.408         1.136           0.326
+        train_case_sd val_ctrl_mean val_ctrl_sd val_case_mean val_case_sd
+NELL1           0.972        -0.498       0.581         0.106       1.044
+STEAP1          0.809        -1.206       1.120         0.256       0.773
+GADD45A         0.779         1.535       1.100        -0.326       0.606
+FBLN5           0.892        -0.378       1.313         0.080       0.926
+HEMK1           0.769         1.055       0.934        -0.224       0.872
+GDE1            0.773        -0.016       1.564         0.003       0.872
+RNF14           0.871        -0.232       1.211         0.049       0.964
+BNIP3           0.718        -0.155       1.017         0.033       1.009
+EGFR            0.780         1.333       0.472        -0.283       0.840
+CBR3            0.691         0.092       1.426        -0.019       0.914
+        d_case_mean d_ctrl_mean
+NELL1        -0.363       0.087
+STEAP1       -0.176      -0.666
+GADD45A       0.078       1.030
+FBLN5        -0.390       0.209
+HEMK1        -0.442       1.328
+GDE1         -0.509       0.624
+RNF14        -0.403       0.334
+BNIP3         0.378      -0.587
+EGFR          0.092       0.865
+CBR3         -0.346       0.500
+     layer   group  n lp_mean lp_sd
+1    train control 52  -6.666 4.585
+2    train    case 65   5.970 4.015
+3 GSE57218 control  7  -5.486 6.302
+4 GSE57218    case 33   1.491 4.355
+lp 组间分离度（case−control 均值差）: 训练层 12.637 vs 验证层 6.977 
+
+—— ③ 外部再校准 —— 
+                               metric   value
+1  prevalence_implied_intercept_shift   1.327
+2      fitted_intercept_update_offset   5.450
+3         fitted_full_recal_intercept   2.038
+4             fitted_full_recal_slope   0.268
+5                CITL_meanpred_before   0.582
+6                       CITL_observed   0.825
+7       CITL_meanpred_after_intercept   0.825
+8            CITL_meanpred_after_full   0.825
+9                        Brier_before   0.280
+10              Brier_after_intercept   0.116
+11                   Brier_after_full   0.099
+12                 HL_chisq_before_g5 720.960
+13        HL_chisq_after_intercept_g5 909.650
+14             HL_chisq_after_full_g5   3.580
+15                         AUC_before   0.818
+16                AUC_after_intercept   0.818
+17                     AUC_after_full   0.818
+截距-only 再校准: lp' = lp + 5.45 → CITL 均值 0.825 vs 观测 0.825; Brier 0.28 → 0.116; AUC 不变 = 0.818 
+全再校准: lp' = 2.038 + 0.268 × lp（仅作敏感性报告；截距-only 更新为预设最小再校准方案） 
+
+输出目录: results/moduleI/recalibration 

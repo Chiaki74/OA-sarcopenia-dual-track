@@ -1,0 +1,21 @@
+[00:56:51] v2 锁定标志物（10 个）：NELL1, STEAP1, GADD45A, FBLN5, HEMK1, GDE1, RNF14, BNIP3, EGFR, CBR3 
+[00:56:51] —— 重建 5 个训练队列（05b 同口径）—— 
+[00:56:52]   GSE51588: donor_id 去重 -> 20 样本 
+[00:56:52] 重建训练集：117 样本 × 84 特征（case=65 / control=52） 
+[00:56:52] ✅ 自检1：队列组成与 05b 存盘逐格一致 
+[00:56:52] ✅ 自检2：重拟合 11 个系数（含截距）与 05b 封存 fit 逐位一致（容差 1e-8） 
+[00:56:52] ✅ 自检3：SHAP 效率性成立（sum(phi)+intercept == 线性预测值，容差 1e-8；max|diff| = 3.55e-15） 
+[00:56:52] 产物1：moduleD_v2_SHAP_values.csv（117 × 10 标志物 SHAP 值） 
+[00:56:52] 产物2：moduleD_v2_SHAP_importance.csv（mean|SHAP| 排序）： 
+[00:56:52]   1. GADD45A  mean|SHAP|=2.4302  beta=-2.9193  轨=mirror_OAdown_muscleUp/OA down 
+[00:56:52]   2. HEMK1  mean|SHAP|=2.0129  beta=2.6264  轨=concordant/OA up 
+[00:56:52]   3. BNIP3  mean|SHAP|=1.9283  beta=-2.3804  轨=mirror_OAdown_muscleUp/OA down 
+[00:56:52]   4. STEAP1  mean|SHAP|=1.5683  beta=2.0777  轨=concordant/OA up 
+[00:56:52]   5. CBR3  mean|SHAP|=1.3996  beta=1.9162  轨=concordant/OA up 
+[00:56:52]   6. EGFR  mean|SHAP|=1.0141  beta=-1.2851  轨=mirror_OAdown_muscleUp/OA down 
+[00:56:52]   7. NELL1  mean|SHAP|=0.7919  beta=0.9566  轨=concordant/OA up 
+[00:56:52]   8. FBLN5  mean|SHAP|=0.6551  beta=0.8427  轨=concordant/OA up 
+[00:56:52]   9. RNF14  mean|SHAP|=0.5089  beta=0.6365  轨=mirror_OAup_muscleDown/OA up 
+[00:56:52]   10. GDE1  mean|SHAP|=0.2415  beta=0.2934  轨=mirror_OAup_muscleDown/OA up 
+[00:56:52] beta 方向与发现层 OA 方向一致：10/10（参考口径：多变量 logistic 系数含共线性调整，不一致不必然矛盾） 
+[00:56:52] 产物3：moduleD_v2_SHAP_beeswarm.pdf（2 页：蜜蜂图 + 重要性条形图） 

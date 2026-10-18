@@ -1,0 +1,415 @@
+2026-08-23 22:13:38 | === 模块 G G1 启动：Seurat 对象构建与 QC === 
+2026-08-23 22:13:38 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-23 22:13:45 | ERROR: 缺少 R 包:  readxl 
+2026-08-23 22:13:53 | === 模块 G G1 启动：Seurat 对象构建与 QC === 
+2026-08-23 22:13:53 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-23 22:13:53 | ERROR: 缺少 R 包:  readxl 
+2026-08-23 22:18:58 | === 模块 G G1 启动：Seurat 对象构建与 QC === 
+2026-08-23 22:18:58 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-23 22:18:58 | 依赖检查通过: Seurat  5.5.1  | ggplot2  4.0.3  | Matrix  1.7.5  | readxl  1.5.0  | data.table  1.18.4 
+2026-08-23 22:18:58 | 文件清单载入:  66  行 ( C:/Users/凉月/Desktop/ENG论文/results/moduleG/moduleG_file_inventory.csv ) 
+2026-08-23 22:18:58 | ERROR:  GSE152805  处理失败（不影响其他数据集）:  没有"fn"这个函数 
+2026-08-23 22:18:58 | ERROR:  GSE169454  处理失败（不影响其他数据集）:  没有"fn"这个函数 
+2026-08-23 22:18:58 | ---- 数据集:  GSE167186  (10x H5, snRNA; Old vs Young aging proxy) ---- 
+2026-08-23 22:18:58 | GSE167186 : 清单内  17  个 GSM ( HM1, HM2, HM3, HM4, HM5, HM6, HM7, HM8, HM9, HM10, HM11, HM12, HM13, HM15, HM21, HM22, HM23 )。注意 HM 编号非连续，均按正则解析。 
+2026-08-23 22:18:58 | GSE167186 xlsx 列名:  SAMPLES | ...2 | ...3 | ...4 | ...5 
+2026-08-23 22:18:58 | WARN: xlsx 中未找到与 HM 编号匹配的样本列（最佳匹配  0 / 17 ）。 
+2026-08-23 22:18:58 | GSE167186 分组来自 pData 兜底通道（GEOquery 本地缓存）。 
+2026-08-23 22:18:58 | GSE167186 分组映射完成: Old= 11  / Young= 6 （aging proxy，不得表述为 sarcopenia） 
+2026-08-23 22:18:59 |   [ GSM5098737  /  HM1 ] 维度探测:  6587  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:18:59 |   [ GSM5098738  /  HM2 ] 维度探测:  7626  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:00 |   [ GSM5098739  /  HM3 ] 维度探测:  4206  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:00 |   [ GSM5098740  /  HM4 ] 维度探测:  11512  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:01 |   [ GSM5098741  /  HM5 ] 维度探测:  5877  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:01 |   [ GSM5098742  /  HM6 ] 维度探测:  7311  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:02 |   [ GSM5098743  /  HM7 ] 维度探测:  4478  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:02 |   [ GSM5098744  /  HM8 ] 维度探测:  5510  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:03 |   [ GSM5098745  /  HM9 ] 维度探测:  9552  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:03 |   [ GSM5098746  /  HM10 ] 维度探测:  4739  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:04 |   [ GSM5098747  /  HM11 ] 维度探测:  3991  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:04 |   [ GSM5098748  /  HM12 ] 维度探测:  5342  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:05 |   [ GSM5098749  /  HM13 ] 维度探测:  3623  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:05 |   [ GSM5098750  /  HM15 ] 维度探测:  3537  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:07 |   [ GSM5098751  /  HM21 ] 维度探测:  14685  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:08 |   [ GSM5098752  /  HM22 ] 维度探测:  13829  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:10 |   [ GSM5098753  /  HM23 ] 维度探测:  22081  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:19:11 | GSE167186 : 估算合并前总细胞数 =  134486 （内存预案阈值  60000 ） 
+2026-08-23 22:19:11 | GSE167186 : BPCells 包 不可用 ；按既定策略选择内存路径（规避 on-disk 矩阵 API 兼容风险）。 
+2026-08-23 22:19:11 | GSE167186 : 总细胞数  134486  >  60000 ，走【逐样本 QC 过滤后再合并】路径（阈值按样本独立计算，留痕于 qc_summary）。 
+2026-08-23 22:19:11 | ERROR:  GSE167186  处理失败（不影响其他数据集）:  No cell overlap between new meta data and Seurat object 
+2026-08-23 22:19:11 | 写出: moduleG_G1_status.csv ( 3  行) 
+2026-08-23 22:19:11 | WARN: 无任何 QC 汇总行可写出（所有数据集均失败）。 
+2026-08-23 22:19:11 | ==== G1 汇总 ==== 
+2026-08-23 22:19:11 | GSE152805 :  FAIL  | samples= NA  | cells_before= NA  | cells_after= NA  |  FAIL: 没有"fn"这个函数 
+2026-08-23 22:19:11 | GSE169454 :  FAIL  | samples= NA  | cells_before= NA  | cells_after= NA  |  FAIL: 没有"fn"这个函数 
+2026-08-23 22:19:11 | GSE167186 :  FAIL  | samples= NA  | cells_before= NA  | cells_after= NA  |  FAIL: No cell overlap between new meta data and Seurat object 
+2026-08-23 22:19:11 | 模块 G G1 存在失败数据集：
+  - GSE152805 | FAIL: 没有"fn"这个函数
+  - GSE169454 | FAIL: 没有"fn"这个函数
+  - GSE167186 | FAIL: No cell overlap between new meta data and Seurat object
+修复后直接重跑本脚本即可（复制/读入均幂等）。 
+2026-08-23 22:49:40 | === 模块 G G1 启动：Seurat 对象构建与 QC === 
+2026-08-23 22:49:40 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-23 22:49:40 | 依赖检查通过: Seurat  5.5.1  | ggplot2  4.0.3  | Matrix  1.7.5  | readxl  1.5.0  | data.table  1.18.4 
+2026-08-23 22:49:40 | 文件清单载入:  66  行 ( C:/Users/凉月/Desktop/ENG论文/results/moduleG/moduleG_file_inventory.csv ) 
+2026-08-23 22:49:40 | ---- 数据集:  GSE152805  (10x  v2 , scRNA) ---- 
+2026-08-23 22:49:40 | GSE152805 : 清单内  9  个 GSM， 27  个文件。 
+2026-08-23 22:49:40 |   [ GSM4626763 ] tissue= synovium  donor= 113  condition= OA 
+2026-08-23 22:49:40 | ERROR:  GSE152805  处理失败（不影响其他数据集）:  Gene name or features file missing. Expecting features.tsv.gz 
+2026-08-23 22:49:40 | ---- 数据集:  GSE169454  (10x  v3 , scRNA) ---- 
+2026-08-23 22:49:40 | GSE169454 : 清单内  7  个 GSM， 21  个文件。 
+2026-08-23 22:49:40 |   [ GSM5203389 ] tissue= cartilage  donor= normal1  condition= normal 
+2026-08-23 22:49:41 |   [ GSM5203389 ] 建对象:  1502  细胞 x  19164  基因 
+2026-08-23 22:49:41 |   [ GSM5203390 ] tissue= cartilage  donor= normal2  condition= normal 
+2026-08-23 22:49:43 |   [ GSM5203390 ] 建对象:  1914  细胞 x  19415  基因 
+2026-08-23 22:49:43 |   [ GSM5203391 ] tissue= cartilage  donor= normal3  condition= normal 
+2026-08-23 22:49:51 |   [ GSM5203391 ] 建对象:  5919  细胞 x  20908  基因 
+2026-08-23 22:49:51 |   [ GSM5203392 ] tissue= cartilage  donor= oa1  condition= OA 
+2026-08-23 22:50:01 |   [ GSM5203392 ] 建对象:  9228  细胞 x  20330  基因 
+2026-08-23 22:50:01 |   [ GSM5203393 ] tissue= cartilage  donor= oa2  condition= OA 
+2026-08-23 22:50:12 |   [ GSM5203393 ] 建对象:  16058  细胞 x  20280  基因 
+2026-08-23 22:50:12 |   [ GSM5203394 ] tissue= cartilage  donor= oa3  condition= OA 
+2026-08-23 22:50:24 |   [ GSM5203394 ] 建对象:  12405  细胞 x  20642  基因 
+2026-08-23 22:50:24 |   [ GSM5203395 ] tissue= cartilage  donor= oa4  condition= OA 
+2026-08-23 22:50:39 |   [ GSM5203395 ] 建对象:  19792  细胞 x  20859  基因 
+2026-08-23 22:50:39 | GSE169454 : 合并  7  个样本 (add.cell.ids=GSM) ... 
+2026-08-23 22:50:45 | GSE169454 : 合并后  66818  细胞 x  23719  基因。 
+2026-08-23 22:50:48 | GSE169454  ( 数据集合并对象(过滤前) ) QC 阈值: nFeature >=  200  且 <= median( 2043 ) + 3*MAD( 1196.5 ) =  5632.4 ，硬上限 6000 兜底后取 5632.4 ；percent.mt <=  15 % 
+2026-08-23 22:50:51 | GSE169454 : QC 过滤  66818  ->  65042  细胞 (保留  97.3 %) 
+2026-08-23 22:50:53 |     图已写出:  GSE169454_QC_violin_nFeature_RNA_prefilter .png/.pdf 
+2026-08-23 22:50:55 |     图已写出:  GSE169454_QC_violin_nCount_RNA_prefilter .png/.pdf 
+2026-08-23 22:50:56 |     图已写出:  GSE169454_QC_violin_percent.mt_prefilter .png/.pdf 
+2026-08-23 22:50:59 |     图已写出:  GSE169454_QC_scatter_nCount_nFeature_prefilter .png/.pdf 
+2026-08-23 22:51:01 |     图已写出:  GSE169454_QC_violin_nFeature_RNA_postfilter .png/.pdf 
+2026-08-23 22:51:02 |     图已写出:  GSE169454_QC_violin_nCount_RNA_postfilter .png/.pdf 
+2026-08-23 22:51:03 |     图已写出:  GSE169454_QC_violin_percent.mt_postfilter .png/.pdf 
+2026-08-23 22:51:06 |     图已写出:  GSE169454_QC_scatter_nCount_nFeature_postfilter .png/.pdf 
+2026-08-23 22:51:06 | GSE169454 : LogNormalize + FindVariableFeatures(vst, 2000) ... 
+2026-08-23 22:51:23 | GSE169454 : 标准化完成，VST 高变基因  2000  个。（G1 不做 ScaleData/PCA/聚类/整合） 
+2026-08-23 22:53:03 | GSE169454 : RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE169454_seurat_G1.rds  ( 682  MB) 
+2026-08-23 22:53:04 | ---- 数据集:  GSE167186  (10x H5, snRNA; Old vs Young aging proxy) ---- 
+2026-08-23 22:53:04 | GSE167186 : 清单内  17  个 GSM ( HM1, HM2, HM3, HM4, HM5, HM6, HM7, HM8, HM9, HM10, HM11, HM12, HM13, HM15, HM21, HM22, HM23 )。注意 HM 编号非连续，均按正则解析。 
+2026-08-23 22:53:04 | GSE167186 xlsx 列名:  SAMPLES | ...2 | ...3 | ...4 | ...5 
+2026-08-23 22:53:04 | WARN: xlsx 中未找到与 HM 编号匹配的样本列（最佳匹配  0 / 17 ）。 
+2026-08-23 22:53:04 | GSE167186 分组来自 pData 兜底通道（GEOquery 本地缓存）。 
+2026-08-23 22:53:04 | GSE167186 分组映射完成: Old= 11  / Young= 6 （aging proxy，不得表述为 sarcopenia） 
+2026-08-23 22:53:04 |   [ GSM5098737  /  HM1 ] 维度探测:  6587  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:05 |   [ GSM5098738  /  HM2 ] 维度探测:  7626  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:05 |   [ GSM5098739  /  HM3 ] 维度探测:  4206  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:06 |   [ GSM5098740  /  HM4 ] 维度探测:  11512  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:06 |   [ GSM5098741  /  HM5 ] 维度探测:  5877  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:07 |   [ GSM5098742  /  HM6 ] 维度探测:  7311  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:07 |   [ GSM5098743  /  HM7 ] 维度探测:  4478  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:08 |   [ GSM5098744  /  HM8 ] 维度探测:  5510  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:08 |   [ GSM5098745  /  HM9 ] 维度探测:  9552  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:09 |   [ GSM5098746  /  HM10 ] 维度探测:  4739  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:09 |   [ GSM5098747  /  HM11 ] 维度探测:  3991  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:10 |   [ GSM5098748  /  HM12 ] 维度探测:  5342  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:10 |   [ GSM5098749  /  HM13 ] 维度探测:  3623  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:11 |   [ GSM5098750  /  HM15 ] 维度探测:  3537  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:13 |   [ GSM5098751  /  HM21 ] 维度探测:  14685  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:14 |   [ GSM5098752  /  HM22 ] 维度探测:  13829  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:16 |   [ GSM5098753  /  HM23 ] 维度探测:  22081  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 22:53:17 | GSE167186 : 估算合并前总细胞数 =  134486 （内存预案阈值  60000 ） 
+2026-08-23 22:53:17 | GSE167186 : BPCells 包 不可用 ；按既定策略选择内存路径（规避 on-disk 矩阵 API 兼容风险）。 
+2026-08-23 22:53:17 | GSE167186 : 总细胞数  134486  >  60000 ，走【逐样本 QC 过滤后再合并】路径（阈值按样本独立计算，留痕于 qc_summary）。 
+2026-08-23 22:53:17 | ERROR:  GSE167186  处理失败（不影响其他数据集）:  No cell overlap between new meta data and Seurat object 
+2026-08-23 22:53:17 | 写出: moduleG_G1_status.csv ( 3  行) 
+2026-08-23 22:53:17 | 写出: moduleG_G1_qc_summary.csv ( 7  行) 
+2026-08-23 22:53:17 | ==== G1 汇总 ==== 
+2026-08-23 22:53:17 | GSE152805 :  FAIL  | samples= NA  | cells_before= NA  | cells_after= NA  |  FAIL: Gene name or features file missing. Expecting features.tsv.gz 
+2026-08-23 22:53:17 | GSE169454 :  OK  | samples= 7  | cells_before= 66818  | cells_after= 65042  |  OK: merged -> dataset-level QC -> LogNormalize+VST2000 
+2026-08-23 22:53:17 | GSE167186 :  FAIL  | samples= NA  | cells_before= NA  | cells_after= NA  |  FAIL: No cell overlap between new meta data and Seurat object 
+2026-08-23 22:53:17 | 模块 G G1 存在失败数据集：
+  - GSE152805 | FAIL: Gene name or features file missing. Expecting features.tsv.gz
+  - GSE167186 | FAIL: No cell overlap between new meta data and Seurat object
+修复后直接重跑本脚本即可（复制/读入均幂等）。 
+2026-08-23 23:11:50 | === 模块 G G1 启动：Seurat 对象构建与 QC === 
+2026-08-23 23:11:50 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-23 23:11:50 | 依赖检查通过: Seurat  5.5.1  | ggplot2  4.0.3  | Matrix  1.7.5  | readxl  1.5.0  | data.table  1.18.4 
+2026-08-23 23:11:50 | 文件清单载入:  66  行 ( C:/Users/凉月/Desktop/ENG论文/results/moduleG/moduleG_file_inventory.csv ) 
+2026-08-23 23:11:50 | ---- 数据集:  GSE152805  (10x  v2 , scRNA) ---- 
+2026-08-23 23:11:50 | GSE152805 : 清单内  9  个 GSM， 27  个文件。 
+2026-08-23 23:11:50 |   [ GSM4626763 ] tissue= synovium  donor= 113  condition= OA 
+2026-08-23 23:11:55 |   [ GSM4626763 ] 建对象:  5100  细胞 x  19302  基因 
+2026-08-23 23:11:55 |   [ GSM4626764 ] tissue= synovium  donor= 116  condition= OA 
+2026-08-23 23:11:59 |   [ GSM4626764 ] 建对象:  3883  细胞 x  19325  基因 
+2026-08-23 23:11:59 |   [ GSM4626765 ] tissue= synovium  donor= 118  condition= OA 
+2026-08-23 23:12:00 |   [ GSM4626765 ] 建对象:  1674  细胞 x  17283  基因 
+2026-08-23 23:12:00 |   [ GSM4626766 ] tissue= oLT  donor= 113  condition= OA 
+2026-08-23 23:12:06 |   [ GSM4626766 ] 建对象:  6200  细胞 x  18435  基因 
+2026-08-23 23:12:06 |   [ GSM4626767 ] tissue= oLT  donor= 116  condition= OA 
+2026-08-23 23:12:09 |   [ GSM4626767 ] 建对象:  3785  细胞 x  18463  基因 
+2026-08-23 23:12:09 |   [ GSM4626768 ] tissue= oLT  donor= 118  condition= OA 
+2026-08-23 23:12:14 |   [ GSM4626768 ] 建对象:  4640  细胞 x  19167  基因 
+2026-08-23 23:12:14 |   [ GSM4626769 ] tissue= MT  donor= 113  condition= OA 
+2026-08-23 23:12:18 |   [ GSM4626769 ] 建对象:  3180  细胞 x  18006  基因 
+2026-08-23 23:12:18 |   [ GSM4626770 ] tissue= MT  donor= 116  condition= OA 
+2026-08-23 23:12:22 |   [ GSM4626770 ] 建对象:  3547  细胞 x  19270  基因 
+2026-08-23 23:12:22 |   [ GSM4626771 ] tissue= MT  donor= 118  condition= OA 
+2026-08-23 23:12:28 |   [ GSM4626771 ] 建对象:  4876  细胞 x  18764  基因 
+2026-08-23 23:12:28 | GSE152805 : 合并  9  个样本 (add.cell.ids=GSM) ... 
+2026-08-23 23:12:31 | GSE152805 : 合并后  36885  细胞 x  22289  基因。 
+2026-08-23 23:12:34 | GSE152805  ( 数据集合并对象(过滤前) ) QC 阈值: nFeature >=  200  且 <= median( 2639 ) + 3*MAD( 779.8 ) =  4978.5 ，硬上限 6000 兜底后取 4978.5 ；percent.mt <=  15 % 
+2026-08-23 23:12:35 | GSE152805 : QC 过滤  36885  ->  35503  细胞 (保留  96.3 %) 
+2026-08-23 23:12:36 |     图已写出:  GSE152805_QC_violin_nFeature_RNA_prefilter .png/.pdf 
+2026-08-23 23:12:38 |     图已写出:  GSE152805_QC_violin_nCount_RNA_prefilter .png/.pdf 
+2026-08-23 23:12:39 |     图已写出:  GSE152805_QC_violin_percent.mt_prefilter .png/.pdf 
+2026-08-23 23:12:41 |     图已写出:  GSE152805_QC_scatter_nCount_nFeature_prefilter .png/.pdf 
+2026-08-23 23:12:42 |     图已写出:  GSE152805_QC_violin_nFeature_RNA_postfilter .png/.pdf 
+2026-08-23 23:12:44 |     图已写出:  GSE152805_QC_violin_nCount_RNA_postfilter .png/.pdf 
+2026-08-23 23:12:45 |     图已写出:  GSE152805_QC_violin_percent.mt_postfilter .png/.pdf 
+2026-08-23 23:12:47 |     图已写出:  GSE152805_QC_scatter_nCount_nFeature_postfilter .png/.pdf 
+2026-08-23 23:12:47 | GSE152805 : LogNormalize + FindVariableFeatures(vst, 2000) ... 
+2026-08-23 23:13:00 | GSE152805 : 标准化完成，VST 高变基因  2000  个。（G1 不做 ScaleData/PCA/聚类/整合） 
+2026-08-23 23:14:08 | GSE152805 : RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE152805_seurat_G1.rds  ( 460  MB) 
+2026-08-23 23:14:09 | ---- 数据集:  GSE169454  (10x  v3 , scRNA) ---- 
+2026-08-23 23:14:09 | GSE169454 : 清单内  7  个 GSM， 21  个文件。 
+2026-08-23 23:14:09 |   [ GSM5203389 ] tissue= cartilage  donor= normal1  condition= normal 
+2026-08-23 23:14:10 |   [ GSM5203389 ] 建对象:  1502  细胞 x  19164  基因 
+2026-08-23 23:14:10 |   [ GSM5203390 ] tissue= cartilage  donor= normal2  condition= normal 
+2026-08-23 23:14:12 |   [ GSM5203390 ] 建对象:  1914  细胞 x  19415  基因 
+2026-08-23 23:14:12 |   [ GSM5203391 ] tissue= cartilage  donor= normal3  condition= normal 
+2026-08-23 23:14:18 |   [ GSM5203391 ] 建对象:  5919  细胞 x  20908  基因 
+2026-08-23 23:14:18 |   [ GSM5203392 ] tissue= cartilage  donor= oa1  condition= OA 
+2026-08-23 23:14:27 |   [ GSM5203392 ] 建对象:  9228  细胞 x  20330  基因 
+2026-08-23 23:14:27 |   [ GSM5203393 ] tissue= cartilage  donor= oa2  condition= OA 
+2026-08-23 23:14:37 |   [ GSM5203393 ] 建对象:  16058  细胞 x  20280  基因 
+2026-08-23 23:14:37 |   [ GSM5203394 ] tissue= cartilage  donor= oa3  condition= OA 
+2026-08-23 23:14:47 |   [ GSM5203394 ] 建对象:  12405  细胞 x  20642  基因 
+2026-08-23 23:14:47 |   [ GSM5203395 ] tissue= cartilage  donor= oa4  condition= OA 
+2026-08-23 23:15:00 |   [ GSM5203395 ] 建对象:  19792  细胞 x  20859  基因 
+2026-08-23 23:15:00 | GSE169454 : 合并  7  个样本 (add.cell.ids=GSM) ... 
+2026-08-23 23:15:05 | GSE169454 : 合并后  66818  细胞 x  23719  基因。 
+2026-08-23 23:15:08 | GSE169454  ( 数据集合并对象(过滤前) ) QC 阈值: nFeature >=  200  且 <= median( 2043 ) + 3*MAD( 1196.5 ) =  5632.4 ，硬上限 6000 兜底后取 5632.4 ；percent.mt <=  15 % 
+2026-08-23 23:15:10 | GSE169454 : QC 过滤  66818  ->  65042  细胞 (保留  97.3 %) 
+2026-08-23 23:15:11 |     图已写出:  GSE169454_QC_violin_nFeature_RNA_prefilter .png/.pdf 
+2026-08-23 23:15:12 |     图已写出:  GSE169454_QC_violin_nCount_RNA_prefilter .png/.pdf 
+2026-08-23 23:15:13 |     图已写出:  GSE169454_QC_violin_percent.mt_prefilter .png/.pdf 
+2026-08-23 23:15:16 |     图已写出:  GSE169454_QC_scatter_nCount_nFeature_prefilter .png/.pdf 
+2026-08-23 23:15:17 |     图已写出:  GSE169454_QC_violin_nFeature_RNA_postfilter .png/.pdf 
+2026-08-23 23:15:18 |     图已写出:  GSE169454_QC_violin_nCount_RNA_postfilter .png/.pdf 
+2026-08-23 23:15:20 |     图已写出:  GSE169454_QC_violin_percent.mt_postfilter .png/.pdf 
+2026-08-23 23:15:22 |     图已写出:  GSE169454_QC_scatter_nCount_nFeature_postfilter .png/.pdf 
+2026-08-23 23:15:22 | GSE169454 : LogNormalize + FindVariableFeatures(vst, 2000) ... 
+2026-08-23 23:15:38 | GSE169454 : 标准化完成，VST 高变基因  2000  个。（G1 不做 ScaleData/PCA/聚类/整合） 
+2026-08-23 23:17:24 | GSE169454 : RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE169454_seurat_G1.rds  ( 682  MB) 
+2026-08-23 23:17:24 | ---- 数据集:  GSE167186  (10x H5, snRNA; Old vs Young aging proxy) ---- 
+2026-08-23 23:17:24 | GSE167186 : 清单内  17  个 GSM ( HM1, HM2, HM3, HM4, HM5, HM6, HM7, HM8, HM9, HM10, HM11, HM12, HM13, HM15, HM21, HM22, HM23 )。注意 HM 编号非连续，均按正则解析。 
+2026-08-23 23:17:25 | GSE167186 xlsx 列名:  SAMPLES | ...2 | ...3 | ...4 | ...5 
+2026-08-23 23:17:25 | WARN: xlsx 中未找到与 HM 编号匹配的样本列（最佳匹配  0 / 17 ）。 
+2026-08-23 23:17:25 | GSE167186 分组来自 pData 兜底通道（GEOquery 本地缓存）。 
+2026-08-23 23:17:25 | GSE167186 分组映射完成: Old= 11  / Young= 6 （aging proxy，不得表述为 sarcopenia） 
+2026-08-23 23:17:25 |   [ GSM5098737  /  HM1 ] 维度探测:  6587  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:25 |   [ GSM5098738  /  HM2 ] 维度探测:  7626  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:26 |   [ GSM5098739  /  HM3 ] 维度探测:  4206  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:26 |   [ GSM5098740  /  HM4 ] 维度探测:  11512  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:27 |   [ GSM5098741  /  HM5 ] 维度探测:  5877  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:27 |   [ GSM5098742  /  HM6 ] 维度探测:  7311  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:28 |   [ GSM5098743  /  HM7 ] 维度探测:  4478  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:28 |   [ GSM5098744  /  HM8 ] 维度探测:  5510  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:29 |   [ GSM5098745  /  HM9 ] 维度探测:  9552  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:29 |   [ GSM5098746  /  HM10 ] 维度探测:  4739  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:30 |   [ GSM5098747  /  HM11 ] 维度探测:  3991  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:30 |   [ GSM5098748  /  HM12 ] 维度探测:  5342  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:31 |   [ GSM5098749  /  HM13 ] 维度探测:  3623  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:31 |   [ GSM5098750  /  HM15 ] 维度探测:  3537  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:33 |   [ GSM5098751  /  HM21 ] 维度探测:  14685  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:34 |   [ GSM5098752  /  HM22 ] 维度探测:  13829  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:37 |   [ GSM5098753  /  HM23 ] 维度探测:  22081  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:17:37 | GSE167186 : 估算合并前总细胞数 =  134486 （内存预案阈值  60000 ） 
+2026-08-23 23:17:37 | GSE167186 : BPCells 包 不可用 ；按既定策略选择内存路径（规避 on-disk 矩阵 API 兼容风险）。 
+2026-08-23 23:17:37 | GSE167186 : 总细胞数  134486  >  60000 ，走【逐样本 QC 过滤后再合并】路径（阈值按样本独立计算，留痕于 qc_summary）。 
+2026-08-23 23:17:37 |   [ GSM5098737 ] 诊断: H5 dim= 33538  x  6587  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:17:37 | ERROR:  GSE167186  处理失败（不影响其他数据集）:  [GSM5098737] step=create_one_seurat: No cell overlap between new meta data and Seurat object 
+2026-08-23 23:17:37 | 写出: moduleG_G1_status.csv ( 3  行) 
+2026-08-23 23:17:37 | 写出: moduleG_G1_qc_summary.csv ( 16  行) 
+2026-08-23 23:17:37 | ==== G1 汇总 ==== 
+2026-08-23 23:17:37 | GSE152805 :  OK  | samples= 9  | cells_before= 36885  | cells_after= 35503  |  OK: merged -> dataset-level QC -> LogNormalize+VST2000 
+2026-08-23 23:17:37 | GSE169454 :  OK  | samples= 7  | cells_before= 66818  | cells_after= 65042  |  OK: merged -> dataset-level QC -> LogNormalize+VST2000 
+2026-08-23 23:17:37 | GSE167186 :  FAIL  | samples= NA  | cells_before= NA  | cells_after= NA  |  FAIL: [GSM5098737] step=create_one_seurat: No cell overlap between new meta data and Seurat object 
+2026-08-23 23:17:37 | 模块 G G1 存在失败数据集：
+  - GSE167186 | FAIL: [GSM5098737] step=create_one_seurat: No cell overlap between new meta data and Seurat object
+修复后直接重跑本脚本即可（复制/读入均幂等）。 
+2026-08-23 23:39:46 | === 模块 G G1 启动：Seurat 对象构建与 QC === 
+2026-08-23 23:39:46 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-23 23:39:52 | 依赖检查通过: Seurat  5.5.1  | ggplot2  4.0.3  | Matrix  1.7.5  | readxl  1.5.0  | data.table  1.18.4 
+2026-08-23 23:39:52 | 文件清单载入:  66  行 ( C:/Users/凉月/Desktop/ENG论文/results/moduleG/moduleG_file_inventory.csv ) 
+2026-08-23 23:39:52 | ---- 数据集:  GSE152805  (10x  v2 , scRNA) ---- 
+2026-08-23 23:39:52 | GSE152805 : 清单内  9  个 GSM， 27  个文件。 
+2026-08-23 23:39:52 |   [ GSM4626763 ] tissue= synovium  donor= 113  condition= OA 
+2026-08-23 23:39:58 |   [ GSM4626763 ] 建对象:  5100  细胞 x  19302  基因 
+2026-08-23 23:39:58 |   [ GSM4626764 ] tissue= synovium  donor= 116  condition= OA 
+2026-08-23 23:40:03 |   [ GSM4626764 ] 建对象:  3883  细胞 x  19325  基因 
+2026-08-23 23:40:03 |   [ GSM4626765 ] tissue= synovium  donor= 118  condition= OA 
+2026-08-23 23:40:04 |   [ GSM4626765 ] 建对象:  1674  细胞 x  17283  基因 
+2026-08-23 23:40:04 |   [ GSM4626766 ] tissue= oLT  donor= 113  condition= OA 
+2026-08-23 23:40:10 |   [ GSM4626766 ] 建对象:  6200  细胞 x  18435  基因 
+2026-08-23 23:40:10 |   [ GSM4626767 ] tissue= oLT  donor= 116  condition= OA 
+2026-08-23 23:40:13 |   [ GSM4626767 ] 建对象:  3785  细胞 x  18463  基因 
+2026-08-23 23:40:13 |   [ GSM4626768 ] tissue= oLT  donor= 118  condition= OA 
+2026-08-23 23:40:18 |   [ GSM4626768 ] 建对象:  4640  细胞 x  19167  基因 
+2026-08-23 23:40:18 |   [ GSM4626769 ] tissue= MT  donor= 113  condition= OA 
+2026-08-23 23:40:22 |   [ GSM4626769 ] 建对象:  3180  细胞 x  18006  基因 
+2026-08-23 23:40:22 |   [ GSM4626770 ] tissue= MT  donor= 116  condition= OA 
+2026-08-23 23:40:26 |   [ GSM4626770 ] 建对象:  3547  细胞 x  19270  基因 
+2026-08-23 23:40:26 |   [ GSM4626771 ] tissue= MT  donor= 118  condition= OA 
+2026-08-23 23:40:32 |   [ GSM4626771 ] 建对象:  4876  细胞 x  18764  基因 
+2026-08-23 23:40:32 | GSE152805 : 合并  9  个样本 (add.cell.ids=GSM) ... 
+2026-08-23 23:40:37 | GSE152805 : 合并后  36885  细胞 x  22289  基因。 
+2026-08-23 23:40:39 | GSE152805  ( 数据集合并对象(过滤前) ) QC 阈值: nFeature >=  200  且 <= median( 2639 ) + 3*MAD( 779.8 ) =  4978.5 ，硬上限 6000 兜底后取 4978.5 ；percent.mt <=  15 % 
+2026-08-23 23:40:41 | GSE152805 : QC 过滤  36885  ->  35503  细胞 (保留  96.3 %) 
+2026-08-23 23:40:43 |     图已写出:  GSE152805_QC_violin_nFeature_RNA_prefilter .png/.pdf 
+2026-08-23 23:40:44 |     图已写出:  GSE152805_QC_violin_nCount_RNA_prefilter .png/.pdf 
+2026-08-23 23:40:46 |     图已写出:  GSE152805_QC_violin_percent.mt_prefilter .png/.pdf 
+2026-08-23 23:40:48 |     图已写出:  GSE152805_QC_scatter_nCount_nFeature_prefilter .png/.pdf 
+2026-08-23 23:40:49 |     图已写出:  GSE152805_QC_violin_nFeature_RNA_postfilter .png/.pdf 
+2026-08-23 23:40:50 |     图已写出:  GSE152805_QC_violin_nCount_RNA_postfilter .png/.pdf 
+2026-08-23 23:40:52 |     图已写出:  GSE152805_QC_violin_percent.mt_postfilter .png/.pdf 
+2026-08-23 23:40:53 |     图已写出:  GSE152805_QC_scatter_nCount_nFeature_postfilter .png/.pdf 
+2026-08-23 23:40:53 | GSE152805 : LogNormalize + FindVariableFeatures(vst, 2000) ... 
+2026-08-23 23:41:07 | GSE152805 : 标准化完成，VST 高变基因  2000  个。（G1 不做 ScaleData/PCA/聚类/整合） 
+2026-08-23 23:42:10 | GSE152805 : RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE152805_seurat_G1.rds  ( 460  MB) 
+2026-08-23 23:42:11 | ---- 数据集:  GSE169454  (10x  v3 , scRNA) ---- 
+2026-08-23 23:42:11 | GSE169454 : 清单内  7  个 GSM， 21  个文件。 
+2026-08-23 23:42:11 |   [ GSM5203389 ] tissue= cartilage  donor= normal1  condition= normal 
+2026-08-23 23:42:12 |   [ GSM5203389 ] 建对象:  1502  细胞 x  19164  基因 
+2026-08-23 23:42:12 |   [ GSM5203390 ] tissue= cartilage  donor= normal2  condition= normal 
+2026-08-23 23:42:14 |   [ GSM5203390 ] 建对象:  1914  细胞 x  19415  基因 
+2026-08-23 23:42:14 |   [ GSM5203391 ] tissue= cartilage  donor= normal3  condition= normal 
+2026-08-23 23:42:20 |   [ GSM5203391 ] 建对象:  5919  细胞 x  20908  基因 
+2026-08-23 23:42:20 |   [ GSM5203392 ] tissue= cartilage  donor= oa1  condition= OA 
+2026-08-23 23:42:28 |   [ GSM5203392 ] 建对象:  9228  细胞 x  20330  基因 
+2026-08-23 23:42:28 |   [ GSM5203393 ] tissue= cartilage  donor= oa2  condition= OA 
+2026-08-23 23:42:38 |   [ GSM5203393 ] 建对象:  16058  细胞 x  20280  基因 
+2026-08-23 23:42:38 |   [ GSM5203394 ] tissue= cartilage  donor= oa3  condition= OA 
+2026-08-23 23:42:48 |   [ GSM5203394 ] 建对象:  12405  细胞 x  20642  基因 
+2026-08-23 23:42:48 |   [ GSM5203395 ] tissue= cartilage  donor= oa4  condition= OA 
+2026-08-23 23:42:59 |   [ GSM5203395 ] 建对象:  19792  细胞 x  20859  基因 
+2026-08-23 23:42:59 | GSE169454 : 合并  7  个样本 (add.cell.ids=GSM) ... 
+2026-08-23 23:43:05 | GSE169454 : 合并后  66818  细胞 x  23719  基因。 
+2026-08-23 23:43:08 | GSE169454  ( 数据集合并对象(过滤前) ) QC 阈值: nFeature >=  200  且 <= median( 2043 ) + 3*MAD( 1196.5 ) =  5632.4 ，硬上限 6000 兜底后取 5632.4 ；percent.mt <=  15 % 
+2026-08-23 23:43:11 | GSE169454 : QC 过滤  66818  ->  65042  细胞 (保留  97.3 %) 
+2026-08-23 23:43:12 |     图已写出:  GSE169454_QC_violin_nFeature_RNA_prefilter .png/.pdf 
+2026-08-23 23:43:13 |     图已写出:  GSE169454_QC_violin_nCount_RNA_prefilter .png/.pdf 
+2026-08-23 23:43:14 |     图已写出:  GSE169454_QC_violin_percent.mt_prefilter .png/.pdf 
+2026-08-23 23:43:17 |     图已写出:  GSE169454_QC_scatter_nCount_nFeature_prefilter .png/.pdf 
+2026-08-23 23:43:18 |     图已写出:  GSE169454_QC_violin_nFeature_RNA_postfilter .png/.pdf 
+2026-08-23 23:43:19 |     图已写出:  GSE169454_QC_violin_nCount_RNA_postfilter .png/.pdf 
+2026-08-23 23:43:21 |     图已写出:  GSE169454_QC_violin_percent.mt_postfilter .png/.pdf 
+2026-08-23 23:43:23 |     图已写出:  GSE169454_QC_scatter_nCount_nFeature_postfilter .png/.pdf 
+2026-08-23 23:43:23 | GSE169454 : LogNormalize + FindVariableFeatures(vst, 2000) ... 
+2026-08-23 23:43:41 | GSE169454 : 标准化完成，VST 高变基因  2000  个。（G1 不做 ScaleData/PCA/聚类/整合） 
+2026-08-23 23:45:17 | GSE169454 : RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE169454_seurat_G1.rds  ( 682  MB) 
+2026-08-23 23:45:18 | ---- 数据集:  GSE167186  (10x H5, snRNA; Old vs Young aging proxy) ---- 
+2026-08-23 23:45:18 | GSE167186 : 清单内  17  个 GSM ( HM1, HM2, HM3, HM4, HM5, HM6, HM7, HM8, HM9, HM10, HM11, HM12, HM13, HM15, HM21, HM22, HM23 )。注意 HM 编号非连续，均按正则解析。 
+2026-08-23 23:45:18 | GSE167186 xlsx 列名:  SAMPLES | ...2 | ...3 | ...4 | ...5 
+2026-08-23 23:45:18 | WARN: xlsx 中未找到与 HM 编号匹配的样本列（最佳匹配  0 / 17 ）。 
+2026-08-23 23:45:18 | GSE167186 分组来自 pData 兜底通道（GEOquery 本地缓存）。 
+2026-08-23 23:45:18 | GSE167186 分组映射完成: Old= 11  / Young= 6 （aging proxy，不得表述为 sarcopenia） 
+2026-08-23 23:45:19 |   [ GSM5098737  /  HM1 ] 维度探测:  6587  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:20 |   [ GSM5098738  /  HM2 ] 维度探测:  7626  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:20 |   [ GSM5098739  /  HM3 ] 维度探测:  4206  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:21 |   [ GSM5098740  /  HM4 ] 维度探测:  11512  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:21 |   [ GSM5098741  /  HM5 ] 维度探测:  5877  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:21 |   [ GSM5098742  /  HM6 ] 维度探测:  7311  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:22 |   [ GSM5098743  /  HM7 ] 维度探测:  4478  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:22 |   [ GSM5098744  /  HM8 ] 维度探测:  5510  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:23 |   [ GSM5098745  /  HM9 ] 维度探测:  9552  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:23 |   [ GSM5098746  /  HM10 ] 维度探测:  4739  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:24 |   [ GSM5098747  /  HM11 ] 维度探测:  3991  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:24 |   [ GSM5098748  /  HM12 ] 维度探测:  5342  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:25 |   [ GSM5098749  /  HM13 ] 维度探测:  3623  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:25 |   [ GSM5098750  /  HM15 ] 维度探测:  3537  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:27 |   [ GSM5098751  /  HM21 ] 维度探测:  14685  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:28 |   [ GSM5098752  /  HM22 ] 维度探测:  13829  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:31 |   [ GSM5098753  /  HM23 ] 维度探测:  22081  核 x  33538  基因（矩阵已立即释放） 
+2026-08-23 23:45:31 | GSE167186 : 估算合并前总细胞数 =  134486 （内存预案阈值  60000 ） 
+2026-08-23 23:45:31 | GSE167186 : BPCells 包 不可用 ；按既定策略选择内存路径（规避 on-disk 矩阵 API 兼容风险）。 
+2026-08-23 23:45:31 | GSE167186 : 总细胞数  134486  >  60000 ，走【逐样本 QC 过滤后再合并】路径（阈值按样本独立计算，留痕于 qc_summary）。 
+2026-08-23 23:45:31 |   [ GSM5098737 ] 诊断: H5 dim= 33538  x  6587  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:31 |   [ GSM5098737 ] 诊断: 建对象完成 ncol= 338 
+2026-08-23 23:45:31 | GSE167186  ( 样本 GSM5098737 ) QC 阈值: nFeature >=  200  且 <= median( 220.5 ) + 3*MAD( 37.8 ) =  333.9  ；percent.mt <=  5 % 
+2026-08-23 23:45:31 |   [ GSM5098737 ] 样本级 QC:  338  ->  230  核 
+2026-08-23 23:45:32 |   [ GSM5098738 ] 诊断: H5 dim= 33538  x  7626  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:32 |   [ GSM5098738 ] 诊断: 建对象完成 ncol= 298 
+2026-08-23 23:45:32 | GSE167186  ( 样本 GSM5098738 ) QC 阈值: nFeature >=  200  且 <= median( 222 ) + 3*MAD( 41.5 ) =  346.5  ；percent.mt <=  5 % 
+2026-08-23 23:45:32 |   [ GSM5098738 ] 样本级 QC:  298  ->  193  核 
+2026-08-23 23:45:33 |   [ GSM5098739 ] 诊断: H5 dim= 33538  x  4206  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:33 |   [ GSM5098739 ] 诊断: 建对象完成 ncol= 700 
+2026-08-23 23:45:33 | GSE167186  ( 样本 GSM5098739 ) QC 阈值: nFeature >=  200  且 <= median( 237.5 ) + 3*MAD( 48.2 ) =  382.1  ；percent.mt <=  5 % 
+2026-08-23 23:45:33 |   [ GSM5098739 ] 样本级 QC:  700  ->  563  核 
+2026-08-23 23:45:34 |   [ GSM5098740 ] 诊断: H5 dim= 33538  x  11512  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:34 |   [ GSM5098740 ] 诊断: 建对象完成 ncol= 34 
+2026-08-23 23:45:34 | WARN:  GSE167186  ( 样本 GSM5098740 ) median+3*MAD 异常， nFeature 上限退回 99% 分位数 =  223.7 
+2026-08-23 23:45:34 | GSE167186  ( 样本 GSM5098740 ) QC 阈值: nFeature >=  200  且 <= median( 124.5 ) + 3*MAD( 23 ) =  193.4  ；percent.mt <=  5 % 
+2026-08-23 23:45:34 |   [ GSM5098740 ] 样本级 QC:  34  ->  2  核 
+2026-08-23 23:45:34 |   [ GSM5098741 ] 诊断: H5 dim= 33538  x  5877  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:34 |   [ GSM5098741 ] 诊断: 建对象完成 ncol= 421 
+2026-08-23 23:45:34 | GSE167186  ( 样本 GSM5098741 ) QC 阈值: nFeature >=  200  且 <= median( 230 ) + 3*MAD( 44.5 ) =  363.4  ；percent.mt <=  5 % 
+2026-08-23 23:45:34 |   [ GSM5098741 ] 样本级 QC:  421  ->  328  核 
+2026-08-23 23:45:35 |   [ GSM5098742 ] 诊断: H5 dim= 33538  x  7311  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:35 |   [ GSM5098742 ] 诊断: 建对象完成 ncol= 393 
+2026-08-23 23:45:35 | GSE167186  ( 样本 GSM5098742 ) QC 阈值: nFeature >=  200  且 <= median( 233 ) + 3*MAD( 46 ) =  370.9  ；percent.mt <=  5 % 
+2026-08-23 23:45:35 |   [ GSM5098742 ] 样本级 QC:  393  ->  265  核 
+2026-08-23 23:45:36 |   [ GSM5098743 ] 诊断: H5 dim= 33538  x  4478  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:36 |   [ GSM5098743 ] 诊断: 建对象完成 ncol= 282 
+2026-08-23 23:45:36 | GSE167186  ( 样本 GSM5098743 ) QC 阈值: nFeature >=  200  且 <= median( 236 ) + 3*MAD( 59.3 ) =  413.9  ；percent.mt <=  5 % 
+2026-08-23 23:45:36 |   [ GSM5098743 ] 样本级 QC:  282  ->  169  核 
+2026-08-23 23:45:36 |   [ GSM5098744 ] 诊断: H5 dim= 33538  x  5510  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:37 |   [ GSM5098744 ] 诊断: 建对象完成 ncol= 313 
+2026-08-23 23:45:37 | GSE167186  ( 样本 GSM5098744 ) QC 阈值: nFeature >=  200  且 <= median( 218 ) + 3*MAD( 37.1 ) =  329.2  ；percent.mt <=  5 % 
+2026-08-23 23:45:37 |   [ GSM5098744 ] 样本级 QC:  313  ->  176  核 
+2026-08-23 23:45:37 |   [ GSM5098745 ] 诊断: H5 dim= 33538  x  9552  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:37 |   [ GSM5098745 ] 诊断: 建对象完成 ncol= 554 
+2026-08-23 23:45:37 | GSE167186  ( 样本 GSM5098745 ) QC 阈值: nFeature >=  200  且 <= median( 228 ) + 3*MAD( 34.1 ) =  330.3  ；percent.mt <=  5 % 
+2026-08-23 23:45:37 |   [ GSM5098745 ] 样本级 QC:  554  ->  425  核 
+2026-08-23 23:45:38 |   [ GSM5098746 ] 诊断: H5 dim= 33538  x  4739  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:38 |   [ GSM5098746 ] 诊断: 建对象完成 ncol= 704 
+2026-08-23 23:45:38 | GSE167186  ( 样本 GSM5098746 ) QC 阈值: nFeature >=  200  且 <= median( 239 ) + 3*MAD( 50.4 ) =  390.2  ；percent.mt <=  5 % 
+2026-08-23 23:45:38 |   [ GSM5098746 ] 样本级 QC:  704  ->  596  核 
+2026-08-23 23:45:39 |   [ GSM5098747 ] 诊断: H5 dim= 33538  x  3991  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:39 |   [ GSM5098747 ] 诊断: 建对象完成 ncol= 405 
+2026-08-23 23:45:39 | GSE167186  ( 样本 GSM5098747 ) QC 阈值: nFeature >=  200  且 <= median( 232 ) + 3*MAD( 46 ) =  369.9  ；percent.mt <=  5 % 
+2026-08-23 23:45:39 |   [ GSM5098747 ] 样本级 QC:  405  ->  303  核 
+2026-08-23 23:45:40 |   [ GSM5098748 ] 诊断: H5 dim= 33538  x  5342  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:40 |   [ GSM5098748 ] 诊断: 建对象完成 ncol= 949 
+2026-08-23 23:45:40 | GSE167186  ( 样本 GSM5098748 ) QC 阈值: nFeature >=  200  且 <= median( 232 ) + 3*MAD( 37.1 ) =  343.2  ；percent.mt <=  5 % 
+2026-08-23 23:45:40 |   [ GSM5098748 ] 样本级 QC:  949  ->  803  核 
+2026-08-23 23:45:40 |   [ GSM5098749 ] 诊断: H5 dim= 33538  x  3623  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:40 |   [ GSM5098749 ] 诊断: 建对象完成 ncol= 192 
+2026-08-23 23:45:40 | GSE167186  ( 样本 GSM5098749 ) QC 阈值: nFeature >=  200  且 <= median( 223.5 ) + 3*MAD( 43.7 ) =  354.7  ；percent.mt <=  5 % 
+2026-08-23 23:45:41 |   [ GSM5098749 ] 样本级 QC:  192  ->  122  核 
+2026-08-23 23:45:41 |   [ GSM5098750 ] 诊断: H5 dim= 33538  x  3537  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:41 |   [ GSM5098750 ] 诊断: 建对象完成 ncol= 90 
+2026-08-23 23:45:41 | GSE167186  ( 样本 GSM5098750 ) QC 阈值: nFeature >=  200  且 <= median( 179.5 ) + 3*MAD( 27.4 ) =  261.8  ；percent.mt <=  5 % 
+2026-08-23 23:45:41 |   [ GSM5098750 ] 样本级 QC:  90  ->  14  核 
+2026-08-23 23:45:43 |   [ GSM5098751 ] 诊断: H5 dim= 33538  x  14685  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:44 |   [ GSM5098751 ] 诊断: 建对象完成 ncol= 14685 
+2026-08-23 23:45:45 | GSE167186  ( 样本 GSM5098751 ) QC 阈值: nFeature >=  200  且 <= median( 1022 ) + 3*MAD( 404.7 ) =  2236.2  ；percent.mt <=  5 % 
+2026-08-23 23:45:45 |   [ GSM5098751 ] 样本级 QC:  14685  ->  13869  核 
+2026-08-23 23:45:46 |   [ GSM5098752 ] 诊断: H5 dim= 33538  x  13829  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:47 |   [ GSM5098752 ] 诊断: 建对象完成 ncol= 13829 
+2026-08-23 23:45:47 | GSE167186  ( 样本 GSM5098752 ) QC 阈值: nFeature >=  200  且 <= median( 780 ) + 3*MAD( 311.3 ) =  1714  ；percent.mt <=  5 % 
+2026-08-23 23:45:48 |   [ GSM5098752 ] 样本级 QC:  13829  ->  13198  核 
+2026-08-23 23:45:50 |   [ GSM5098753 ] 诊断: H5 dim= 33538  x  22081  | colnames 为 NULL:  FALSE  | 重复 barcode 数:  0 
+2026-08-23 23:45:51 |   [ GSM5098753 ] 诊断: 建对象完成 ncol= 22080 
+2026-08-23 23:45:51 | GSE167186  ( 样本 GSM5098753 ) QC 阈值: nFeature >=  200  且 <= median( 821 ) + 3*MAD( 369.2 ) =  1928.5  ；percent.mt <=  5 % 
+2026-08-23 23:45:52 |   [ GSM5098753 ] 样本级 QC:  22080  ->  21013  核 
+2026-08-23 23:45:52 | GSE167186 : 合并  17  个样本 (add.cell.ids=GSM) ... 
+2026-08-23 23:45:56 | GSE167186 : 合并后  52269  核 x  22047  基因。 
+2026-08-23 23:45:56 | GSE167186 : 逐样本过滤路径下不重建过滤前大对象；QC 图仅输出 postfilter， qc_summary 过滤前统计记为 NA（样本级 before/after 细胞数见上方日志）。 
+2026-08-23 23:45:59 |     图已写出:  GSE167186_QC_violin_nFeature_RNA_postfilter .png/.pdf 
+2026-08-23 23:46:01 |     图已写出:  GSE167186_QC_violin_nCount_RNA_postfilter .png/.pdf 
+2026-08-23 23:46:04 |     图已写出:  GSE167186_QC_violin_percent.mt_postfilter .png/.pdf 
+2026-08-23 23:46:07 |     图已写出:  GSE167186_QC_scatter_nCount_nFeature_postfilter .png/.pdf 
+2026-08-23 23:46:07 | GSE167186 : LogNormalize + FindVariableFeatures(vst, 2000) ... 
+2026-08-23 23:46:18 | GSE167186 : 标准化完成，VST 高变基因  677  个。（G1 不做 ScaleData/PCA/聚类/整合） 
+2026-08-23 23:46:48 | GSE167186 : RDS 已保存:  C:/Users/凉月/Desktop/ENG论文/results/moduleG/GSE167186_seurat_G1.rds  ( 208.8  MB) 
+2026-08-23 23:46:48 | 写出: moduleG_G1_status.csv ( 3  行) 
+2026-08-23 23:46:48 | 写出: moduleG_G1_qc_summary.csv ( 33  行) 
+2026-08-23 23:46:48 | ==== G1 汇总 ==== 
+2026-08-23 23:46:48 | GSE152805 :  OK  | samples= 9  | cells_before= 36885  | cells_after= 35503  |  OK: merged -> dataset-level QC -> LogNormalize+VST2000 
+2026-08-23 23:46:48 | GSE169454 :  OK  | samples= 7  | cells_before= 66818  | cells_after= 65042  |  OK: merged -> dataset-level QC -> LogNormalize+VST2000 
+2026-08-23 23:46:48 | GSE167186 :  OK  | samples= 17  | cells_before= NA  | cells_after= 52269  |  OK: per-sample QC -> merge -> LogNormalize+VST2000 (memory-safe path) 
+2026-08-23 23:46:48 | 模块 G G1 完成。红线提醒：GSE152805 无健康对照仅供体内组织间定位；GSE167186 为 Old vs Young aging proxy 不得写成 sarcopenia；组间统计推断与整合均在 G2 及以后。 

@@ -1,0 +1,5 @@
+"OA结构","肌侧结构","OA显著集","肌侧名义集","候选数","镜像数","镜像占比","镜像二项P"
+"main_5list","main_5cohort",511,2463,99,72,72.7,3.45e-06
+"merged_4list","main_5cohort",10,2463,1,1,100,0.5
+"main_5list","anchor_3cohort",511,1110,21,16,76.2,0.0133
+"merged_4list","anchor_3cohort",10,1110,1,1,100,0.5

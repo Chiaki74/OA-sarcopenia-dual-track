@@ -1,0 +1,105 @@
+2026-08-30 00:28:25 | === 模块 I 启动：可成药基因组比对 + DSigDB 候选药物富集 === 
+2026-08-30 00:28:25 | proj_root =  C:/Users/凉月/Desktop/ENG论文 
+2026-08-30 00:28:25 | 依赖检查通过:  ggplot2 4.0.3 
+2026-08-30 00:28:25 | §0 输入在位:  druggable_genome_Finan2017.csv  ( 0.58  MB) 
+2026-08-30 00:28:25 | §0 输入在位:  可成药基因组_DGIdb类别全量_20260820.csv  ( 0.55  MB) 
+2026-08-30 00:28:25 | §0 输入在位:  DSigDB_All.gmt  ( 2.99  MB) 
+2026-08-30 00:28:29 | §0 DSigDB 源 URL 存在性检查（可选，不下载）:  reachable 
+2026-08-30 00:28:30 | Finan2017:  4479  行 -> 唯一基因  4463 （口径预期 4,463） 
+2026-08-30 00:28:54 | DGIdb: 全量  11665  行 -> DRUGGABLE GENOME 类别  5809  基因（口径预期 5,809） 
+2026-08-30 00:28:54 | 宇宙合并: union =  5928  | intersect =  4344 （口径预期  5928 / 4344 ） 
+2026-08-30 00:28:54 | 档1(主路径):  moduleH_known_causal_overlap.csv  causal_established_any=TRUE 基因  0  个 （H 无因果命中，属正常结果） 
+2026-08-30 00:28:54 | 档3(保底):  tier1 file present but causal_established_any all FALSE (0 hits) ——模块 H 结果不可用，本次为标志物模式。 
+2026-08-30 00:28:54 | 模块 H 因果基因提取档位完成，模式 =  markers_only ，因果基因  0  个。 
+2026-08-30 00:28:54 | 比对: 输入基因  10  个（标志物  10  + H 因果  0 ，模式  markers_only ） 
+2026-08-30 00:28:54 | 命中宇宙  5 / 10 ；Finan-only 敏感性口径命中  5 / 10 
+2026-08-30 00:28:54 | 未命中基因:  GADD45A, HEMK1, GDE1, RNF14, BNIP3 
+2026-08-30 00:28:54 | 写出: moduleI_druggable_overlap.csv ( 10  行) 
+2026-08-30 00:28:55 | GMT 解析:  DSigDB_All.gmt  ->  4026  个条目 
+2026-08-30 00:28:56 | WARN:  5  个输入基因不在 ORA 背景内，已剔除:  GADD45A, HEMK1, GDE1, RNF14, BNIP3 
+2026-08-30 00:28:56 | ORA 背景 = 宇宙 ∩ DSigDB 覆盖 =  5163  基因；查询基因  5  个。 
+2026-08-30 00:28:58 | DSigDB ORA: 测了  561  个有重叠条目；FDR<0.05 显著  0  个。【FDR 校正族 = 有重叠(k>=1)的条目，共  561  条】 
+2026-08-30 00:28:58 | WARN: 无 FDR<0.05 条目；如实报告 top20 原始 p（探索性， 不得作为显著性结论）: top5 =  gedunin CTD 00003449(p=0.000636), Dasatinib CTD 00004330(p=0.000937), celastrol CTD 00002186(p=0.00117), daunorubicin BOSS(p=0.00202), Pyrrolidine dithiocarbamate CTD 00001021(p=0.00303) 
+2026-08-30 00:28:58 | 写出: moduleI_dsigdb_enrichment.csv ( 561  行) 
+2026-08-30 00:28:59 | 写出: moduleI_drug_candidates_barplot.pdf (top 15 ) 
+2026-08-30 00:28:59 | 写出: moduleI_summary.csv（模式  markers_only ；命中宇宙  5 / 10 ；显著条目  0 ） 
+2026-08-30 00:28:59 | 写出: moduleI_status.csv ( 6  行) 
+2026-08-30 00:28:59 | ==== 汇总 ==== 
+2026-08-30 00:28:59 | 模式:  markers_only  | 宇宙:  5928  | 命中:  5  | Finan-only 命中:  5  | ORA 背景:  5163  | FDR<0.05:  0 
+2026-08-30 00:28:59 | ==== sessionInfo ==== 
+2026-08-30 00:29:00 | R version 4.6.0 (2026-04-24 ucrt) 
+2026-08-30 00:29:00 | Platform: x86_64-w64-mingw32/x64 
+2026-08-30 00:29:00 | Running under: Windows 11 x64 (build 26200) 
+2026-08-30 00:29:00 |  
+2026-08-30 00:29:00 | Matrix products: default 
+2026-08-30 00:29:00 |   LAPACK version 3.12.1 
+2026-08-30 00:29:00 |  
+2026-08-30 00:29:00 | locale: 
+2026-08-30 00:29:00 | [1] LC_COLLATE=Chinese (Simplified)_China.utf8  
+2026-08-30 00:29:00 | [2] LC_CTYPE=Chinese (Simplified)_China.utf8    
+2026-08-30 00:29:00 | [3] LC_MONETARY=Chinese (Simplified)_China.utf8 
+2026-08-30 00:29:00 | [4] LC_NUMERIC=C                                
+2026-08-30 00:29:00 | [5] LC_TIME=Chinese (Simplified)_China.utf8     
+2026-08-30 00:29:00 |  
+2026-08-30 00:29:00 | time zone: Asia/Hong_Kong 
+2026-08-30 00:29:00 | tzcode source: internal 
+2026-08-30 00:29:00 |  
+2026-08-30 00:29:00 | attached base packages: 
+2026-08-30 00:29:00 | [1] stats4    stats     graphics  grDevices utils     datasets  
+2026-08-30 00:29:00 | [7] methods   base      
+2026-08-30 00:29:00 |  
+2026-08-30 00:29:00 | other attached packages: 
+2026-08-30 00:29:00 |  [1] dplyr_1.2.1          org.Hs.eg.db_3.23.1  AnnotationDbi_1.74.0 
+2026-08-30 00:29:00 |  [4] IRanges_2.46.0       S4Vectors_0.50.2     Biobase_2.72.0       
+2026-08-30 00:29:00 |  [7] BiocGenerics_0.58.1  generics_0.1.4       ggplot2_4.0.3        
+2026-08-30 00:29:00 | [10] data.table_1.18.6.1  gwasvcf_0.1.6        susieR_0.14.2        
+2026-08-30 00:29:00 | [13] coloc_6.0.1          MRPRESSO_1.0         ieugwasr_1.1.0       
+2026-08-30 00:29:00 | [16] TwoSampleMR_0.7.9    
+2026-08-30 00:29:00 |  
+2026-08-30 00:29:00 | loaded via a namespace (and not attached): 
+2026-08-30 00:29:00 |  [1] DBI_1.3.0                   bitops_1.1-0                
+2026-08-30 00:29:00 |  [3] pROC_1.19.0.1               gridExtra_2.3.1             
+2026-08-30 00:29:00 |  [5] rlang_1.3.0                 magrittr_2.0.5              
+2026-08-30 00:29:00 |  [7] otel_0.2.0                  matrixStats_1.5.0           
+2026-08-30 00:29:00 |  [9] compiler_4.6.0              RSQLite_3.53.3              
+2026-08-30 00:29:00 | [11] GenomicFeatures_1.64.0      systemfonts_1.3.2           
+2026-08-30 00:29:00 | [13] png_0.1-9                   vctrs_0.7.3                 
+2026-08-30 00:29:00 | [15] pkgconfig_2.0.3             crayon_1.5.3                
+2026-08-30 00:29:00 | [17] fastmap_1.2.0               XVector_0.52.0              
+2026-08-30 00:29:00 | [19] labeling_0.4.3              Rsamtools_2.28.0            
+2026-08-30 00:29:00 | [21] ragg_1.5.2                  purrr_1.2.2                 
+2026-08-30 00:29:00 | [23] bit_4.6.0                   Rfast_2.1.5.2               
+2026-08-30 00:29:00 | [25] cachem_1.1.0                cigarillo_1.2.1             
+2026-08-30 00:29:00 | [27] jsonlite_2.0.0              blob_1.3.0                  
+2026-08-30 00:29:00 | [29] DelayedArray_0.38.2         reshape_0.8.10              
+2026-08-30 00:29:00 | [31] BiocParallel_1.46.0         irlba_2.3.7                 
+2026-08-30 00:29:00 | [33] parallel_4.6.0              R6_2.6.1                    
+2026-08-30 00:29:00 | [35] VariantAnnotation_1.58.0    RColorBrewer_1.1-3          
+2026-08-30 00:29:00 | [37] rtracklayer_1.72.0          GenomicRanges_1.64.0        
+2026-08-30 00:29:00 | [39] Rcpp_1.1.2                  Seqinfo_1.2.0               
+2026-08-30 00:29:00 | [41] SummarizedExperiment_1.42.0 R.utils_2.13.0              
+2026-08-30 00:29:00 | [43] Matrix_1.7-5                splines_4.6.0               
+2026-08-30 00:29:00 | [45] tidyselect_1.2.1            rstudioapi_0.19.0           
+2026-08-30 00:29:00 | [47] abind_1.4-8                 yaml_2.3.12                 
+2026-08-30 00:29:00 | [49] viridis_0.6.5               codetools_0.2-20            
+2026-08-30 00:29:00 | [51] curl_8.0.0                  dcurves_0.5.1               
+2026-08-30 00:29:00 | [53] lattice_0.22-9              tibble_3.3.1                
+2026-08-30 00:29:00 | [55] plyr_1.8.9                  withr_3.0.3                 
+2026-08-30 00:29:00 | [57] KEGGREST_1.52.2             S7_0.2.2                    
+2026-08-30 00:29:00 | [59] survival_3.8-6              RcppParallel_6.2.1          
+2026-08-30 00:29:00 | [61] Biostrings_2.80.1           pillar_1.11.1               
+2026-08-30 00:29:00 | [63] BiocManager_1.30.27         MatrixGenerics_1.24.0       
+2026-08-30 00:29:00 | [65] RCurl_1.98-1.20             scales_1.4.0                
+2026-08-30 00:29:00 | [67] glue_1.8.1                  tools_4.6.0                 
+2026-08-30 00:29:00 | [69] BiocIO_1.22.0               BSgenome_1.80.0             
+2026-08-30 00:29:00 | [71] GenomicAlignments_1.48.0    XML_3.99-0.24               
+2026-08-30 00:29:00 | [73] grid_4.6.0                  restfulr_0.0.17             
+2026-08-30 00:29:00 | [75] cli_3.6.6                   zigg_0.0.2                  
+2026-08-30 00:29:00 | [77] textshaping_1.0.5           mixsqp_0.3-54               
+2026-08-30 00:29:00 | [79] S4Arrays_1.12.0             viridisLite_0.4.3           
+2026-08-30 00:29:00 | [81] gtable_0.3.6                R.methodsS3_1.8.2           
+2026-08-30 00:29:00 | [83] SparseArray_1.12.2          rjson_0.2.23                
+2026-08-30 00:29:00 | [85] farver_2.1.2                memoise_2.0.1               
+2026-08-30 00:29:00 | [87] R.oo_1.27.1                 lifecycle_1.0.5             
+2026-08-30 00:29:00 | [89] httr_1.4.8                  bit64_4.8.4                 
+2026-08-30 00:29:00 | 模块 I 完成（含 WARN/DEGRADED 步骤，详见 moduleI_status.csv）。 

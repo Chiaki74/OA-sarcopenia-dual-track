@@ -1,0 +1,41 @@
+重大2 表型分层镜像稳定性与锚定支持分解  运行时间: 2026-10-15 00:57:20 
+R 版本: R version 4.6.0 (2026-04-24 ucrt) 
+输入校验: OA 整合显著 511 基因; 主分析双轨候选 99 个 
+
+—— frailty 代理队列全基因组 DE（新算，GSE136344 不纳入：MetS vs 老年对比结构不符）—— 
+  GSE117525: DE 完成（frailty vs control; 134 样本）, 名义 P<0.05 基因数 = 4722, FDR<0.05 基因数 = 1797 
+  GSE144304: DE 完成（frailty vs control; 54 样本）, 名义 P<0.05 基因数 = 1337, FDR<0.05 基因数 = 0 
+
+—— 三档分层肌侧 RRA —— 
+T1_anchor_only: 候选 21 / 镜像 16 / 镜像比例 76.2% / 单侧二项 P = 0.0133 
+T2_anchor_plus_aging: 候选 99 / 镜像 72 / 镜像比例 72.7% / 单侧二项 P = 3.45e-06 
+T3_plus_frailty: 候选 163 / 镜像 107 / 镜像比例 65.6% / 单侧二项 P = 3.97e-05 
+复现校验 T1: 21 候选（期望 21） ✓ 
+复现校验 T2: 99 候选（期望 99） ✓ 
+镜像轨重合: T1∩T2 = 15/16; T2∩T3 = 54/72 
+
+—— 主分析 99 候选的锚定支持分解 —— 
+mirror 轨 (n=72): 锚定支持≥1 队列的基因 34 个 (47.2%); 分布 0/1/2/3 = 38/33/1/0 
+concordant 轨 (n=27): 锚定支持≥1 队列的基因 8 个 (29.6%); 分布 0/1/2/3 = 19/6/2/0 
+支持来源 × 轨道 交叉表: 
+                       
+                        concordant mirror
+  aging_only                     8     20
+  anchor_supported               8     34
+  no_per_cohort_support         11     18
+  anchor_supported (n=42): 镜像 34 (81%), 单侧二项 P = 3.44e-05 
+  aging_only (n=28): 镜像 20 (71.4%), 单侧二项 P = 0.0178 
+  no_per_cohort_support (n=29): 镜像 18 (62.1%), 单侧二项 P = 0.132 
+
+—— 汇总 —— 
+                                     tier n_lists candidates mirror
+T1_anchor_only             T1_anchor_only       3         21     16
+T2_anchor_plus_aging T2_anchor_plus_aging       5         99     72
+T3_plus_frailty           T3_plus_frailty       7        163    107
+                     mirror_frac_pct binom_p_one_sided
+T1_anchor_only                  76.2          1.33e-02
+T2_anchor_plus_aging            72.7          3.45e-06
+T3_plus_frailty                 65.6          3.97e-05
+
+输出目录: results/moduleB/phenotype_tiers 
+文件: 表型分层_镜像稳定性汇总.csv / 锚定支持分解_99候选.csv / layer1_DE_GSE117525.csv / layer1_DE_GSE144304.csv / 重大2_摘要.txt 

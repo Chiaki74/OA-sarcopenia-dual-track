@@ -1,0 +1,12 @@
+"gse","tier","tier_note","n_case","n_ctrl","low_power","xcell_status","xcell_rnaseq","xcell_sig_coverage","xcell_n_input_genes","xcell_n_celltypes","xcell_paired_method","ssgsea_status","ssgsea_mean_gene_coverage","ssgsea_paired_method","cibersort_status","cibersort_gene_coverage","cibersort_n_p_pass","cibersort_paired_method","error"
+"GSE114007","OA_training","OA 训练层",20,18,FALSE,"success",TRUE,NA,21622,67,"limma_independent","success",0.9634,"limma_independent","success",0.936,0,"limma_independent",NA
+"GSE55235","OA_training","OA 训练层",10,10,FALSE,"success",FALSE,NA,13237,67,"limma_independent","success",0.8726,"limma_independent","success",0.9707,20,"limma_independent",NA
+"GSE55457","OA_training","OA 训练层",10,10,FALSE,"success",FALSE,NA,13237,67,"limma_independent","success",0.8726,"limma_independent","success",0.9707,20,"limma_independent",NA
+"GSE12021","OA_training","OA 训练层",10,9,FALSE,"success",FALSE,NA,13237,67,"limma_independent","success",0.8726,"limma_independent","success",0.9707,19,"limma_independent",NA
+"GSE51588","OA_training","OA 训练层",40,10,FALSE,"success",FALSE,NA,21754,67,"duplicateCorrelation","success",0.9721,"duplicateCorrelation","success",0.9415,11,"duplicateCorrelation",NA
+"GSE111006","Muscle_sarcopenia","肌肉 sarcopenia 层",4,36,TRUE,"success",TRUE,NA,24916,67,"limma_independent","success",0.9211,"limma_independent","success",0.894,0,"limma_independent",NA
+"GSE111010","Muscle_sarcopenia","肌肉 sarcopenia 层",9,30,TRUE,"success",TRUE,NA,27248,67,"limma_independent","success",0.929,"limma_independent","success",0.9159,0,"limma_independent",NA
+"GSE111016","Muscle_sarcopenia","肌肉 sarcopenia 层",20,20,FALSE,"success",TRUE,NA,25031,67,"limma_independent","success",0.9191,"limma_independent","success",0.8848,0,"limma_independent",NA
+"GSE48556","Blood_exploratory","EXPLORATORY：血液探索层，不做跨队列硬合并",106,33,FALSE,"success",FALSE,NA,25159,67,"limma_independent","success",0.9478,"limma_independent","success",0.8848,139,"limma_independent",NA
+"GSE1428","Aging_proxy","aging proxy（衰老代理，不得写作 sarcopenia 证据）",12,10,FALSE,"success",FALSE,NA,13237,67,"limma_independent","success",0.8726,"limma_independent","success",0.9707,0,"limma_independent",NA
+"GSE25941","Aging_proxy","aging proxy（衰老代理，不得写作 sarcopenia 证据）",21,15,FALSE,"success",FALSE,NA,22880,67,"limma_independent","success",0.9624,"limma_independent","success",0.9707,0,"limma_independent",NA

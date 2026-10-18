@@ -1,0 +1,5 @@
+"resource","gse","url","expected_bytes","actual_bytes","action","extracted_n","expected_extract_n","status","note"
+"GSE152805_RAW","GSE152805","https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152805/suppl/GSE152805_RAW.tar",329338880,329338880,"skipped",27,27,"OK","existing file size matched"
+"GSE169454_RAW","GSE169454","https://ftp.ncbi.nlm.nih.gov/geo/series/GSE169nnn/GSE169454/suppl/GSE169454_RAW.tar",1684111360,1684111360,"skipped",21,21,"OK","existing file size matched"
+"GSE167186_RAW","GSE167186","https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_RAW.tar",292526080,292526080,"skipped",17,17,"OK","existing file size matched"
+"GSE167186_metadata_xlsx","GSE167186","https://ftp.ncbi.nlm.nih.gov/geo/series/GSE167nnn/GSE167186/suppl/GSE167186_SimplifiedMetadataSheet.xlsx",10124,10124,"skipped",0,0,"OK","existing file size matched"

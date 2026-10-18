@@ -1,0 +1,48 @@
+[23:14:43] v2 标志物（10）：NELL1, STEAP1, GADD45A, FBLN5, HEMK1, GDE1, RNF14, BNIP3, EGFR, CBR3 
+[23:14:43]   GSE51588: donor_id 去重 → 20 样本 
+[23:14:43] 训练层：117 样本（case=65 / control=52） 
+[23:14:44] 验证层 GSE57218：40 样本，可检标志物 10/10 
+[23:14:44] —— Part 1：单基因 univariate AUC —— 
+[23:14:44] 单基因 AUC 表已出（10 行）：GSE57218 最高 GADD45A=0.944 
+[23:14:44] —— Part 2：Nomogram（rms::lrm）—— 
+[23:14:44] lrm 收敛，10 系数齐备；C-index（表观）= 0.989 
+[23:14:44] lrm 与 glm 系数方向一致：11/11（含截距） 
+[23:22:54] bootstrap 校正 C-index = 0.97（B=200，由 Dxy=0.94 换算） 
+[23:22:54] Nomogram PDF 已出：moduleI_Fig6a2_nomogram.pdf 
+[23:22:54] —— Part 3：分类器稳健性（8 种分类器）—— 
+[23:31:32] —— Part 3（12c 补丁版）：分类器稳健性（8 种分类器）—— 
+[23:32:54] —— Part 3（12c 补丁版）：分类器稳健性（8 种分类器）—— 
+[23:32:55] 诊断 glm CV ROC = 0.955 ✓ 管道通畅，开始 8 分类器全量 
+[23:32:55]   glm          CV AUC=0.963 | 外部 AUC=0.818 
+[23:32:55]   glmnet       CV AUC=0.974 | 外部 AUC=0.823 
+[23:32:57]   rf           CV AUC=0.974 | 外部 AUC=0.799 
+[23:32:59]   svmRadial    CV AUC=0.981 | 外部 AUC=0.818 
+[23:38:45] —— Part 3（12d 补丁版）：分类器稳健性（8 种分类器）—— 
+[23:38:45]   → 开始训练 glm … 
+[23:38:45]     ✓ glm          CV AUC=0.963 | 外部 AUC=0.818 
+[23:38:45]   → 开始训练 glmnet … 
+[23:38:45]     ✓ glmnet       CV AUC=0.974 | 外部 AUC=0.823 
+[23:38:45]   → 开始训练 rf … 
+[23:38:47]     ✓ rf           CV AUC=0.974 | 外部 AUC=0.799 
+[23:38:47]   → 开始训练 svmRadial … 
+[23:38:48]     ✓ svmRadial    CV AUC=0.981 | 外部 AUC=0.818 
+[23:38:48]   → 开始训练 xgbTree … 
+[23:38:51]     ✗ xgbTree 训练报错：Stopping 
+[23:38:51]     ✗ xgbTree 结果不可用，已记 NA 并跳过 
+[23:38:51]   → 开始训练 knn … 
+[23:38:51]     ✓ knn          CV AUC=0.957 | 外部 AUC=0.838 
+[23:38:51]   → 开始训练 nnet … 
+[23:38:52]     ✓ nnet         CV AUC=0.979 | 外部 AUC=0.788 
+[23:38:52]   → 开始训练 naive_bayes … 
+[23:38:52]     ✓ naive_bayes  CV AUC=0.962 | 外部 AUC=0.887 
+[23:38:52] 分类器稳健性：CV AUC 区间 0.957–0.981；外部 AUC 区间 0.788–0.887 
+[23:38:52] 模块 I 全部完成。产物：moduleI_single_gene_AUC.csv / moduleI_Fig6a2_nomogram.pdf / moduleI_nomogram_validate.txt / moduleI_classifier_robustness.csv 
+[23:38:52] 注意：CV AUC 存在特征选择泄漏（特征先于 CV 锁定），仅作参考；证据权重在外部 GSE57218 列——写稿时保留此声明。 
+[23:42:32] —— xgbTree 诊断（12e）—— 
+[23:42:32] caret 7.0.1 | xgboost 3.2.1.1 
+[23:42:32] 第 1 步：裸跑 xgbTree（真实报错见下，若无报错即已成功） 
+[23:42:35] 裸跑报错：Stopping 
+[23:42:35] 第 2 步：尝试 nthread=1 + verbose=0 修复 
+[23:42:35] 修复尝试报错：Stopping 
+[23:42:35] xgbTree 在本环境不可用——以 7 分类器定稿（glm/glmnet/rf/svmRadial/knn/nnet/naive_bayes），写稿时按 7 种算法口径陈述，不回避、不粉饰。 
+[23:42:35] 12e 完成。 

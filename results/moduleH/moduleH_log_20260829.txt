@@ -1,0 +1,298 @@
+[2026-08-29 00:16:02] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-29 00:16:02] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-29 00:16:02] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-29 00:16:02] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-29 00:16:02] ==== fix10 SuSiE 回退诊断：HEMK1 x ALM ==== 
+[2026-08-29 00:16:02] [0] 基因坐标: chr3:50569151-50596166 
+[2026-08-29 00:16:25]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-29 00:16:25] [0] eQTL 区域读取: ok 
+[2026-08-29 00:16:25]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 00:16:25]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-29 00:16:25]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 00:16:25] [0] 结局区域读取: ok（本地镜像） 
+[2026-08-29 00:16:25]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-29 00:16:25] [0] 等位基因协调完成: 3502 SNP 
+[2026-08-29 00:16:25] ==== fix10 诊断结束：把 == [1] 至 == [4] 四行发回 ==== 
+[2026-08-29 00:43:25] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-29 00:43:25] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-29 00:43:25] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-29 00:43:25] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-29 00:43:25] ==== fix11 阶段 1：导出 5 组合对齐 SNP 列表 ==== 
+[2026-08-29 00:43:25] ---- FBLN5 x alm ---- 
+[2026-08-29 00:43:41]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-29 00:43:41]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 00:43:42]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-29 00:43:42]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 00:43:42]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-29 00:43:42]   导出 results/moduleH/fix11_susie/snplist_FBLN5_alm.csv：5504 SNP（等位基因协调=yes） 
+[2026-08-29 00:43:42] ---- CBR3 x knee_oa ---- 
+[2026-08-29 00:43:50]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-29 00:43:50]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-29 00:43:50]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-29 00:43:50]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 00:43:51]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-29 00:43:51]   导出 results/moduleH/fix11_susie/snplist_CBR3_knee_oa.csv：2313 SNP（等位基因协调=yes） 
+[2026-08-29 00:43:51] ---- HEMK1 x alm ---- 
+[2026-08-29 00:44:00]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-29 00:44:00]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 00:44:00]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-29 00:44:00]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 00:44:00]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-29 00:44:00]   导出 results/moduleH/fix11_susie/snplist_HEMK1_alm.csv：3502 SNP（等位基因协调=yes） 
+[2026-08-29 00:44:00] ---- GDE1 x low_grip ---- 
+[2026-08-29 00:44:08]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-29 00:44:08]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-29 00:44:08]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-29 00:44:08]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 00:44:08]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-29 00:44:08]   导出 results/moduleH/fix11_susie/snplist_GDE1_low_grip.csv：5130 SNP（等位基因协调=yes） 
+[2026-08-29 00:44:08] ---- RNF14 x walk_pace ---- 
+[2026-08-29 00:44:15]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-29 00:44:15]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-29 00:44:15]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr5:140966836-142990292，共 6824 SNP 
+[2026-08-29 00:44:15]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 00:44:15]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-29 00:44:15]   等位基因协调：交集 4819 → 保留 4689（非回文同向 3586，非回文翻转 655，回文同向保留 448；剔除：回文中间带 51 + 回文非同向 75 + 回文MAF不一致 0 + 无法协调 4） 
+[2026-08-29 00:44:15]   导出 results/moduleH/fix11_susie/snplist_RNF14_walk_pace.csv：4689 SNP（等位基因协调=yes） 
+[2026-08-29 00:44:15] ==== fix11 阶段 1 完成：把 snplist_*.csv 5 个文件发回 ==== 
+[2026-08-29 10:41:54] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-29 10:41:54] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-29 10:41:54] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-29 10:41:54] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-29 10:41:54] ==== fix11 阶段 2：LD 注入 + SuSiE 精细定位 ==== 
+[2026-08-29 10:41:54] ---- FBLN5 x alm ---- 
+[2026-08-29 10:42:13]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-29 10:42:13]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 10:42:13]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-29 10:42:13]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 10:42:13]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-29 10:42:13]   [警告] 218/5504 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 10:42:15]   [对齐] 最终 5286 SNP；符号翻转 948 个 
+[2026-08-29 10:42:40]   [LD] 最小特征值 -9.54e-05 → Matrix::nearPD 正定化 
+[2026-08-29 10:48:36]   [SuSiE] d1 可信集=ERROR: colnames in LD do not contain all SNPs | d2 可信集=ERROR: colnames in LD do not contain all SNPs 
+[2026-08-29 10:48:36] ---- CBR3 x knee_oa ---- 
+[2026-08-29 10:48:41]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-29 10:48:41]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-29 10:48:41]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-29 10:48:41]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 10:48:41]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-29 10:48:41]   [警告] 37/2313 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 10:48:42]   [对齐] 最终 2276 SNP；符号翻转 339 个 
+[2026-08-29 10:48:44]   [LD] 最小特征值 -0.000107 → Matrix::nearPD 正定化 
+[2026-08-29 10:49:11]   [SuSiE] d1 可信集=ERROR: colnames in LD do not contain all SNPs | d2 可信集=ERROR: colnames in LD do not contain all SNPs 
+[2026-08-29 10:49:11] ---- HEMK1 x alm ---- 
+[2026-08-29 10:49:16]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-29 10:49:16]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 10:49:16]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-29 10:49:16]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 10:49:16]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-29 10:49:16]   [警告] 68/3502 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 10:49:16]   [对齐] 最终 3434 SNP；符号翻转 813 个 
+[2026-08-29 10:49:23]   [LD] 最小特征值 -0.000394 → Matrix::nearPD 正定化 
+[2026-08-29 10:51:01]   [SuSiE] d1 可信集=ERROR: colnames in LD do not contain all SNPs | d2 可信集=ERROR: colnames in LD do not contain all SNPs 
+[2026-08-29 10:51:01] ---- GDE1 x low_grip ---- 
+[2026-08-29 10:51:07]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-29 10:51:07]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-29 10:51:07]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-29 10:51:07]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 10:51:07]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-29 10:51:07]   [警告] 73/5130 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 10:51:07]   [对齐] 最终 5057 SNP；符号翻转 955 个 
+[2026-08-29 10:51:29]   [LD] 最小特征值 -0.000107 → Matrix::nearPD 正定化 
+[2026-08-29 11:03:09]   [SuSiE] d1 可信集=ERROR: colnames in LD do not contain all SNPs | d2 可信集=ERROR: colnames in LD do not contain all SNPs 
+[2026-08-29 11:03:09] ---- RNF14 x walk_pace ---- 
+[2026-08-29 11:03:19]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-29 11:03:19]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-29 11:03:20]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr5:140966836-142990292，共 6824 SNP 
+[2026-08-29 11:03:20]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 11:03:20]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-29 11:03:20]   等位基因协调：交集 4819 → 保留 4689（非回文同向 3586，非回文翻转 655，回文同向保留 448；剔除：回文中间带 51 + 回文非同向 75 + 回文MAF不一致 0 + 无法协调 4） 
+[2026-08-29 11:03:20]   [警告] 125/4689 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 11:03:21]   [对齐] 最终 4564 SNP；符号翻转 638 个 
+[2026-08-29 11:03:49]   [LD] 最小特征值 -7.08e-05 → Matrix::nearPD 正定化 
+[2026-08-29 11:11:55] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-29 11:11:55] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-29 11:11:55] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-29 11:11:55] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-29 11:11:55] ==== fix11 阶段 2：LD 注入 + SuSiE 精细定位 ==== 
+[2026-08-29 11:11:56] ---- FBLN5 x alm ---- 
+[2026-08-29 11:12:21]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-29 11:12:21]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 11:12:21]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-29 11:12:21]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 11:12:21]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-29 11:12:21]   [警告] 218/5504 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 11:12:24]   [对齐] 最终 5286 SNP；符号翻转 948 个 
+[2026-08-29 11:12:24]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 11:32:54]   [SuSiE] d1 可信集=10 | d2 可信集=8 
+[2026-08-29 11:32:54]   [coloc.susie] CS 对数=80 | max PPH4=2.63e-147 | max PPH3=1 
+[2026-08-29 11:32:54] ---- CBR3 x knee_oa ---- 
+[2026-08-29 11:32:59]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-29 11:32:59]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-29 11:32:59]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-29 11:32:59]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 11:32:59]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-29 11:32:59]   [警告] 37/2313 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 11:32:59]   [对齐] 最终 2276 SNP；符号翻转 339 个 
+[2026-08-29 11:32:59]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 11:34:42]   [SuSiE] d1 可信集=6 | d2 可信集=0 
+[2026-08-29 11:34:42] ---- HEMK1 x alm ---- 
+[2026-08-29 11:34:48]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-29 11:34:48]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 11:34:48]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-29 11:34:48]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 11:34:48]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-29 11:34:48]   [警告] 68/3502 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 11:34:48]   [对齐] 最终 3434 SNP；符号翻转 813 个 
+[2026-08-29 11:34:48]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 11:46:10]   [SuSiE] d1 可信集=ERROR: The estimated prior variance is unreasonably large.
+	     This is usually caused by mismatch between the summary statistics and the LD matrix.
+             Please check the input. | d2 可信集=3 
+[2026-08-29 11:46:10] ---- GDE1 x low_grip ---- 
+[2026-08-29 11:46:16]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-29 11:46:16]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-29 11:46:16]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-29 11:46:16]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 11:46:16]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-29 11:46:16]   [警告] 73/5130 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 11:46:17]   [对齐] 最终 5057 SNP；符号翻转 955 个 
+[2026-08-29 11:46:17]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 12:51:55] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-29 12:51:55] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-29 12:51:55] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-29 12:51:55] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-29 12:51:55] ==== fix11 阶段 2：LD 注入 + SuSiE 精细定位 ==== 
+[2026-08-29 12:51:55] ---- FBLN5 x alm ---- 
+[2026-08-29 12:52:21]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-29 12:52:21]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 12:52:21]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-29 12:52:21]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 12:52:21]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-29 12:52:21]   [警告] 218/5504 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 12:52:23]   [对齐] 最终 5286 SNP；符号翻转 948 个 
+[2026-08-29 12:52:24]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 12:59:27]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 12:59:28]   [SuSiE-d1] L2 失败：Estimating residual variance failed: the estimated value is negative → L3 固定先验 
+[2026-08-29 13:01:18]   [SuSiE] d1 可信集=10（L3(shrink0.1+fixed)） | d2 可信集=8（L1(rawR+est.resid)） 
+[2026-08-29 13:01:18]   [coloc.susie] CS 对数=80 | max PPH4=4.26e-148 | max PPH3=1 
+[2026-08-29 13:01:18] ---- CBR3 x knee_oa ---- 
+[2026-08-29 13:01:24]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-29 13:01:24]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-29 13:01:24]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-29 13:01:24]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 13:01:24]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-29 13:01:24]   [警告] 37/2313 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 13:01:24]   [对齐] 最终 2276 SNP；符号翻转 339 个 
+[2026-08-29 13:01:24]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 13:02:00]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 13:02:17]   [SuSiE] d1 可信集=8（L2(shrink0.1+est.resid)） | d2 可信集=0（L1(rawR+est.resid)） 
+[2026-08-29 13:02:17] ---- HEMK1 x alm ---- 
+[2026-08-29 13:02:23]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-29 13:02:23]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 13:02:23]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-29 13:02:23]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 13:02:23]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-29 13:02:23]   [警告] 68/3502 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 13:02:23]   [对齐] 最终 3434 SNP；符号翻转 813 个 
+[2026-08-29 13:02:23]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 13:04:00]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 13:05:09]   [SuSiE] d1 可信集=6（L2(shrink0.1+est.resid)） | d2 可信集=3（L1(rawR+est.resid)） 
+[2026-08-29 13:05:09]   [coloc.susie] CS 对数=18 | max PPH4=0 | max PPH3=1 
+[2026-08-29 13:05:09] ---- GDE1 x low_grip ---- 
+[2026-08-29 13:05:15]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-29 13:05:15]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-29 13:05:15]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-29 13:05:15]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 13:05:15]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-29 13:05:15]   [警告] 73/5130 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 13:05:16]   [对齐] 最终 5057 SNP；符号翻转 955 个 
+[2026-08-29 13:05:16]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 13:16:43]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 13:16:45]   [SuSiE-d1] L2 失败：Estimating residual variance failed: the estimated value is negative → L3 固定先验 
+[2026-08-29 13:17:46]   [SuSiE] d1 可信集=10（L3(shrink0.1+fixed)） | d2 可信集=0（L1(rawR+est.resid)） 
+[2026-08-29 13:17:46] ---- RNF14 x walk_pace ---- 
+[2026-08-29 13:17:51]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-29 13:17:51]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-29 13:17:52]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr5:140966836-142990292，共 6824 SNP 
+[2026-08-29 13:17:52]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 13:17:52]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-29 13:17:52]   等位基因协调：交集 4819 → 保留 4689（非回文同向 3586，非回文翻转 655，回文同向保留 448；剔除：回文中间带 51 + 回文非同向 75 + 回文MAF不一致 0 + 无法协调 4） 
+[2026-08-29 13:17:52]   [警告] 125/4689 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 13:17:52]   [对齐] 最终 4564 SNP；符号翻转 638 个 
+[2026-08-29 13:17:52]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 13:23:41]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 13:23:42]   [SuSiE-d1] L2 失败：Estimating residual variance failed: the estimated value is negative → L3 固定先验 
+[2026-08-29 13:24:16]   [SuSiE] d1 可信集=8（L3(shrink0.1+fixed)） | d2 可信集=0（L1(rawR+est.resid)） 
+[2026-08-29 13:24:17] ==== fix11 阶段 2 完成：results/moduleH/fix11_susie/fix11_susie_summary.csv ==== 
+[2026-08-29 22:15:39] 模块 H v2.8(fix8) 启动；输出目录：C:\Users\凉月\Desktop\ENG论文\results\moduleH 
+[2026-08-29 22:15:39] 输入文件自检通过：必需文件 4/4 在位，eQTLGen 全量文件在位（coloc 启用） 
+[2026-08-29 22:15:39] coloc 结局区域镜像自检通过：4/4 在位（data/coloc_regions） 
+[2026-08-29 22:15:39] 轨归属查表完成：10 个锁定基因全部命中；track 分布：concordant=5, mirror_OAdown_muscleUp=3, mirror_OAup_muscleDown=2 
+[2026-08-29 22:15:39] ==== fix11 阶段 2：LD 注入 + SuSiE 精细定位 ==== 
+[2026-08-29 22:15:39] ---- FBLN5 x alm ---- 
+[2026-08-29 22:15:55]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（FBLN5）：AssessedAllele==AlleleB 占 86.89% 
+[2026-08-29 22:15:55]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 22:15:55]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr14:90869410-92947694，共 15023 SNP 
+[2026-08-29 22:15:55]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 40 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 22:15:55]   等位基因协调：交集 5882 → 保留 5504（非回文同向 3054，非回文翻转 2161，回文同向保留 289；剔除：回文中间带 57 + 回文非同向 316 + 回文MAF不一致 0 + 无法协调 5） 
+[2026-08-29 22:15:55]   [警告] 218/5504 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 22:15:56]   [对齐] 最终 5286 SNP；符号翻转 948 个 
+[2026-08-29 22:15:56]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 22:25:04]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 22:25:06]   [SuSiE-d1] L2 失败：Estimating residual variance failed: the estimated value is negative → L3 固定先验 
+[2026-08-29 22:27:50]   [收敛审计] d1 converged=TRUE niter=71 | d2 converged=TRUE niter=31 
+[2026-08-29 22:27:50]   [SuSiE] d1 可信集=10（L3(shrink0.1+fixed)） | d2 可信集=8（L1(rawR+est.resid)） 
+[2026-08-29 22:27:51]   [coloc.susie] CS 对数=80 | max PPH4=4.26e-148 | max PPH3=1 
+[2026-08-29 22:27:51] ---- CBR3 x knee_oa ---- 
+[2026-08-29 22:28:00]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（CBR3）：AssessedAllele==AlleleB 占 85.56% 
+[2026-08-29 22:28:00]   [coloc] 结局区域走本地镜像：region_GCST007090.tsv.gz 
+[2026-08-29 22:28:00]   结局区域数据（本地镜像）ebi-a-GCST007090 @ region_GCST007090.tsv.gz：chr21:35135078-37146562，共 6902 SNP 
+[2026-08-29 22:28:00]   [coloc] ebi-a-GCST007090 结局区域剔除重复 rsID 13 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 22:28:00]   等位基因协调：交集 2465 → 保留 2313（非回文同向 1177，非回文翻转 996，回文同向保留 140；剔除：回文中间带 29 + 回文非同向 121 + 回文MAF不一致 0 + 无法协调 2） 
+[2026-08-29 22:28:00]   [警告] 37/2313 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 22:28:00]   [对齐] 最终 2276 SNP；符号翻转 339 个 
+[2026-08-29 22:28:00]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 22:29:08]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 22:30:00]   [收敛审计] d1 converged=TRUE niter=42 | d2 converged=TRUE niter=2 
+[2026-08-29 22:30:00]   [SuSiE] d1 可信集=8（L2(shrink0.1+est.resid)） | d2 可信集=0（L1(rawR+est.resid)） 
+[2026-08-29 22:30:00] ---- HEMK1 x alm ---- 
+[2026-08-29 22:30:08]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（HEMK1）：AssessedAllele==AlleleB 占 81.89% 
+[2026-08-29 22:30:08]   [coloc] 结局区域走本地镜像：region_GCST90000025.tsv.gz 
+[2026-08-29 22:30:08]   结局区域数据（本地镜像）ebi-a-GCST90000025 @ region_GCST90000025.tsv.gz：chr3:49569151-51596166，共 8529 SNP 
+[2026-08-29 22:30:08]   [coloc] ebi-a-GCST90000025 结局区域剔除重复 rsID 9 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 22:30:08]   等位基因协调：交集 3726 → 保留 3502（非回文同向 2019，非回文翻转 1307，回文同向保留 176；剔除：回文中间带 30 + 回文非同向 190 + 回文MAF不一致 1 + 无法协调 3） 
+[2026-08-29 22:30:08]   [警告] 68/3502 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 22:30:09]   [对齐] 最终 3434 SNP；符号翻转 813 个 
+[2026-08-29 22:30:09]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 22:31:59]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 22:34:15]   [收敛审计] d1 converged=TRUE niter=37 | d2 converged=TRUE niter=131 
+[2026-08-29 22:34:15]   [SuSiE] d1 可信集=6（L2(shrink0.1+est.resid)） | d2 可信集=4（L1(rawR+est.resid)） 
+[2026-08-29 22:34:15]   [coloc.susie] CS 对数=24 | max PPH4=0 | max PPH3=1 
+[2026-08-29 22:34:15] ---- GDE1 x low_grip ---- 
+[2026-08-29 22:34:24]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（GDE1）：AssessedAllele==AlleleB 占 87.37% 
+[2026-08-29 22:34:24]   [coloc] 结局区域走本地镜像：region_GCST90007526.tsv.gz 
+[2026-08-29 22:34:24]   结局区域数据（本地镜像）ebi-a-GCST90007526 @ region_GCST90007526.tsv.gz：chr16:18501692-20522098，共 6659 SNP 
+[2026-08-29 22:34:24]   [coloc] ebi-a-GCST90007526 结局区域剔除重复 rsID 14 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 22:34:24]   等位基因协调：交集 5505 → 保留 5130（非回文同向 2757，非回文翻转 2066，回文同向保留 307；剔除：回文中间带 54 + 回文非同向 318 + 回文MAF不一致 0 + 无法协调 3） 
+[2026-08-29 22:34:24]   [警告] 73/5130 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 22:34:25]   [对齐] 最终 5057 SNP；符号翻转 955 个 
+[2026-08-29 22:34:25]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 22:48:14]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 22:48:19]   [SuSiE-d1] L2 失败：Estimating residual variance failed: the estimated value is negative → L3 固定先验 
+[2026-08-29 22:49:51]   [收敛审计] d1 converged=TRUE niter=84 | d2 converged=TRUE niter=6 
+[2026-08-29 22:49:52]   [SuSiE] d1 可信集=10（L3(shrink0.1+fixed)） | d2 可信集=0（L1(rawR+est.resid)） 
+[2026-08-29 22:49:52] ---- RNF14 x walk_pace ---- 
+[2026-08-29 22:50:00]   [fetch_eqtlgen_full_region] eaf 已按等位基因一致性条件推导（RNF14）：AssessedAllele==AlleleB 占 85.79% 
+[2026-08-29 22:50:00]   [coloc] 结局区域走本地镜像：region_ukbb924_neale.tsv.gz 
+[2026-08-29 22:50:00]   结局区域数据（本地镜像）ukb-b-4711 @ region_ukbb924_neale.tsv.gz：chr5:140966836-142990292，共 6824 SNP 
+[2026-08-29 22:50:00]   [coloc] ukb-b-4711 结局区域剔除重复 rsID 5 行（保留首个有效行，与 API 分支去重口径一致） 
+[2026-08-29 22:50:00]   [coloc] ukb-b-4711 使用替代源样本量 coloc_n=358974（≠ MR 主线 n=459915；替代源声明见 OUTCOMES 注释与头部 v2.8 块） 
+[2026-08-29 22:50:00]   等位基因协调：交集 4819 → 保留 4689（非回文同向 3586，非回文翻转 655，回文同向保留 448；剔除：回文中间带 51 + 回文非同向 75 + 回文MAF不一致 0 + 无法协调 4） 
+[2026-08-29 22:50:00]   [警告] 125/4689 对齐 SNP 在 1000G EUR 面板无匹配（多为 indel/低频），剔除 
+[2026-08-29 22:50:02]   [对齐] 最终 4564 SNP；符号翻转 638 个 
+[2026-08-29 22:50:02]   [LD] chol 失败（面板秩亏）→ Matrix::nearPD 正定化 
+[2026-08-29 22:59:04]   [SuSiE-d1] L1 失败：Estimating residual variance failed: the estimated value is negative → L2 shrink 
+[2026-08-29 22:59:06]   [SuSiE-d1] L2 失败：Estimating residual variance failed: the estimated value is negative → L3 固定先验 
+[2026-08-29 23:00:00]   [收敛审计] d1 converged=TRUE niter=55 | d2 converged=TRUE niter=6 
+[2026-08-29 23:00:00]   [SuSiE] d1 可信集=8（L3(shrink0.1+fixed)） | d2 可信集=0（L1(rawR+est.resid)） 
+[2026-08-29 23:00:00] ==== fix11e 收敛审计完成：results/moduleH/fix11_susie/fix11e_susie_summary_convergence.csv ==== 
