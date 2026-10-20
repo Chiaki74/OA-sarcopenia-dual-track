@@ -36,11 +36,12 @@ This repository accompanies the manuscript:
 │   ├── 39–44            # archive-path audit, Table 1 assembly, GSE168505 prediction rebuild,
 │   │                    # MAF/SuSiE convention audit
 │   └── fix14v4          # CIBERSORTx mixture preparation (Stanford platform validation)
+├── results/  # archived statistical outputs, 11 modules + MR positive controls (MD5: ARCHIVE_MANIFEST.csv; large *.rds excluded)
 ├── tables/             # frozen supplementary tables (S11, S12, S13-Appendix, S16, S19, S20,
 │                       #  S20-Appendices), module A status, CIBERSORT two-implementation
 │                       #  comparison, group definitions
 ├── reference/          # local KEGG snapshot (2026-08-23) used for enrichment reproducibility
-└── docs/               # Online Resource (ESM_1: S-Fig 1–13 legends, Tables S1–S20 notes,
+└── docs/               # Online Resource (ESM_1: S-Fig 1–13 legends, Tables S1–S28 notes,
                         #  TRIPOD+AI 2024 and STROBE-MR 2021 checklists, Appendix D)
 ```
 
