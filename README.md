@@ -6,7 +6,7 @@ Integrative multi-omics analysis of shared molecular programs between **osteoart
 
 This repository accompanies the manuscript:
 
-> *Integrated multi-omics and genetic analyses identify consistent direction-level mirror dysregulation between osteoarthritis and sarcopenia: development and cartilage-tier external validation of an osteoarthritis diagnostic biomarker panel* (prepared for submission to Clinical Rheumatology; Online Resource 1 archived under `docs/`)
+> *Integrated multi-omics and genetic analyses identify consistent direction-level mirror dysregulation between osteoarthritis and sarcopenia: development and cartilage-tier external validation of an osteoarthritis diagnostic biomarker panel* ((under review at Clinical Rheumatology; manuscript ID CLRH-D-26-03666, submitted 21 October 2026; Online Resource 1 archived under `docs/`))
 
 **Key design features**
 
